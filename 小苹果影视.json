@@ -66,7 +66,7 @@
         {
           "name": "小苹果直播",
           "urls": [
-            "https://codeberg.org/zhm310144/tvlist/raw/branch/main/tvlist.m3u"
+            "https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/iptv.m3u"
           ]
         }
       ]
