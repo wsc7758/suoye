@@ -1,0 +1,732 @@
+{
+  "sites": [
+    {
+      "key": "feifan",
+      "name": "🍎小苹果主线路",
+      "type": 0,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3000,
+      "categories": [
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "短剧",
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "爱情片",
+        "喜剧片",
+        "动漫片",
+        "纪录片",
+        "大陆综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "伦理片"
+      ],
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.ffzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "suoni",
+      "name": "🍎小苹果线路一",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://suoniapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "liangzi",
+      "name": "🍎小苹果线路二",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://cj.lziapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "niuniu",
+      "name": "🍎小苹果线路三",
+      "type": 0,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.niuniuzy.me/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "wushuiyin1",
+      "name": "🍎小苹果线路四",
+      "type": 0,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.wsyzy.net/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "xigua",
+      "name": "🍎小苹果线路五",
+      "type": 0,
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://caiji.xgzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "hongniu",
+      "name": "🍎小苹果线路六",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://www.hongniuzy2.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "jinying",
+      "name": "🍎小苹果线路七",
+      "type": 1,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://jyzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "baidu",
+      "name": "🍎小苹果线路八",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.apibdzy.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "modu",
+      "name": "🍎小苹果线路九",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://www.mdzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "douban",
+      "name": "🍎小苹果线路十",
+      "type": 0,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 3500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://caiji.dbzy5.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "guangsu",
+      "name": "光速资源(高速)",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.guangsuapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "yingxiang",
+      "name": "影像资源(高速)",
+      "type": 0,
+      "api": "https://www.yxxq26.cc/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://www.yxxq26.cc/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "uku",
+      "name": "U酷资源(高速)",
+      "type": 1,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.ukuapi88.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "shandian",
+      "name": "闪电资源(高速)",
+      "type": 1,
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://sdzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "taopian",
+      "name": "淘片资源(高速)",
+      "type": 1,
+      "api": "https://taopianapi.com/cjapi/sda/vod/json.html",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://taopianapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "wujin",
+      "name": "无尽资源(高速)",
+      "type": 1,
+      "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.wujinapi.me/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "xinlang",
+      "name": "新浪资源(高速)",
+      "type": 0,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.xinlangapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "huya",
+      "name": "虎牙资源(高速)",
+      "type": 0,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://www.huyaapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "maotai",
+      "name": "茅台资源(高速)",
+      "type": 0,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://caiji.maotaizy.cc/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "maoyan1",
+      "name": "猫眼资源1(高速)",
+      "type": 0,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.maoyanapi.top/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "tianya",
+      "name": "天涯资源(快速)",
+      "type": 1,
+      "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://ty.tyyszy5.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "ok",
+      "name": "OK资源(快速)",
+      "type": 1,
+      "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.okzyw.net/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "zuida",
+      "name": "最大资源(快速)",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.zuidapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "ruyi",
+      "name": "如意资源(快速)",
+      "type": 0,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://cj.rycjapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "aiqiyi",
+      "name": "爱奇艺资源(快速)",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://iqiyizyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "haohua",
+      "name": "豪华资源(快速)",
+      "type": 0,
+      "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://hhzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "dianyingtiantang",
+      "name": "电影天堂(快速)",
+      "type": 0,
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://caiji.dyttzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "subo",
+      "name": "速播资源(快速)",
+      "type": 0,
+      "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://subocj.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "wangwang",
+      "name": "旺旺短剧(快速)",
+      "type": 1,
+      "api": "https://ww.tyyszy5.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://ww.tyyszy5.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "baofeng",
+      "name": "暴风资源(快速)",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://bfzyapi.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "baidu0",
+      "name": "百度资源0(快速)",
+      "type": 0,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.apibdzy.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "360ziyuan",
+      "name": "360资源(快速)",
+      "type": 0,
+      "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 4500,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://360zyzz.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "yinghua",
+      "name": "樱花资源(标准)",
+      "type": 1,
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 5000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://m3u8.apiyhzy.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "789ziyuan",
+      "name": "789资源(标准)",
+      "type": 0,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 5000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://www.caiji.cyou/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "wushuiyin2",
+      "name": "无水印资源2(标准)",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 5000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.wsyzy.net/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "tianya2",
+      "name": "天涯资源2(标准)",
+      "type": 1,
+      "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 5000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://ty.tyyszy5.com/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "maoyan2",
+      "name": "猫眼资源2(标准)",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 5000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Referer": "https://api.maoyanapi.top/",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    },
+    {
+      "key": "renren",
+      "name": "人人资源(标准)",
+      "type": 1,
+      "api": "http://43.139.196.163:31308/gather/json",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "timeout": 5000,
+      "headers": {
+        "User-Agent": "TVBox/20260227 (Linux; Android 13; arm64; takagen99)",
+        "Accept-Encoding": "gzip, deflate"
+      }
+    }
+  ],
+  "lives": [
+    {
+      "group": "📺高清直播",
+      "channels": [
+        {
+          "name": "小苹果直播",
+          "urls": [
+            "https://codeberg.org/zhm310144/tvlist/raw/branch/main/tvlist.m3u"
+          ]
+        }
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "🚀极速解析1(2026最新)",
+      "type": 1,
+      "url": "https://jx.171360.cc/api/?url=",
+      "timeout": 3000
+    },
+    {
+      "name": "🚀极速解析2(2026最新)",
+      "type": 1,
+      "url": "https://jx.688ai.cn/?url=",
+      "timeout": 3000
+    },
+    {
+      "name": "🚀极速解析3(2026最新)",
+      "type": 1,
+      "url": "https://jx.gg520.cc/?url=",
+      "timeout": 3000
+    },
+    {
+      "name": "🚀极速解析4(2026最新)",
+      "type": 1,
+      "url": "https://api.8080yun.com/api/?url=",
+      "timeout": 3500
+    },
+    {
+      "name": "🚀极速解析5(2026最新)",
+      "type": 1,
+      "url": "https://jx.52bsj.cn/api/?url=",
+      "timeout": 3500
+    }
+  ],
+  "flags": [
+    "youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou",
+    "pptv", "mgtv", "wasu", "bilibili", "tencent"
+  ],
+  "ijk": [
+    {
+      "group": "【硬解·4K超清·不花屏】20260227专属",
+      "options": [
+        {"category":1,"name":"fflags","value":"fastseek+flush_packets+nobuffer"},
+        {"category":1,"name":"http-detect-range-support","value":"0"},
+        {"category":1,"name":"analyzeduration","value":"500000"},
+        {"category":1,"name":"probesize","value":"1048576"},
+        {"category":2,"name":"skip_loop_filter","value":"0"},
+        {"category":2,"name":"skip_frame","value":"0"},
+        {"category":4,"name":"framedrop","value":"0"},
+        {"category":4,"name":"start-on-prepared","value":"1"},
+        {"category":4,"name":"opensles","value":"0"},
+        {"category":4,"name":"reconnect","value":"1"},
+        {"category":4,"name":"max-buffer-size","value":"134217728"},
+        {"category":4,"name":"min-frames","value":"300"},
+        {"category":4,"name":"max_cached_duration","value":"90"},
+        {"category":4,"name":"infbuf","value":"1"},
+        {"category":4,"name":"enable-accurate-seek","value":"0"},
+        {"category":4,"name":"mediacodec","value":"1"},
+        {"category":4,"name":"mediacodec-auto-rotate","value":"1"},
+        {"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
+        {"category":4,"name":"mediacodec-hevc","value":"1"},
+        {"category":4,"name":"mediacodec-av1","value":"1"},
+        {"category":4,"name":"mediacodec-vp9","value":"1"}
+      ]
+    },
+    {
+      "group": "【软解·极致流畅·老设备】20260227专属",
+      "options": [
+        {"category":1,"name":"fflags","value":"fastseek+flush_packets+nobuffer"},
+        {"category":1,"name":"http-detect-range-support","value":"0"},
+        {"category":1,"name":"analyzeduration","value":"500000"},
+        {"category":1,"name":"probesize","value":"1048576"},
+        {"category":2,"name":"skip_loop_filter","value":"48"},
+        {"category":2,"name":"skip_frame","value":"16"},
+        {"category":4,"name":"framedrop","value":"1"},
+        {"category":4,"name":"start-on-prepared","value":"1"},
+        {"category":4,"name":"opensles","value":"0"},
+        {"category":4,"name":"reconnect","value":"1"},
+        {"category":4,"name":"max-buffer-size","value":"67108864"},
+        {"category":4,"name":"min-frames","value":"200"},
+        {"category":4,"name":"max_cached_duration","value":"60"},
+        {"category":4,"name":"infbuf","value":"1"},
+        {"category":4,"name":"enable-accurate-seek","value":"0"},
+        {"category":4,"name":"mediacodec","value":"0"},
+        {"category":4,"name":"mediacodec-hevc","value":"0"}
+      ]
+    }
+  ],
+  "ads": [
+    "xpj", "xinpujing", "pujing", "dubo", "caipiao", "bet", "casino",
+    "taohu", "putaohu", "kaiyun", "jinbo", "xinbo", "lebo", "bobet",
+    "ag", "bbin", "mg", "pt", "sb", "im", "188", "365", "bet365",
+    "bocai", "dianwan", "youxi", "choujiang", "jiangjin", "hongbao",
+    "mimg", "cnzz", "mmstat", "vinuxhome", "baihuillq", "mosflower",
+    "gamevvip", "yhdtns", "cqqc3", "jixunkyy", "chemacid", "hm.baidu",
+    "shturl", "gg520", "688ai", "171360", "8080yun", "52bsj",
+    "haok1", "leyue", "ad", "ads", "advert", "banner", "popup"
+  ],
+  "wallpaper": "https://bing.img.run/uhd.php",
+  "settings": {
+    "default_player": "ijkplayer",
+    "default_decoder": "hardware",
+    "buffer_size": 128,
+    "preload_duration": 90,
+    "dns_server": "223.5.5.5",
+    "disable_ipv6": true,
+    "enable_gzip": true,
+    "enable_ad_block": true,
+    "enable_long_connection": true,
+    "search_timeout": 5000,
+    "parse_timeout": 3000
+  }
+}

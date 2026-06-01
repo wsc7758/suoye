@@ -1,0 +1,316 @@
+{
+  "sites": [
+    {
+      "key": "feifan",
+      "name": "🍎小苹果主线路",
+      "type": 0,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "短剧",
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "爱情片",
+        "喜剧片",
+        "动漫片",
+        "纪录片",
+        "大陆综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "伦理片"
+      ],
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11;)",
+        "Referer": "https://api.ffzyapi.com/"
+      }
+    },
+ {
+      "key": "py_文才",
+      "name": "文才影视(T3)",
+      "type": 3,
+      "api": "https://codeberg.org/hello54188/xiadaoteng/raw/branch/main/lib/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+      }
+    },
+     {
+      "key": "renren",
+      "name": "人人资源(标准)",
+      "type": 1,
+      "api": "http://43.139.196.163:31308/gather/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11;)"
+      }
+    }
+  ],
+  "lives": [
+    {
+      "group": "📺高清直播",
+      "channels": [
+        {
+          "name": "小苹果直播",
+          "urls": [
+            "https://codeberg.org/zhm310144/tvlist/raw/branch/main/tvlist.m3u"
+          ]
+        }
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "🚀超级解析1",
+      "type": 1,
+      "url": "https://jx.171360.cc/api/?url="
+    },
+    {
+      "name": "🚀超级解析2",
+      "type": 1,
+      "url": "https://jx.688ai.cn/?url="
+    },
+    {
+      "name": "🚀超级解析3",
+      "type": 1,
+      "url": "https://jx.gg520.cc/?url="
+    },
+    {
+      "name": "🚀超级解析4",
+      "type": 1,
+      "url": "https://api.8080yun.com/api/?url="
+    },
+    {
+      "name": "🚀超级解析5",
+      "type": 1,
+      "url": "https://jx.52bsj.cn/api/?url="
+    },
+    {
+      "name": "🚀新增·优质解析A",
+      "type": 1,
+      "url": "https://api.leyue.cc/api/?url="
+    },
+    {
+      "name": "🚀新增·优质解析B",
+      "type": 1,
+      "url": "https://jx.haok1.cc/api/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "tencent"
+  ],
+  "ijk": [
+    {
+      "group": "【软解·超清画质·不掉帧】Takagen专用",
+      "options": [
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek+flush_packets"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "analyzeduration",
+          "value": "1000000"
+        },
+        {
+          "category": 1,
+          "name": "probesize",
+          "value": "524288"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "67108864"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "200"
+        },
+        {
+          "category": 4,
+          "name": "max_cached_duration",
+          "value": "60"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "【硬解·4K超清·不花屏】Takagen专用",
+      "options": [
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek+flush_packets"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "analyzeduration",
+          "value": "1000000"
+        },
+        {
+          "category": 1,
+          "name": "probesize",
+          "value": "524288"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "67108864"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "200"
+        },
+        {
+          "category": 4,
+          "name": "max_cached_duration",
+          "value": "60"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "xpj", "xinpujing", "pujing", "dubo", "caipiao", "bet", "casino",
+    "taohu", "putaohu", "mimg", "cnzz", "mmstat", "vinuxhome",
+    "baihuillq", "mosflower", "gamevvip", "yhdtns", "cqqc3",
+    "jixunkyy", "chemacid", "hm.baidu", "shturl", "gg520",
+    "688ai", "171360", "8080yun", "52bsj", "haok1", "leyue"
+  ],
+  "wallpaper": "https://bing.img.run/uhd.php"
+}
