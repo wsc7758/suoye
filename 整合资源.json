@@ -926,12 +926,10 @@
     {
       "name": "共享直播1",
       "type": 0,
-      "url": "http://lisha521.dynv6.net.fh4u.org/iptv.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "timeout": 10,
-      "playerType": 2
+      "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "共享直播2",
