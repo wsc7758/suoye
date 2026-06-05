@@ -569,15 +569,9 @@
   ],
   "lives": [
     {
-      "group": "📺高清直播",
-      "channels": [
-        {
-          "name": "小苹果直播",
-          "urls": [
-            "https://codeberg.org/zhm310144/tvlist/raw/branch/main/tvlist.m3u"
-          ]
-        }
-      ]
+      "name": "共享直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/TV/live20220813.txt"
     }
   ],
   "parses": [
@@ -891,7 +885,8 @@
     "wangluodubo", "onlinebet", "caipiaowang", "dubowang",
     "16888", "28888", "36999", "66666", "88888", "99999"
   ],
-  "wallpaper": "https://bing.img.run/uhd.php",
+  "wallpaper": "",
+  "notice": "提示：本接口仅用于测试，完全免费，请勿上当购买！",
   "searchConfig": {
     "sortByQuality": 1,
     "priorityField": "sort",
