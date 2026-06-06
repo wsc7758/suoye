@@ -1,13 +1,10 @@
 央视,#genre#
-CCTV1,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001859&vid=2024078201';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV2,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001800&vid=2024075401';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV3,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001801&vid=2024068501';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV4,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001814&vid=2029797101';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV5,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001818&vid=2024078401';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV5+,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001817&vid=2024078001';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV6,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600108442&vid=2013693901';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV7,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600004092&vid=2024072001';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV8,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001803&vid=2029793001';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV9,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600004078&vid=2024078601';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV10,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001805&vid=2024078701';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
-CCTV13,js:{var u='https://m.yangshipin.cn/video?type=1&pid=600001811&vid=2029797201';var opt={headers:{'User-Agent':'Mozilla/5.0(Android)','Referer':'https://www.yangshipin.cn/'}};var res=request(u,opt);try{let arr=res.match(/"playUrl":"([^"]+?)"/);setResult(arr[1])}catch(e){}}
+CCTV1,https://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
+CCTV2,https://ivi.bupt.edu.cn/hls/cctv2hd.m3u8
+CCTV3,https://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
+CCTV4,https://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
+CCTV5,https://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
+CCTV6,https://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
+卫视,#genre#
+湖南卫视,https://ivi.bupt.edu.cn/hls/hunanhd.m3u8
+东方卫视,https://ivi.bupt.edu.cn/hls/dftvhd.m3u8
