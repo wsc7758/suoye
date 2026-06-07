@@ -158,7 +158,7 @@
       "name": "🍎小苹果线路八",
       "type": 3,
       "api": "csp_NmyswvGuard",
-      "timeout": 15,
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -180,10 +180,10 @@
     },
     {
       "key": "原创",
-      "name": "☀原创┃不卡",
+      "name": "🍎小苹果线路十",
       "type": 3,
       "api": "csp_YCyzGuard",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
@@ -282,7 +282,7 @@
     },
     {
       "key": "光影",
-      "name": "🌞光影┃不卡",
+      "name": "共享光影",
       "type": 3,
       "api": "csp_T4Guard",
       "searchable": 1,
@@ -293,7 +293,7 @@
     },
     {
       "key": "厂长",
-      "name": "📔厂长┃不卡",
+      "name": "共享厂长",
       "type": 3,
       "api": "csp_NewCzGuard",
       "timeout": 10,
@@ -305,7 +305,7 @@
     },
     {
       "key": "荐片",
-      "name": "🥝荐片┃不卡",
+      "name": "共享荐片",
       "type": 3,
       "api": "csp_JPJGuard",
       "timeout": 10,
@@ -317,7 +317,7 @@
     },
     {
       "key": "奶酪",
-      "name": "🧀奶酪┃秒播",
+      "name": "共享奶酪",
       "type": 3,
       "api": "csp_T4Guard",
       "searchable": 1,
@@ -328,7 +328,7 @@
     },
     {
       "key": "热播",
-      "name": "📺热播┃多线",
+      "name": "共享热播",
       "type": 3,
       "api": "csp_AppTTGuard",
       "timeout": 10,
@@ -341,7 +341,7 @@
     },
     {
       "key": "剧圈",
-      "name": "🐻剧圈┃多线",
+      "name": "共享剧圈",
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
@@ -353,7 +353,7 @@
     },
     {
       "key": "播客",
-      "name": "🦊播客┃多线",
+      "name": "共享播客",
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
@@ -365,7 +365,7 @@
     },
     {
       "key": "柚子",
-      "name": "🐟柚子┃多线",
+      "name": "共享柚子",
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
@@ -377,7 +377,7 @@
     },
     {
       "key": "奥特",
-      "name": "🏝奥特┃多线",
+      "name": "共享奥特",
       "type": 3,
       "api": "csp_AueteGuard",
       "timeout": 10,
@@ -388,7 +388,7 @@
     },
     {
       "key": "賤賤",
-      "name": "💥賤片┃p2p💥",
+      "name": "共享賤片",
       "type": 3,
       "api": "csp_WexJianpianGuard",
       "searchable": 1,
@@ -930,7 +930,7 @@
       ]
     }
   ],
-  "spider": "https://yingshi-1438883295.cos.ap-beijing.myqcloud.com/%E5%88%86%E4%BA%AB%E8%80%850.jar",
+  "spider": "https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/jar/%E5%88%86%E4%BA%AB%E8%80%850.zip",
   "wallpaper": "",
   "notice": "提示：本接口仅用于测试，完全免费，请勿上当购买！",
   "lives": [
