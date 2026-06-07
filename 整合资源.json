@@ -179,32 +179,6 @@
       "jar": "https://file.icve.com.cn/file_doc/1001/140/FA6230E1A528C22F85A0827B9B99E574.jpg"
     },
     {
-      "api": "https://newtv.ggff.net/jubaba?token=fhJadO1R",
-      "key": "呜剧",
-      "name": "🍎小苹果线路十",
-      "type": 4
-    },
-    {
-      "key": "GIMI",
-      "name": "共享劇迷",
-      "type": 3,
-      "api": "https://pan.szfx.top/down.php/a0aba0b564b9d8115d18e78395f3091b.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "追剧",
-      "name": "共享追剧",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/追剧.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
       "key": "人人影视",
       "name": "共享人人",
       "type": 3,
@@ -276,75 +250,6 @@
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
-      "key": "永乐",
-      "name": "共享永乐",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/永乐视频.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
-      "key": "热播2",
-      "name": "共享热播",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/热播APP.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 20
-    },
-    {
-      "key": "飞牛影视",
-      "name": "共享飞牛",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://d.kstore.dev/download/4127/js/飞牛影视.js"
-    },
-    {
-      "key": "冠建影视",
-      "name": "共享冠建",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://d.kstore.dev/download/4127/js/冠建.js"
-    },
-    {
-      "key": "歪片星球[资]",
-      "name": "共享歪片",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://d.kstore.dev/download/4127/js/歪片.js"
-    },
-    {
-      "key": "西瓜",
-      "name": "共享西瓜",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 0,
-      "playerType": 2,
-      "filterable": 1,
-      "api": "csp_XBPQ",
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/wnddwc/daiweichun/main/XBPQ.jar",
-      "ext": {
-        "分类": "电影$20#连续剧$37#动漫$43#综艺$45",
-        "分类url": "https://sszzyy.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-        "线路标题": "data-toggle=\"tab\">&&</a>"
-      }
-    },
-    {
       "key": "猫眼资源采集",
       "name": "共享猫眼",
       "type": 1,
@@ -352,17 +257,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1
-    },
-    {
-      "key": "全片源",
-      "name": "共享全网",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://chaoqianys.top:91/api.php/app/"
     },
     {
       "key": "360影视",
@@ -373,16 +267,6 @@
       "quickSearch": 0,
       "filterable": 1,
       "changeable": 0
-    },
-    {
-      "key": "py_bili",
-      "name": "共享哔哩",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/cluntop.github.io/refs/heads/main/py/哔哩视频.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 1
     }
   ],
   "parses": [
