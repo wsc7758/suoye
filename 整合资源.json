@@ -199,6 +199,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "order_num": 0,
+      "timeout": 5,
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享双人.js"
     },
     {
@@ -210,6 +211,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 2,
+      "timeout": 5,
       "ext": {
         "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://m.fjvtw.com/,https://m.hhduc.com,https://www.hellorlgzf7sn.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
       }
@@ -221,6 +223,7 @@
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 0,
+      "timeout": 5,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/LSYS.py",
       "playerType": 2,
       "filterable": 1
@@ -229,6 +232,7 @@
       "key": "南瓜",
       "name": "共享南瓜",
       "type": 3,
+      "timeout": 5,
       "api": "csp_NanGua",
       "playerType": 2,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
@@ -238,6 +242,7 @@
       "key": "柠檬",
       "name": "共享柠檬",
       "type": 3,
+      "timeout": 5,
       "api": "csp_Nmvod",
       "playerType": 2,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
@@ -247,6 +252,7 @@
       "key": "热播",
       "name": "共享剧评",
       "type": 3,
+      "timeout": 5,
       "api": "csp_Jpys",
       "playerType": 2,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
@@ -256,6 +262,7 @@
       "key": "天天",
       "name": "共享天天",
       "type": 3,
+      "timeout": 5,
       "api": "csp_TTian",
       "playerType": 2,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
@@ -265,6 +272,7 @@
       "key": "猫眼资源采集",
       "name": "共享猫眼",
       "type": 1,
+      "timeout": 5,
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "searchable": 1,
       "quickSearch": 0,
@@ -274,6 +282,7 @@
       "key": "360影视",
       "name": "共享360",
       "type": 3,
+      "timeout": 5,
       "api": "csp_SP360",
       "searchable": 1,
       "quickSearch": 0,
@@ -284,6 +293,7 @@
       "key": "光影",
       "name": "共享光影",
       "type": 3,
+      "timeout": 5,
       "api": "csp_T4Guard",
       "searchable": 1,
       "quickSearch": 1,
@@ -296,7 +306,7 @@
       "name": "共享厂长",
       "type": 3,
       "api": "csp_NewCzGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -308,7 +318,7 @@
       "name": "共享荐片",
       "type": 3,
       "api": "csp_JPJGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -319,6 +329,7 @@
       "key": "奶酪",
       "name": "共享奶酪",
       "type": 3,
+      "timeout": 5,
       "api": "csp_T4Guard",
       "searchable": 1,
       "quickSearch": 1,
@@ -331,7 +342,7 @@
       "name": "共享热播",
       "type": 3,
       "api": "csp_AppTTGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -344,7 +355,7 @@
       "name": "共享剧圈",
       "type": 3,
       "api": "csp_AppSxGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -356,7 +367,7 @@
       "name": "共享播客",
       "type": 3,
       "api": "csp_AppSxGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -368,7 +379,7 @@
       "name": "共享柚子",
       "type": 3,
       "api": "csp_AppSxGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -380,7 +391,7 @@
       "name": "共享奥特",
       "type": 3,
       "api": "csp_AueteGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -390,6 +401,7 @@
       "key": "賤賤",
       "name": "共享賤片",
       "type": 3,
+      "timeout": 5,
       "api": "csp_WexJianpianGuard",
       "searchable": 1,
       "changeable": 1,
@@ -397,11 +409,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
     {
       "name": "失败手动换",
       "type": "1",
@@ -560,11 +567,6 @@
           "User-Agent": "Dart/3.0(dart:io)"
         }
       }
-    },
-    {
-      "name": "聚合解析",
-      "type": 3,
-      "url": "Demo"
     }
   ],
   "flags": [
@@ -932,45 +934,9 @@
   ],
   "spider": "https://d.kstore.dev/download/4127/Jar/分享者0.zip;md5;f2f74d72c025a19ba4ade4d148d6d419",
   "wallpaper": "",
-  "notice": "提示：本接口仅用于测试，完全免费，请勿上当购买！",
   "lives": [
     {
-      "name": "💖分享者直播",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/TV/live20220813.txt"
-    },
-    {
-      "name": "💝分享者直播+",
-      "type": 0,
-      "url": "https://xoxo.cn.mt/Lonely.m3u",
-      "timeout": 10,
-      "playerType": 2
-    },
-    {
-      "name": "💖分享者直播2",
-      "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "💕分享者直播3",
-      "type": 0,
-      "url": "http://lisha521.dynv6.net.fh4u.org/tv.txt",
-      "playerType": 1
-    },
-    {
-      "name": "💕分享者直播4",
-      "type": 0,
-      "url": "http://lisha521.dynv6.net.fh4u.org/iptv.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "timeout": 10,
-      "playerType": 2
-    },
-    {
-      "name": "💕分享者直播5",
+      "name": "共享直播1",
       "type": 0,
       "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
       "ua": "okhttp/3.15",
@@ -978,31 +944,9 @@
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "💕分享者直播6",
+      "name": "共享直播2",
       "type": 0,
-      "url": "http://rihou.cc:555/gggg.nzk",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png"
-    },
-    {
-      "name": "💕分享者直播7",
-      "type": 0,
-      "url": "http://lisha521.dynv6.net.fh4u.org/live.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "💕分享者直播8",
-      "type": 0,
-      "url": "http://127.0.0.1:10079/c/3600/null/http://lisha521.dynv6.net.fh4u.org/live1.txt",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/TV/live20220813.txt"
     }
   ],
   "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/fxz_logo.gif",
