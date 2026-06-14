@@ -371,9 +371,8 @@
       "timeout": 8
     },
     {
-      "西瓜",
-      "name": "共享西瓜",
       "key": "西瓜",
+      "name": "共享西瓜",
       "type": 3,
       "searchable": true,
       "quickSearch": true,
