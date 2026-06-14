@@ -173,8 +173,22 @@
       "changeable": true
     },
     {
-      "key": "光影",
+      "key": "suoni",
       "name": "🍎小苹果线路十",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
+      "searchable": true,
+      "quickSearch": true,
+      "filterable": true,
+      "timeout": 8,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
+        "Referer": "https://suoniapi.com/"
+      }
+    },
+    {
+      "key": "光影",
+      "name": "🍎小苹果线路十一",
       "type": 3,
       "api": "csp_T4Guard",
       "searchable": true,
@@ -265,17 +279,6 @@
       "changeable": true
     },
     {
-      "key": "柚子",
-      "name": "共享柚子",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "timeout": 8,
-      "searchable": true,
-      "quickSearch": true,
-      "filterable": true,
-      "changeable": true
-    },
-    {
       "key": "奥特",
       "name": "共享奥特",
       "type": 3,
@@ -285,18 +288,6 @@
       "quickSearch": true,
       "filterable": true,
       "changeable": true
-    },
-    {
-      "key": "南瓜",
-      "name": "共享南瓜",
-      "type": 3,
-      "api": "csp_NanGua",
-      "playerType": 2,
-      "searchable": true,
-      "quickSearch": true,
-      "filterable": true,
-      "changeable": true,
-      "timeout": 8
     },
     {
       "key": "柠檬",
@@ -324,30 +315,6 @@
       "timeout": 8
     },
     {
-      "key": "py_金牌影视",
-      "name": "共享金牌",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/金牌.py",
-      "searchable": true,
-      "quickSearch": true,
-      "filterable": true,
-      "changeable": true,
-      "playerType": 2,
-      "timeout": 8
-    },
-    {
-      "key": "csp_猎手",
-      "name": "共享猎手",
-      "type": 3,
-      "searchable": true,
-      "changeable": true,
-      "quickSearch": true,
-      "filterable": true,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/LSYS.py",
-      "playerType": 2,
-      "timeout": 8
-    },
-    {
       "key": "奇异果",
       "name": "共享异果",
       "type": 0,
@@ -357,29 +324,6 @@
       "filterable": true,
       "changeable": true,
       "playurl": "json:shturl.cc/oy4oLeZZ5xeAwudL7BqQi",
-      "timeout": 8
-    },
-    {
-      "key": "js_en_gf",
-      "name": "共享官方",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf",
-      "changeable": true,
-      "searchable": true,
-      "quickSearch": true,
-      "filterable": true,
-      "timeout": 8
-    },
-    {
-      "key": "西瓜",
-      "name": "共享西瓜",
-      "type": 3,
-      "searchable": true,
-      "quickSearch": true,
-      "filterable": true,
-      "changeable": true,
-      "playerType": 2,
-      "api": "csp_XBPQ",
       "timeout": 8
     },
     {
@@ -415,6 +359,62 @@
       "filterable": true,
       "changeable": true,
       "timeout": 8
+    },
+    {
+      "key": "牛牛资源",
+      "name": "共享牛牛",
+      "type": 0,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
+      "searchable": true,
+      "quickSearch": true,
+      "filterable": true,
+      "timeout": 8,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
+        "Referer": "https://api.niuniuzy.me/"
+      }
+    },
+    {
+      "key": "xigua",
+      "name": "共享西瓜",
+      "type": 0,
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
+      "searchable": true,
+      "quickSearch": true,
+      "filterable": true,
+      "timeout": 8,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
+        "Referer": "https://caiji.xgzyapi.com/"
+      }
+    },
+    {
+      "key": "hongniu",
+      "name": "共享红牛",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": true,
+      "quickSearch": true,
+      "filterable": true,
+      "timeout": 8,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
+        "Referer": "https://www.hongniuzy2.com/"
+      }
+    },
+    {
+      "key": "金鹰影视",
+      "name": "共享金鹰",
+      "type": 1,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+      "searchable": true,
+      "quickSearch": true,
+      "filterable": true,
+      "timeout": 8,
+      "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
+        "Referer": "https://jyzyapi.com/"
+      }
     }
   ],
   "rules": [
@@ -432,17 +432,17 @@
   "hosts": [],
   "lives": [
     {
-      "name": "饭太硬直播",
-      "type": 0,
-      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "playerType": 2,
-      "timeout": 8
-    },
-    {
       "name": "共享直播",
       "type": 0,
       "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
       "ua": "okhttp/3.15",
+      "timeout": 8
+    },
+    {
+      "name": "饭太硬直播",
+      "type": 0,
+      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "playerType": 2,
       "timeout": 8
     }
   ],
@@ -481,6 +481,30 @@
       "name": "共享解析5",
       "type": 1,
       "url": "http://jiexi.69mini.com/api/?key=5cc632accf2f4b27a417b89c8edf69c7",
+      "timeout": 3
+    },
+    {
+      "name": "共享解析6",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url=",
+      "timeout": 3
+    },
+    {
+      "name": "共享解析7",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url=",
+      "timeout": 3
+    },
+    {
+      "name": "共享解析8",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url=",
+      "timeout": 3
+    },
+    {
+      "name": "贡献解析9",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
       "timeout": 3
     }
   ]
