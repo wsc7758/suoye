@@ -371,9 +371,8 @@
       "timeout": 8
     },
     {
-      "西瓜",
-      "name": "共享西瓜",
       "key": "西瓜",
+      "name": "共享西瓜",
       "type": 3,
       "searchable": true,
       "quickSearch": true,
@@ -452,37 +451,37 @@
       "name": "Json轮询",
       "type": 2,
       "url": "Sequence",
-      "timeout": 5
+      "timeout": 3
     },
     {
       "name": "共享解析1",
       "type": 1,
       "url": "http://nsys.hundong.xyz/api/?key=EdG87gW0IDYarx9ry5",
-      "timeout": 5
+      "timeout": 3
     },
     {
       "name": "共享解析2",
       "type": 1,
       "url": "shturl.cc/UAflpyiJsrnX6yiVrbPmHIH84F2oPCdsde1pQAAUxkvRyRpnD08xdtJNavyDcNojUbPSQOgCH6Wu3cK",
-      "timeout": 5
+      "timeout": 3
     },
     {
       "name": "共享解析3",
       "type": 1,
       "url": "https://api.jxapi.cc/api/?key=6e4acf058180b58cbdb0106aa5cdb1e2",
-      "timeout": 5
+      "timeout": 3
     },
     {
       "name": "共享解析4",
       "type": 1,
       "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7",
-      "timeout": 5
+      "timeout": 3
     },
     {
       "name": "共享解析5",
       "type": 1,
       "url": "http://jiexi.69mini.com/api/?key=5cc632accf2f4b27a417b89c8edf69c7",
-      "timeout": 5
+      "timeout": 3
     }
   ]
 }
