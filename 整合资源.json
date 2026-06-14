@@ -268,52 +268,66 @@
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
     },
     {
-      "key": "小学课堂",
-      "name": "小学课堂",
+      "key": "csp_SP360",
+      "name": "共享360",
       "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
+      "api": "csp_SP360",
+      "searchable": 1,
       "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
-      }
+      "filterable": 1,
+      "changeable": 1,
+      "jar": "https://jihulab.com/yoursmile3/TVBox/-/raw/main/Yoursmile.jar"
     },
     {
-      "key": "初中课堂",
-      "name": "初中课堂",
+      "key": "苹果",
+      "name": "共享苹果",
       "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
+      "api": "csp_AppDrama",
+      "searchable": 1,
       "quickSearch": 0,
-      "changeable": 0,
+      "filterable": 1,
       "ext": {
-        "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
-      }
+        "appName": "小苹果",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "1.0.0.3",
+        "decrypt": "0"
+      },
+      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png"
     },
     {
-      "key": "高中教育",
-      "name": "高中课堂",
+      "key": "三秋影视",
+      "name": "共享三秋",
       "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
+      "api": "csp_App3Q",
+      "searchable": 1,
       "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
-      }
+      "changeable": 1,
+      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png"
+    },
+    {
+      "key": "DuanJuQiMiao",
+      "name": "分享短剧一",
+      "type": 3,
+      "api": "csp_DuanJuQiMiaoGuard",
+      "searchable": 1, 
+      "quickSearch": 0,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
+    },
+    {
+      "key": "DuanJuHaoKan",
+      "name": "共享短剧二",
+      "type": 3,
+      "api": "csp_DuanJuHaoKanGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
     }
   ],
   "rules": [
@@ -338,20 +352,20 @@
   ],
   "lives": [
     {
-      "name": "共享直播",
-      "type": 0,
-      "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
-      "ua": "okhttp/3.15",
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "饭太硬直播",
       "type": 0,
       "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "共享直播",
+      "type": 0,
+      "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "parses": [
@@ -467,16 +481,6 @@
           "User-Agent": "Dart/3.0(dart:io)"
         }
       }
-    },
-    {
-      "name": "共享聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "共享轮询",
-      "type": 2,
-      "url": "Sequence"
     }
   ]
 }
