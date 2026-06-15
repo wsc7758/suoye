@@ -11,7 +11,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 5,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js"
     },
     {
       "key": "腾讯视频",
@@ -22,7 +22,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "timeout": 5,
-      "ext": "https://kong88.dpdns.org/lib/腾讯视频.js",
+      "ext": "https://kong88.dpdns.org/lib/腾讯视频.js"
     },
     {
       "key": "芒果视频",
@@ -33,7 +33,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "timeout": 5,
-      "ext": "https://kong88.dpdns.org/lib/芒果视频.js",
+      "ext": "https://kong88.dpdns.org/lib/芒果视频.js"
     },
     {
       "key": "哔哩视频JS",
@@ -44,7 +44,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "timeout": 5,
-      "ext": "https://kong88.dpdns.org/lib/哔哩视频.js",
+      "ext": "https://kong88.dpdns.org/lib/哔哩视频.js"
     },
     {
       "key": "爱奇艺",
@@ -55,7 +55,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "timeout": 5,
-      "ext": "https://kong88.dpdns.org/lib/爱奇艺.js",
+      "ext": "https://kong88.dpdns.org/lib/爱奇艺.js"
     },
     {
       "key": "优酷视频",
@@ -66,7 +66,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "timeout": 5,
-      "ext": "https://kong88.dpdns.org/lib/优酷视频.js",
+      "ext": "https://kong88.dpdns.org/lib/优酷视频.js"
     },
     {
       "key": "量子-资源",
