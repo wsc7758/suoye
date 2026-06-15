@@ -322,28 +322,6 @@
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png"
-    },
-    {
-      "key": "DuanJuQiMiao",
-      "name": "分享短剧一",
-      "type": 3,
-      "api": "csp_DuanJuQiMiaoGuard",
-      "timeout": 5,
-      "searchable": 1, 
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
-    },
-    {
-      "key": "DuanJuHaoKan",
-      "name": "共享短剧二",
-      "type": 3,
-      "api": "csp_DuanJuHaoKanGuard",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
     }
   ],
   "rules": [
