@@ -10,6 +10,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
+      "timeout": 5,
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js",
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
@@ -21,6 +22,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
+      "timeout": 5,
       "ext": "https://kong88.dpdns.org/lib/腾讯视频.js",
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
@@ -32,6 +34,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
+      "timeout": 5,
       "ext": "https://kong88.dpdns.org/lib/芒果视频.js",
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
@@ -43,6 +46,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
+      "timeout": 5,
       "ext": "https://kong88.dpdns.org/lib/哔哩视频.js",
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
@@ -54,6 +58,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
+      "timeout": 5,
       "ext": "https://kong88.dpdns.org/lib/爱奇艺.js",
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
@@ -65,6 +70,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
+      "timeout": 5,
       "ext": "https://kong88.dpdns.org/lib/优酷视频.js",
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
@@ -76,6 +82,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
+      "timeout": 5,
       "categories": [
         "动作片",
         "喜剧片",
@@ -114,6 +121,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
+      "timeout": 5,
       "categories": [
         "国产动漫",
         "日韩动漫",
@@ -155,6 +163,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
+      "timeout": 5,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
     },
     {
@@ -162,7 +171,7 @@
       "name": "共享原创",
       "type": 3,
       "api": "csp_YCyzGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
@@ -173,7 +182,7 @@
       "name": "共享厂长",
       "type": 3,
       "api": "csp_NewCzGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -184,7 +193,7 @@
       "name": "共享荐片",
       "type": 3,
       "api": "csp_JPJGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -195,7 +204,7 @@
       "name": "共享糯米",
       "type": 3,
       "api": "csp_NmyswvGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1
@@ -205,7 +214,7 @@
       "name": "共享文采",
       "type": 3,
       "api": "csp_JpysGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -216,6 +225,7 @@
       "name": "共享奶酪",
       "type": 3,
       "api": "csp_T4Guard",
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -226,7 +236,7 @@
       "name": "共享热播",
       "type": 3,
       "api": "csp_AppTTGuard",
-      "timeout": 10,
+      "timeout": 5,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -238,7 +248,7 @@
       "name": "共享剧圈",
       "type": 3,
       "api": "csp_AppSxGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -249,7 +259,7 @@
       "name": "共享播客",
       "type": 3,
       "api": "csp_AppSxGuard",
-      "timeout": 10,
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -260,6 +270,7 @@
       "name": "共享柠檬",
       "type": 3,
       "api": "csp_Nmvod",
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -272,6 +283,7 @@
       "name": "共享360",
       "type": 3,
       "api": "csp_SP360",
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -283,6 +295,7 @@
       "name": "共享苹果",
       "type": 3,
       "api": "csp_AppDrama",
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -304,6 +317,7 @@
       "name": "共享三秋",
       "type": 3,
       "api": "csp_App3Q",
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -314,6 +328,7 @@
       "name": "分享短剧一",
       "type": 3,
       "api": "csp_DuanJuQiMiaoGuard",
+      "timeout": 5,
       "searchable": 1, 
       "quickSearch": 0,
       "changeable": 1,
@@ -324,6 +339,7 @@
       "name": "共享短剧二",
       "type": 3,
       "api": "csp_DuanJuHaoKanGuard",
+      "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -356,6 +372,7 @@
       "type": 0,
       "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
+      "timeout": 5,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -364,6 +381,7 @@
       "type": 0,
       "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
       "ua": "okhttp/3.15",
+      "timeout": 5,
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
     }
@@ -372,26 +390,31 @@
     {
       "name": "共享解析1",
       "type": 1,
+      "timeout": 5,
       "url": "https://player.gimy.bot/u/parse.php?url="
     },
     {
       "name": "共享解析2",
       "type": 1,
+      "timeout": 5,
       "url": "http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b205a5cb972ae8950cfd78&url="
     },
     {
       "name": "共享解析3",
       "type": 1,
+      "timeout": 5,
       "url": "https://api.jxapi.cc/api/?key=6e4acf058180b58cbdb0106aa5cdb1e2&url="
     },
     {
       "name": "共享解析4",
       "type": 1,
+      "timeout": 5,
       "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7&url="
     },
     {
       "name": "共享解析5",
       "type": 1,
+      "timeout": 5,
       "url": "http://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&url=",
       "ext": {
         "flag": [
@@ -429,6 +452,7 @@
     {
       "name": "共享解析6",
       "type": 0,
+      "timeout": 5,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
         "header": {
@@ -439,6 +463,7 @@
     {
       "name": "共享解析7",
       "type": 0,
+      "timeout": 5,
       "url": "https://www.yemu.xyz/?url=",
       "ext": {
         "flag": [
