@@ -277,51 +277,6 @@
       "playerType": 2,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-    },
-    {
-      "key": "csp_SP360",
-      "name": "共享360",
-      "type": 3,
-      "api": "csp_SP360",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 1,
-      "jar": "https://jihulab.com/yoursmile3/TVBox/-/raw/main/Yoursmile.jar"
-    },
-    {
-      "key": "苹果",
-      "name": "共享苹果",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png"
-    },
-    {
-      "key": "三秋影视",
-      "name": "共享三秋",
-      "type": 3,
-      "api": "csp_App3Q",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260610/TSvB/0X0/06101418.png"
     }
   ],
   "rules": [
