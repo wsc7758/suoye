@@ -1,6 +1,6 @@
 {
   "spider": "https://img2.gelonghui.com/library/e2693-9aa941a0-f96a-40c2-ac23-e6af358d19a7.png;md5;e2693c58ebc58abecc7282b721db79ca",
-  "wallpaper": "",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "http://feimao.pro/fm.gif",
   "sites": [
     {
@@ -221,35 +221,6 @@
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
     {
-      "key": "789",
-      "name": "💝分享酒吧",
-      "type": 1,
-      "api": "https://www.caiji.cyou/api.php/provide/vod",
-      "searchable": 1,
-      "playUrl": "json:https://api.huaqi.pro/api/?key=4fd28a31e1e6d316d32d3b6546768643&url=",
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
-    },
-    {
-      "api": "http://ll14s7fe.zjz-service.cn:20384/api/tvbox/source/2060294730700296192?token=baiyetv_box",
-      "filterable": 0,
-      "key": "spider_2060294730700296192",
-      "name": "💝分享茶杯",
-      "searchable": 1,
-      "type": 4,
-      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
-    },
-    {
-      "key": "测试v4",
-      "name": "💝分享威士",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/9a74bfc73bb24b1582d75d4fc1af6bee.py",
-      "ext": "http://v.2video.cc",
-      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
-    },
-    {
       "key": "葫芦",
       "name": "💝分享葫芦",
       "type": 3,
@@ -287,20 +258,6 @@
       "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     },
     {
-      "key": "py_金牌影视",
-      "name": "💖分享金牌",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/PY/金牌.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://m.fjvtw.com/,https://m.hhduc.com,https://www.hellorlgzf7sn.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-      },
-      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
-    },
-    {
       "key": "賤賤",
       "name": "💥賤片┃p2p💥",
       "type": 3,
@@ -310,59 +267,76 @@
       "jar": "https://nos.netease.com/ysf/49db9f394f13188bcd226d3d38d12554.txt"
     },
     {
-      "key": "苹果",
-      "name": "苹果｜APP",
+      "key": "賤賤",
+      "name": "💥贱片┃秒播💥",
       "type": 3,
-      "api": "csp_AppDrama",
+      "api": "csp_WexJianPianGuard",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260615/eubq/0X0/06151227.png"
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
     },
     {
-      "key": "厂长影视",
-      "name": "厂长｜影视",
+      "key": "WexWenCai",
+      "name": "💥文才┃秒播💥",
       "type": 3,
-      "api": "csp_Czsapp",
+      "api": "csp_WexWenCaiGuard",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://cz01.vip",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260615/eubq/0X0/06151227.png"
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
     },
     {
-      "key": "剧圈99",
-      "name": "剧圈丨APP",
+      "key": "WexHanXiaoQuan",
+      "name": "💥韩剧┃秒播💥",
       "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://124.221.3.182:19987/app/bn",
-        "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-        "versionName": "1.2.0",
-        "name": "剧圈圈",
-        "package": "com.qingtangxiaozhuan.xyz",
-        "buildNumber": "2002",
-        "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260615/eubq/0X0/06151227.png"
+      "api": "csp_WexHanXiaoQuanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
     },
     {
-      "key": "三秋影视",
-      "name": "三秋｜APP",
+      "key": "WexGuaZi",
+      "name": "💥瓜子┃秒播💥",
       "type": 3,
-      "api": "csp_App3Q",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260615/eubq/0X0/06151227.png"
+      "api": "csp_WexGuaZiGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+    },
+    {
+      "key": "WexDuBoKu",
+      "name": "💥独播┃秒播💥",
+      "type": 3,
+      "api": "csp_WexDuBoKuGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+    },
+    {
+      "key": "WexYueYue",
+      "name": "💥闪电┃秒播💥",
+      "type": 3,
+      "api": "csp_WexYueYueGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+    },
+    {
+      "key": "WexYiYs",
+      "name": "💥伊影┃秒播💥",
+      "type": 3,
+      "api": "csp_WexYiYsGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+    },
+    {
+      "key": "WexReBo",
+      "name": "💥热播┃秒播💥",
+      "type": 3,
+      "api": "csp_WexReBoGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
     }
   ],
   "parses": [
