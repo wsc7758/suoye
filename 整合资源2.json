@@ -241,8 +241,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-      }
+      "headers": {}
     },
     {
       "key": "niuniu",
@@ -252,8 +251,7 @@
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      }
+      "filterable": 1
     },
     {
       "key": "wushuiyin1",
@@ -263,8 +261,7 @@
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      }
+      "filterable": 1
     },
     {
       "key": "xigua",
@@ -274,8 +271,7 @@
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      }
+      "filterable": 1
     },
     {
       "key": "baidu",
@@ -285,8 +281,7 @@
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      }
+      "filterable": 1
     },
     {
       "key": "modu",
@@ -296,8 +291,7 @@
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      }
+      "filterable": 1
     },
     {
       "key": "guangsu",
@@ -307,8 +301,7 @@
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      }
+      "filterable": 1
     }
   ],
   "rules": [
@@ -331,7 +324,7 @@
     "img1.wsyzy.org=fan.cloudflare.182682.xyz",
     "fiizvfck.top=fan.cloudflare.182682.xyz"
   ],
-"lives": [
+  "lives": [
     {
       "name": "饭太硬直播",
       "type": 0,
