@@ -242,8 +242,6 @@
       "quickSearch": 0,
       "filterable": 1,
       "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://suoniapi.com/"
       }
     },
     {
@@ -255,9 +253,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.niuniuzy.me/"
       }
     },
     {
@@ -269,9 +264,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.wsyzy.net/"
       }
     },
     {
@@ -283,9 +275,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://caiji.xgzyapi.com/"
       }
     },
     {
@@ -297,9 +286,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.apibdzy.com/"
       }
     },
     {
@@ -311,9 +297,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://www.mdzyapi.com/"
       }
     },
     {
@@ -325,9 +308,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.guangsuapi.com/"
       }
     }
   ],
