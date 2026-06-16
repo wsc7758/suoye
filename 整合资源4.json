@@ -149,7 +149,7 @@
     },
     {
       "key": "文采",
-      "name": "🍎小苹果线路九",
+      "name": "🍎小苹果线路八",
       "type": 3,
       "api": "csp_JpysGuard",
       "timeout": 5,
@@ -160,148 +160,13 @@
     },
     {
       "key": "糯米",
-      "name": "🍎小苹果线路八",
+      "name": "🍎小苹果线路九",
       "type": 3,
       "api": "csp_NmyswvGuard",
       "timeout": 5,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1
-    },
-    {
-      "key": "原创",
-      "name": "共享原创",
-      "type": 3,
-      "api": "csp_YCyzGuard",
-      "timeout": 5,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1
-    },
-    {
-      "key": "厂长",
-      "name": "共享厂长",
-      "type": 3,
-      "api": "csp_NewCzGuard",
-      "timeout": 5,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1
-    },
-    {
-      "key": "荐片",
-      "name": "共享荐片",
-      "type": 3,
-      "api": "csp_JPJGuard",
-      "timeout": 5,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1
-    },
-    {
-      "key": "奥特",
-      "name": "共享奥特",
-      "type": 3,
-      "api": "csp_AueteGuard",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1
-    },
-    {
-      "key": "奇异果",
-      "name": "共享异果",
-      "type": 0,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "playurl": "json:https://www.iqiyizyjx.com/?url="
-    },
-    {
-      "key": "猫眼资源采集",
-      "name": "共享猫眼",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "suoni",
-      "name": "共享索尼",
-      "type": 0,
-      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "headers": {}
-    },
-    {
-      "key": "niuniu",
-      "name": "共享牛牛",
-      "type": 0,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "wushuiyin1",
-      "name": "共享无印",
-      "type": 0,
-      "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "xigua",
-      "name": "共享西瓜",
-      "type": 0,
-      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "baidu",
-      "name": "共享百度",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "modu",
-      "name": "共享魔都",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "guangsu",
-      "name": "共享光速",
-      "type": 0,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
     }
   ],
   "rules": [
