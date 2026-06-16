@@ -1,17 +1,4 @@
 {
-  "spider": "",
-  "wallpaper": "",
-  "lives": [
-    {
-      "name": "小苹果直播",
-      "type": 0,
-      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "playerType": 2,
-      "timeout": 5,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-],
   "sites": [
     {
       "key": "feifan",
@@ -580,46 +567,334 @@
       }
     }
   ],
-  "parses": [
+  "lives": [
     {
-      "name": "解析1",
-      "type": 1,
-      "url": "https://player.gimy.bot/u/parse.php?url="
-    },
-    {
-      "name": "解析2",
-      "type": 1,
-      "url": "http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b205a5cb972ae8950cfd78&url="
-    },
-    {
-      "name": "解析3",
-      "type": 1,
-      "url": "https://api.jxapi.cc/api/?key=6e4acf058180b58cbdb0106aa5cdb1e2&url="
-    },
-    {
-      "name": "解析4",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url="
-    }
-  ],
- "rules": [
-    {
-      "name": "cdn.ryplay",
-      "hosts": [
-        "cdn.ryplay"
-      ],
-      "regex": [
-        "5.480000",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      "group": "📺高清直播",
+      "channels": [
+        {
+          "name": "小苹果直播",
+          "urls": [
+            "https://codeberg.org/zhm310144/tvlist/raw/branch/main/tvlist.m3u"
+          ]
+        }
       ]
     }
   ],
-  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
-  "hosts": [
-    "img1.wsyzy.org=fan.cloudflare.182682.xyz",
-    "fiizvfck.top=fan.cloudflare.182682.xyz"
-  ]
+  "parses": [
+    {
+      "name": "🚀超级解析1(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://jx.171360.cc/api/?url=",
+      "priority": 1
+    },
+    {
+      "name": "🚀超级解析2(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://jx.688ai.cn/?url=",
+      "priority": 2
+    },
+    {
+      "name": "🚀超级解析3(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://jx.gg520.cc/?url=",
+      "priority": 3
+    },
+    {
+      "name": "🚀超级解析4(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://api.8080yun.com/api/?url=",
+      "priority": 4
+    },
+    {
+      "name": "🚀超级解析5(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://jx.52bsj.cn/api/?url=",
+      "priority": 5
+    },
+    {
+      "name": "🚀新增·优质解析A(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://api.leyue.cc/api/?url=",
+      "priority": 6
+    },
+    {
+      "name": "🚀新增·优质解析B(适配TVBox 2026版)",
+      "type": 1,
+      "url": "https://jx.haok1.cc/api/?url=",
+      "priority": 7
+    },
+    {
+      "name": "🚀极速解析(TVBox专用)",
+      "type": 1,
+      "url": "https://jx.vipjiexi.com/?url=",
+      "priority": 0
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "tencent"
+  ],
+  "ijk": [
+    {
+      "group": "【软解·超清画质·不掉帧】TVBox_takagen99_2026专用",
+      "options": [
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek+flush_packets+shortest"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "analyzeduration",
+          "value": "2000000"
+        },
+        {
+          "category": 1,
+          "name": "probesize",
+          "value": "1048576"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "reconnect-streamed",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "reconnect-delay-max",
+          "value": "5"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "134217728"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "300"
+        },
+        {
+          "category": 4,
+          "name": "max_cached_duration",
+          "value": "120"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "timeout",
+          "value": "30000000"
+        }
+      ]
+    },
+    {
+      "group": "【硬解·4K超清·不花屏】TVBox_takagen99_2026专用",
+      "options": [
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek+flush_packets+shortest"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "analyzeduration",
+          "value": "2000000"
+        },
+        {
+          "category": 1,
+          "name": "probesize",
+          "value": "1048576"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "reconnect-streamed",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "reconnect-delay-max",
+          "value": "5"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "134217728"
+        },
+        {
+          "category": 4,
+          "name": "min-frames",
+          "value": "300"
+        },
+        {
+          "category": 4,
+          "name": "max_cached_duration",
+          "value": "120"
+        },
+        {
+          "category": 4,
+          "name": "infbuf",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "packet-buffering",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "timeout",
+          "value": "30000000"
+        },
+        {
+          "category": 4,
+          "name": "hwaccel-auto",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "hwaccel-use-openmax",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "xpj", "xinpujing", "pujing", "dubo", "caipiao", "bet", "casino",
+    "taohu", "putaohu", "mimg", "cnzz", "mmstat", "vinuxhome",
+    "baihuillq", "mosflower", "gamevvip", "yhdtns", "cqqc3",
+    "jixunkyy", "chemacid", "hm.baidu", "shturl", "gg520",
+    "688ai", "171360", "8080yun", "52bsj", "haok1", "leyue",
+    "赌博", "电玩", "博彩", "彩票", "棋牌", "打鱼", "百家乐",
+    "六合彩", "时时彩", "电竞投注", "真人视讯", "红包扫雷",
+    "飞艇", "滚球", "龙虎斗", "炸金花", "牛牛", "德州扑克",
+    "mg0088", "ag888", "bbin", "ky88", "918kiss", "138bet",
+    "888vip", "66866", "777bet", "999js", "001bet", "8596vip",
+    "vip666", "888888", "999999", "dianwan", "dianjing", "youxi",
+    "wangluodubo", "onlinebet", "caipiaowang", "dubowang",
+    "16888", "28888", "36999", "66666", "88888", "99999"
+  ],
+  "wallpaper": "https://bing.img.run/uhd.php",
+  "searchConfig": {
+    "sortByQuality": 1,
+    "priorityField": "sort",
+    "ascending": 1
+  }
 }
