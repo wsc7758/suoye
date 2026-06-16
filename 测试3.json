@@ -17,9 +17,8 @@
       "type": 0,
       "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "filterable": 1,
-      "sort": 1,
       "categories": [
         "国产剧",
         "欧美剧",
@@ -40,11 +39,7 @@
         "国产动漫",
         "日韩动漫",
         "伦理片"
-      ],
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.ffzyapi.com/"
-      }
+      ]
     },
     {
       "key": "suoni",
@@ -52,13 +47,8 @@
       "type": 0,
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 2,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://suoniapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "liangzi",
@@ -66,13 +56,8 @@
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 3,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://cj.lziapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "niuniu",
@@ -80,13 +65,8 @@
       "type": 0,
       "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 4,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.niuniuzy.me/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "wushuiyin1",
@@ -94,13 +74,8 @@
       "type": 0,
       "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 5,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.wsyzy.net/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "xigua",
@@ -108,13 +83,8 @@
       "type": 0,
       "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 6,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://caiji.xgzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "hongniu",
@@ -122,13 +92,8 @@
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 7,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://www.hongniuzy2.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "jinying",
@@ -136,13 +101,8 @@
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 8,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://jyzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "baidu",
@@ -150,13 +110,8 @@
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 9,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.apibdzy.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "modu",
@@ -164,13 +119,8 @@
       "type": 1,
       "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 10,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://www.mdzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "douban",
@@ -178,13 +128,8 @@
       "type": 0,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 11,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://caiji.dbzy5.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "guangsu",
@@ -192,13 +137,8 @@
       "type": 0,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 12,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.guangsuapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "yingxiang",
@@ -206,13 +146,8 @@
       "type": 0,
       "api": "https://www.yxxq26.cc/api.php/provide/vod/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 13,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://www.yxxq26.cc/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "uku",
@@ -220,13 +155,8 @@
       "type": 1,
       "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 14,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.ukuapi88.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "shandian",
@@ -234,13 +164,8 @@
       "type": 1,
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 15,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://sdzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "taopian",
@@ -248,13 +173,8 @@
       "type": 1,
       "api": "https://taopianapi.com/cjapi/sda/vod/json.html",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 16,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://taopianapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "wujin",
@@ -262,13 +182,8 @@
       "type": 1,
       "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 17,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.wujinapi.me/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "xinlang",
@@ -276,13 +191,8 @@
       "type": 0,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 18,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.xinlangapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "huya",
@@ -290,13 +200,8 @@
       "type": 0,
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 19,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://www.huyaapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "maotai",
@@ -304,13 +209,8 @@
       "type": 0,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 20,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://caiji.maotaizy.cc/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "maoyan1",
@@ -318,13 +218,8 @@
       "type": 0,
       "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 21,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.maoyanapi.top/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "tianya",
@@ -332,13 +227,8 @@
       "type": 1,
       "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 22,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://ty.tyyszy5.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "ok",
@@ -346,13 +236,8 @@
       "type": 1,
       "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 23,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.okzyw.net/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "zuida",
@@ -360,13 +245,8 @@
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 24,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.zuidapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "ruyi",
@@ -374,13 +254,8 @@
       "type": 0,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 25,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://cj.rycjapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "aiqiyi",
@@ -388,13 +263,8 @@
       "type": 1,
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 26,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://iqiyizyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "haohua",
@@ -402,13 +272,8 @@
       "type": 0,
       "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 27,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://hhzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "dianyingtiantang",
@@ -416,13 +281,8 @@
       "type": 0,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 28,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://caiji.dyttzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "subo",
@@ -430,13 +290,8 @@
       "type": 0,
       "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 29,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://subocj.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "wangwang",
@@ -444,13 +299,8 @@
       "type": 1,
       "api": "https://ww.tyyszy5.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 30,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://ww.tyyszy5.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "baofeng",
@@ -458,13 +308,8 @@
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 31,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://bfzyapi.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "baidu0",
@@ -472,13 +317,8 @@
       "type": 0,
       "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 32,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.apibdzy.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "360ziyuan",
@@ -486,13 +326,8 @@
       "type": 0,
       "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 33,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://360zyzz.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "yinghua",
@@ -500,13 +335,8 @@
       "type": 1,
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 34,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://m3u8.apiyhzy.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "789ziyuan",
@@ -514,13 +344,8 @@
       "type": 0,
       "api": "https://www.caiji.cyou/api.php/provide/vod/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 35,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://www.caiji.cyou/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "wushuiyin2",
@@ -528,13 +353,8 @@
       "type": 1,
       "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 36,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.wsyzy.net/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "tianya2",
@@ -542,13 +362,8 @@
       "type": 1,
       "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 37,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://ty.tyyszy5.com/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "maoyan2",
@@ -556,13 +371,8 @@
       "type": 1,
       "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/json",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 38,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.maoyanapi.top/"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     },
     {
       "key": "renren",
@@ -570,12 +380,8 @@
       "type": 1,
       "api": "http://43.139.196.163:31308/gather/json",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 39,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
-      }
+      "quickSearch": 0,
+      "filterable": 1
     }
   ],
   "parses": [
@@ -920,120 +726,5 @@
       ]
     }
   ],
-  "ads": [
-    "mimg.0c1q0l.cn",
-    "www.googletagmanager.com",
-    "www.google-analytics.com",
-    "mc.usihnbcq.cn",
-    "mg.g1mm3d.cn",
-    "mscs.svaeuzh.cn",
-    "cnzz.hhttm.top",
-    "tp.vinuxhome.com",
-    "cnzz.mmstat.com",
-    "www.baihuillq.com",
-    "s23.cnzz.com",
-    "z3.cnzz.com",
-    "c.cnzz.com",
-    "stj.v1vo.top",
-    "z12.cnzz.com",
-    "img.mosflower.cn",
-    "tips.gamevvip.com",
-    "ehwe.yhdtns.com",
-    "xdn.cqqc3.com",
-    "www.jixunkyy.cn",
-    "sp.chemacid.cn",
-    "hm.baidu.com",
-    "s9.cnzz.com",
-    "z6.cnzz.com",
-    "um.cavuc.com",
-    "mav.mavuz.com",
-    "wofwk.aoidf3.com",
-    "z5.cnzz.com",
-    "xc.hubeijieshikj.cn",
-    "tj.tianwenhu.com",
-    "xg.gars57.cn",
-    "k.jinxiuzhilv.com",
-    "cdn.bootcss.com",
-    "ppl.xunzhuo123.com",
-    "xomk.jiangjunmh.top",
-    "img.xunzhuo123.com",
-    "z1.cnzz.com",
-    "s13.cnzz.com",
-    "xg.huataisangao.cn",
-    "z7.cnzz.com",
-    "xg.huataisangao.cn",
-    "z2.cnzz.com",
-    "s96.cnzz.com",
-    "q11.cnzz.com",
-    "thy.dacedsfa.cn",
-    "xg.whsbpw.cn",
-    "s19.cnzz.com",
-    "z8.cnzz.com",
-    "s4.cnzz.com",
-    "f5w.as12df.top",
-    "ae01.alicdn.com",
-    "try.gitea.io",
-    "www.92424.cn",
-    "k.wudejia.com",
-    "vivovip.mmszxc.top",
-    "qiu.xixiqiu.com",
-    "cdnjs.hnfenxun.com",
-    "cms.qdwght.com",
-    "mimg.0c1q0l.cn",
-    "www.googletagmanager.com",
-    "www.google-analytics.com",
-    "mc.usihnbcq.cn",
-    "mg.g1mm3d.cn",
-    "mscs.svaeuzh.cn",
-    "cnzz.hhttm.top",
-    "tp.vinuxhome.com",
-    "cnzz.mmstat.com",
-    "www.baihuillq.com",
-    "s23.cnzz.com",
-    "z3.cnzz.com",
-    "c.cnzz.com",
-    "stj.v1vo.top",
-    "z12.cnzz.com",
-    "img.mosflower.cn",
-    "tips.gamevvip.com",
-    "ehwe.yhdtns.com",
-    "xdn.cqqc3.com",
-    "www.jixunkyy.cn",
-    "sp.chemacid.cn",
-    "hm.baidu.com",
-    "s9.cnzz.com",
-    "z6.cnzz.com",
-    "um.cavuc.com",
-    "mav.mavuz.com",
-    "wofwk.aoidf3.com",
-    "z5.cnzz.com",
-    "xc.hubeijieshikj.cn",
-    "tj.tianwenhu.com",
-    "xg.gars57.cn",
-    "k.jinxiuzhilv.com",
-    "cdn.bootcss.com",
-    "ppl.xunzhuo123.com",
-    "xomk.jiangjunmh.top",
-    "img.xunzhuo123.com",
-    "z1.cnzz.com",
-    "s13.cnzz.com",
-    "xg.huataisangao.cn",
-    "z7.cnzz.com",
-    "xg.huataisangao.cn",
-    "z2.cnzz.com",
-    "s96.cnzz.com",
-    "q11.cnzz.com",
-    "thy.dacedsfa.cn",
-    "xg.whsbpw.cn",
-    "s19.cnzz.com",
-    "z8.cnzz.com",
-    "s4.cnzz.com",
-    "f5w.as12df.top",
-    "ae01.alicdn.com",
-    "www.92424.cn",
-    "k.wudejia.com",
-    "vivovip.mmszxc.top",
-    "qiu.xixiqiu.com",
-    "cdnjs.hnfenxun.com"
-  ]
+  "ads": null
 }
