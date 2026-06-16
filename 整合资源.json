@@ -223,21 +223,6 @@
       "playurl": "json:https://www.iqiyizyjx.com/?url="
     },
     {
-      "key": "js_en_gf",
-      "name": "共享官方",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js",
-      "timeout": 5,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
       "key": "猫眼资源采集",
       "name": "共享猫眼",
       "type": 1,
@@ -256,7 +241,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 2,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://suoniapi.com/"
@@ -271,7 +255,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 4,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://api.niuniuzy.me/"
@@ -286,7 +269,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 5,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://api.wsyzy.net/"
@@ -301,7 +283,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 6,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://caiji.xgzyapi.com/"
@@ -316,7 +297,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 9,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://api.apibdzy.com/"
@@ -331,7 +311,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 10,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://www.mdzyapi.com/"
@@ -346,7 +325,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "sort": 12,
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://api.guangsuapi.com/"
