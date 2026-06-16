@@ -1,70 +1,8 @@
 {
   "spider": "https://img2.gelonghui.com/library/e2693-9aa941a0-f96a-40c2-ac23-e6af358d19a7.png;md5;e2693c58ebc58abecc7282b721db79ca",
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "logo": "http://feimao.pro/fm.gif",
+  "wallpaper": "",
+  "logo": "",
   "sites": [
-    {
-      "key": "豆瓣",
-      "name": "🐼┃公众号：我不是肥猫┃",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
-    {
-      "key": "荐片",
-      "name": "🎬┃荐片┃影视",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "playerType": "2",
-      "ext": "https://api.ztcgi.com"
-    },
-    {
-      "key": "csp_Gz360",
-      "name": "🍉┃瓜子┃影视",
-      "type": 3,
-      "api": "csp_Gz360",
-      "playerType": 2
-    },
-    {
-      "key": "厂长",
-      "name": "🏭┃厂长┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czzy89.com"
-    },
-    {
-      "key": "csp_SP360",
-      "name": "📺┃360┃官源",
-      "type": 3,
-      "api": "csp_SP360"
-    },
-    {
-      "key": "文采",
-      "name": "💮文采┃秒播",
-      "type": 3,
-      "api": "csp_JpysGuard",
-      "timeout": 10,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://oss4liview.moji.com/thd_file/2026/04/22/af3693c54efdb287866bcf0349f605c1.jpg"
-    },
-    {
-      "key": "糯米",
-      "name": "🍓糯米┃多线",
-      "type": 3,
-      "api": "csp_NmyswvGuard",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://oss4liview.moji.com/thd_file/2026/04/22/af3693c54efdb287866bcf0349f605c1.jpg"
-    },
     {
       "key": "豆瓣",
       "name": "🍎小苹果主线路",
@@ -104,7 +42,114 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://kong88.dpdns.org/lib/哔哩视频.js"
+      "ext": "https://kong88.dpdns.org/lib/哔哩视频.js",
+      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
+    },
+    {
+      "key": "csp_SP360",
+      "name": "📺┃360┃官源",
+      "type": 3,
+      "api": "csp_SP360"
+    },
+    {
+      "key": "荐片采集",
+      "name": "💝分享荐片",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/荐片.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1,
+      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
+    },
+    {
+      "key": "五大采集平台采",
+      "name": "❤️‍分享官采",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": "http://39.105.18.5:5565/api.php/app/",
+      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
+    },
+    {
+      "key": "量子-资源",
+      "name": "💖分享量子",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ],
+      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
+    },
+    {
+      "key": "js_en_gf",
+      "name": "💝分享官方",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1,
+      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
+    },
+    {
+      "key": "柠檬",
+      "name": "💝分享柠檬",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+    },
+    {
+      "key": "天天",
+      "name": "💝分享天天",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+      "ext": "7lj763gg0939791h1l3888jig44gi291li"
+    },
+    {
+      "key": "奇异果",
+      "name": "💖分享异果",
+      "type": 0,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "playurl": "json:https://www.iqiyizyjx.com/?url=",
+      "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip"
     }
   ],
   "parses": [
