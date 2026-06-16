@@ -582,49 +582,49 @@
   ],
   "parses": [
     {
-      "name": "🚀超级解析1(适配TVBox 2026版)",
+      "name": "🚀超级解析1",
       "type": 1,
       "url": "https://jx.171360.cc/api/?url=",
       "priority": 1
     },
     {
-      "name": "🚀超级解析2(适配TVBox 2026版)",
+      "name": "🚀超级解析2",
       "type": 1,
       "url": "https://jx.688ai.cn/?url=",
       "priority": 2
     },
     {
-      "name": "🚀超级解析3(适配TVBox 2026版)",
+      "name": "🚀超级解析3",
       "type": 1,
       "url": "https://jx.gg520.cc/?url=",
       "priority": 3
     },
     {
-      "name": "🚀超级解析4(适配TVBox 2026版)",
+      "name": "🚀超级解析4",
       "type": 1,
       "url": "https://api.8080yun.com/api/?url=",
       "priority": 4
     },
     {
-      "name": "🚀超级解析5(适配TVBox 2026版)",
+      "name": "🚀超级解析5",
       "type": 1,
       "url": "https://jx.52bsj.cn/api/?url=",
       "priority": 5
     },
     {
-      "name": "🚀新增·优质解析A(适配TVBox 2026版)",
+      "name": "🚀新增·优质解析A",
       "type": 1,
       "url": "https://api.leyue.cc/api/?url=",
       "priority": 6
     },
     {
-      "name": "🚀新增·优质解析B(适配TVBox 2026版)",
+      "name": "🚀新增·优质解析B",
       "type": 1,
       "url": "https://jx.haok1.cc/api/?url=",
       "priority": 7
     },
     {
-      "name": "🚀极速解析(TVBox专用)",
+      "name": "🚀极速解析",
       "type": 1,
       "url": "https://jx.vipjiexi.com/?url=",
       "priority": 0
@@ -646,7 +646,7 @@
   ],
   "ijk": [
     {
-      "group": "【软解·超清画质·不掉帧】TVBox_takagen99_2026专用",
+      "group": "软解",
       "options": [
         {
           "category": 1,
@@ -751,7 +751,7 @@
       ]
     },
     {
-      "group": "【硬解·4K超清·不花屏】TVBox_takagen99_2026专用",
+      "group": "硬解",
       "options": [
         {
           "category": 1,
