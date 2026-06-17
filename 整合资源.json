@@ -461,7 +461,7 @@
     },
     {
       "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-query",
+      "url": "https://dns.quad9.net/dns-quer",
       "ips": [
         "9.9.9.9",
         "149.112.112.112"
