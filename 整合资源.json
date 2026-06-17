@@ -206,7 +206,7 @@
       "type": 3,
       "api": "csp_Nmvod",
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "playerType": 2,
@@ -219,7 +219,7 @@
       "type": 3,
       "api": "csp_TTian",
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "playerType": 2,
@@ -246,7 +246,7 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/快映.js",
       "timeout": 5,
       "playerType": 2,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "ext": {
         "host": "https://www.baidukuaiy.top",
@@ -280,7 +280,7 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "timeout": 5,
       "playerType": 2,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "ext": {
@@ -308,7 +308,7 @@
       "api": "csp_WexJianPianGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -320,7 +320,7 @@
       "api": "csp_WexHanXiaoQuanGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -332,7 +332,7 @@
       "api": "csp_WexDuBoKuGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -344,7 +344,7 @@
       "api": "csp_WexYiYsGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -356,7 +356,7 @@
       "api": "csp_WexReBoGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -368,7 +368,7 @@
       "api": "csp_DuanJuQiMiaoGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
@@ -380,7 +380,7 @@
       "api": "csp_DuanJuHaoKanGuard",
       "playerType": 2,
       "timeout": 5,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
