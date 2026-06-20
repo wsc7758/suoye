@@ -484,15 +484,7 @@
       "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ext": {
-      "player": "ijk",
-      "mediacodec": 1,
-      "mediacodec-hevc": 1,
-      "video-codec": "hevc,h264",
-      "audio-codec": "aac,mp3",
-      "buffer-time": 2000
-    }
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "共享直播",
@@ -500,8 +492,7 @@
       "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
       "ua": "okhttp/3.15",
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-      "decoder": "ijk_hardware"
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "headers": [
