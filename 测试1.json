@@ -3,6 +3,12 @@
   "wallpaper": "",
   "logo": "http://feimao.pro/fm.gif",
   "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip",
+  "setting": {
+    "useInnerParse": false,
+    "autoSwitchParse": true,
+    "decoder": "ijk_hardware",
+    "forceDecoder": true
+  },
   "sites": [
     {
       "key": "豆瓣",
@@ -230,7 +236,7 @@
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 0,
-      "playurl": "json:https://www.iqiyizyjx.com/?url="
+      "playurl": "json:shturl.cc/F0GCx4VH4fDyaM8RfYJtd"
     },
     {
       "key": "快映",
@@ -384,7 +390,6 @@
       "url": "Sequence",
       "timeout": 3
     },
-    
     {
       "name": "共享解析1",
       "type": 1,
@@ -473,7 +478,8 @@
       "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "decoder": "ijk_hardware"
     },
     {
       "name": "共享直播",
@@ -481,7 +487,8 @@
       "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
       "ua": "okhttp/3.15",
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+      "decoder": "ijk_hardware"
     }
   ],
   "headers": [
