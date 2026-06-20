@@ -4,10 +4,16 @@
   "logo": "http://feimao.pro/fm.gif",
   "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip",
   "setting": {
-    "useInnerParse": false,
-    "autoSwitchParse": true,
-    "decoder": "ijk_hardware",
-    "forceDecoder": true
+    "decoder": "ijk",
+    "hardware": 1,
+    "forceDecoder": 1,
+    "mediacodec": 1,
+    "mediacodec-avc": 1,
+    "mediacodec-hevc": 1,
+    "useInnerParse": 0,
+    "autoSwitchParse": 1,
+    "live_decoder": "ijk",
+    "live_hardware": 1
   },
   "sites": [
     {
@@ -482,8 +488,10 @@
       "ext": {
       "player": "ijk",
       "mediacodec": 1,
-      "mediacodec-auto-rotate": 1,
-      "max-cached-duration": 3000
+      "mediacodec-hevc": 1,
+      "video-codec": "hevc,h264",
+      "audio-codec": "aac,mp3",
+      "buffer-time": 2000
     }
     },
     {
