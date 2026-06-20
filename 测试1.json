@@ -479,7 +479,12 @@
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "decoder": "ijk_hardware"
+      "ext": {
+      "player": "ijk",
+      "mediacodec": 1,
+      "mediacodec-auto-rotate": 1,
+      "max-cached-duration": 3000
+    }
     },
     {
       "name": "共享直播",
