@@ -1,15 +1,72 @@
-//多仓
 {
-"storeHouse":
-[
-{"sourceName":"小苹果线路","sourceUrl":"https://cdn.jsdelivr.net/gh/wsc7758/suoye@main/整合资源.json"},
-{"sourceName":"辅助线路一","sourceUrl":"https://cdn.jsdelivr.net/gh/wsc7758/suoye@main/小苹果32位线路.json"},
-{"sourceName": "安卓哥1仓","sourceUrl": "https://gitcode.net/wzlyd1/00/-/raw/master/0.txt"},
-{"sourceName": "欧歌主仓","sourceUrl": "http://tv.nxog.top/nxog/ou.php?url=http://tv.nxog.top&b=欧歌"},
-{"sourceName": "派大星仓库","sourceUrl": "http://tv.nxog.top/m/m/5.php?b=派大星"},
-{"sourceName": "其它在线","sourceUrl": "https://agit.ai/butterfly/md/raw/branch/PLANT/DC-91-OL.json"},
-{"sourceName":"吾爱1号仓","sourceUrl": "http://52bsj.vip:81/api/v3/file/get/67776/1.json?sign=Suz6jqs5w4g4FFTohPyWDC82QQdpOkbs8UN4OR9QJsI%3D%3A0"},
-{"sourceName": "绿茶①号馆","sourceUrl": "https://agit.ai/hu/hcr/raw/branch/master/99668.txt"},
-{"sourceName":"龙爪①号库","sourceUrl":"http://52bsj.vip:81/api/v3/file/get/58205/cku1.txt?sign=1FdBo3hZRTsTu_ox-yjRW6vI9Oozzqr0XEiOPDFWz3Q%3D%3A0"},
-]
+  "urls": [
+    {
+      "url": "http://www.饭太硬.com/tv",
+      "name": "🌟饭太硬"
+        },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@main/整合资源.json",
+      "name": "小苹果线路"
+        },
+    {
+      "url": "http://www.mpanso.com/小米/DEMO.json",
+      "name": "❤️小米线路"
+        },
+    {
+      "url": "http://我不是.摸鱼儿.top",
+      "name": "🌵摸鱼线路"
+        },
+    {
+      "url": "http://itvbox.cc/云星日记",
+      "name": "🌵云星日记线路"
+        },
+    {
+      "url": "https://weixine.net/ysc.json",
+      "name": "🌵运输车路"
+        },
+    {
+      "url": "http://肥猫.com/",
+      "name": "🌵肥猫线路"
+        },
+    {
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/YGBH/main/vip2.json",
+      "name": "🌵宝盒线路"
+        },
+    {
+      "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com//yydfys/yydf/main/XYQTVBox/xyq.json",
+      "name": "🌵香雅情线路"
+        },
+    {
+      "url": "https://gitdl.cn/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+      "name": "🌵FongMI线路"
+        },
+    {
+      "url": "http://pandown.pro/tvbox/tvbox.json",
+      "name": "🌵巧计线路"
+        },
+    {
+      "url": "https://gitdl.cn/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "🌵高天流云js"
+        },
+    {
+      "url": "https://gitdl.cn/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "name": "🌵高天流云 XYQ"
+        },
+    {
+      "url": "http://www.lyyytv.cn/yt/yt.json",
+      "name": "🌱影探线路"
+        },
+    {
+      "url": "http://dxawi.github.io/0/0.json",
+      "name": "🌱dxawi线路"
+        },
+    {
+      "url": "",
+      "name": "🔥🔥此仓库免费使用🔥🔥"
+        },
+    {
+      "url": "",
+      "name": "🔥🔥付费请退款举报投诉🔥🔥"
+        }
+    ]
 }
