@@ -233,21 +233,6 @@
       "playurl": "json:https://www.iqiyizyjx.com/?url="
     },
     {
-      "key": "快映",
-      "name": "共享快映",
-      "type": 3,
-      "changeable": 1,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/快映.js",
-      "timeout": 6,
-      "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": {
-        "host": "https://www.baidukuaiy.top",
-        "ver": "3"
-      }
-    },
-    {
       "key": "葫芦",
       "name": "共享葫芦",
       "type": 3,
@@ -299,7 +284,7 @@
       "api": "csp_WexJianPianGuard",
       "playerType": 2,
       "timeout": 4,
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -327,6 +312,18 @@
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+    },
+    {
+      "key": "Wwys",
+      "name": "共享糯米",
+      "type": 3,
+      "api": "csp_Wwys",
+      "timeout": 4,
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://vip.wwgz.cn:5200",
+      "jar": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260624/3q1d/fish06240430.jar"
     },
     {
       "key": "WexYiYs",
@@ -472,42 +469,46 @@
       "playerType": 2,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "共享直播",
-      "type": 0,
-      "url": "http://lisha521.dynv6.net.fh4u.org/hlj.txt",
-      "ua": "okhttp/3.15",
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "headers": [
     {
-        "host": "test1.12321app.com",
-        "header": {"User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"}
+      "host": "test1.12321app.com",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"
+      }
     },
     {
-        "host": "111.170.140.70",
-        "header": {"User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"}
+      "host": "111.170.140.70",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"
+      }
     },
     {
-        "host": "nsys.hundong.xyz",
-        "header": {"User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"}
+      "host": "nsys.hundong.xyz",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"
+      }
     },
     {
-        "host": "json.xophp.com",
-        "header": {"User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"}
+      "host": "json.xophp.com",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"
+      }
     },
     {
-        "host": "jiexi.69mini.com",
-        "header": {"User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"}
+      "host": "jiexi.69mini.com",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"
+      }
     },
     {
-        "host": "hlsztemgsplive.miguvideo.com",
-        "header": {"User-Agent": "okHttp/Mod-1.5.0.0"}
+      "host": "hlsztemgsplive.miguvideo.com",
+      "header": {
+        "User-Agent": "okHttp/Mod-1.5.0.0"
+      }
     }
-],
+  ],
   "proxy": [
     "raw.githubusercontent.com",
     "googlevideo.com",
