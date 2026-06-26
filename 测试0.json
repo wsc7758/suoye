@@ -462,17 +462,14 @@
     }
   ],
   "lives": [
-      {
-        "group": "电视直播",
-        "channels": [
-          {
-            "name": "高清路线",
-            "urls": [
-              "https://raw.giteeusercontent.com/OscarWilde/itv/raw/master/tv.txt?metadata=eyJyIjoibWFzdGVyIiwiZnAiOiJ0di50eHQiLCJwaWQiOjQ2MDIxNzI3LCJzdG8iOiJnaXQtc2hhcmRpbmctc3RvLTEwdC0wMDEiLCJycCI6InJlcG9zL2E4LzU2L2E4NTY1MzYyNjJmYWM5YTNkOWQwYmU1OGQzNjdjNDdjMTNkYmRkOTI0YWRiOTNmZTg5YzhjOWY1NzM4ZDU0ZDEuZ2l0IiwiaXNwIjp0cnVlLCJleHBpcmVfYXQiOjE3ODI0NTQyMDB9&signature=jgVrmLJuRYANyGFgIfgrR8eJgimWOGuo_6ewWbkpcxw"
-            ]
-          }
-        ]
-      },
+    {
+      "name": "高清直播",
+      "type": 0,
+      "url": "https://raw.giteeusercontent.com/OscarWilde/itv/raw/master/tv.txt?metadata=eyJyIjoibWFzdGVyIiwiZnAiOiJ0di50eHQiLCJwaWQiOjQ2MDIxNzI3LCJzdG8iOiJnaXQtc2hhcmRpbmctc3RvLTEwdC0wMDEiLCJycCI6InJlcG9zL2E4LzU2L2E4NTY1MzYyNjJmYWM5YTNkOWQwYmU1OGQzNjdjNDdjMTNkYmRkOTI0YWRiOTNmZTg5YzhjOWY1NzM4ZDU0ZDEuZ2l0IiwiaXNwIjp0cnVlLCJleHBpcmVfYXQiOjE3ODI0NTQyMDB9&signature=jgVrmLJuRYANyGFgIfgrR8eJgimWOGuo_6ewWbkpcxw",
+      "playerType": 2,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "饭太硬直播",
       "type": 0,
