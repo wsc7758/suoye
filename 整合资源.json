@@ -172,7 +172,7 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/荐片.js",
       "timeout": 6,
       "playerType": 2,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "style": {
@@ -239,7 +239,7 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "timeout": 6,
       "playerType": 2,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "ext": {
@@ -284,7 +284,7 @@
       "api": "csp_WexJianPianGuard",
       "playerType": 2,
       "timeout": 4,
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
@@ -319,7 +319,7 @@
       "type": 3,
       "api": "csp_Wwys",
       "timeout": 4,
-      "searchable": 1,
+      "searchable": 0,
       "filterable": 1,
       "changeable": 1,
       "ext": "https://vip.wwgz.cn:5200",
