@@ -463,12 +463,12 @@
   ],
   "lives": [
     {
-  "name": "摸鱼直播",
-  "type": 0,
-  "url": "https://raw.giteeusercontent.com/OscarWilde/itv/raw/master/tv.txt?metadata=eyJyIjoibWFzdGVyIiwiZnAiOiJ0di50eHQiLCJwaWQiOjQ2MDIxNzI3LCJzdG8iOiJnaXQtc2hhcmRpbmctc3RvLTEwdC0wMDEiLCJycCI6InJlcG9zL2E4LzU2L2E4NTY1MzYyNjJmYWM5YTNkOWQwYmU1OGQzNjdjNDdjMTNkYmRkOTI0YWRiOTNmZTg5YzhjOWY1NzM4ZDU0ZDEuZ2l0IiwiaXNwIjp0cnVlLCJleHBpcmVfYXQiOjE3ODI0NTkwMDB9&signature=JlBzGKxk7jqejgz0svjvHrRl0uJlfqHqL7RIgxm6l9A",
-  "playerType": 2,
-  "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-  "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "name": "摸鱼直播",
+      "type": 0,
+      "url": "https://raw.giteeusercontent.com/OscarWilde/itv/raw/master/tv.txt?metadata=eyJyIjoibWFzdGVyIiwiZnAiOiJ0di50eHQiLCJwaWQiOjQ2MDIxNzI3LCJzdG8iOiJnaXQtc2hhcmRpbmctc3RvLTEwdC0wMDEiLCJycCI6InJlcG9zL2E4LzU2L2E4NTY1MzYyNjJmYWM5YTNkOWQwYmU1OGQzNjdjNDdjMTNkYmRkOTI0YWRiOTNmZTg5YzhjOWY1NzM4ZDU0ZDEuZ2l0IiwiaXNwIjp0cnVlLCJleHBpcmVfYXQiOjE3ODI0NTkwMDB9&signature=JlBzGKxk7jqejgz0svjvHrRl0uJlfqHqL7RIgxm6l9A",
+      "playerType": 2,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "饭太硬直播",
@@ -515,6 +515,15 @@
       "header": {
         "User-Agent": "okHttp/Mod-1.5.0.0"
       }
+    },
+    {
+      "host": "*",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Android TV; DIYP 5.2.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36",
+        "Connection": "keep-alive",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+      }
     }
   ],
   "proxy": [
@@ -534,19 +543,56 @@
     ".*ulivetv.*",
     "188766.xyz",
     "4gtv.tv",
-    "iill.top"
+    "iill.top",
+    "*.index.html",
+    "*.home.html",
+    "*.main.html",
+    "*.redirect",
+    "*.jump",
+    "*.go",
+    "*.top",
+    "*.com/index",
+    "*.com/home",
+    "*.com/main"
   ],
   "hosts": [
     "hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
     "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
     "cdn9.163189.xyz=gcore.jsdelivr.net",
     "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
-    "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+    "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com",
+    "*.index.html=about:blank",
+    "*.home.html=about:blank",
+    "*.main.html=about:blank"
   ],
   "ads": [
     "static-mozai.4gtv.tv"
   ],
   "rules": [
+    {
+      "name": "全局拦截页面自动跳转",
+      "hosts": ["*"],
+      "script": [
+        "Object.defineProperty(window, 'location', {set:function(){}});",
+        "window.location.assign=()=>{};",
+        "window.location.replace=()=>{};",
+        "history.pushState=()=>{};",
+        "history.replaceState=()=>{};",
+        "setTimeout=()=>{};",
+        "setInterval=()=>{};",
+        "document.documentElement.innerHTML = document.documentElement.innerHTML.replace(/meta.*http-equiv.*refresh.*>/gi,\"\");",
+        "document.documentElement.innerHTML = document.documentElement.innerHTML.replace(/<script.*?location.*?<\/script>/gi,\"\");"
+      ]
+    },
+    {
+      "name": "DRPY脚本专用防跳转",
+      "hosts": ["gh-proxy.com","raw.githubusercontent.com","drpy2.min.js"],
+      "script": [
+        "window.location.href=()=>{};",
+        "window.location.reload=()=>{};",
+        "window.open=()=>{};"
+      ]
+    },
     {
       "name": "♻️量非",
       "hosts": [
@@ -623,82 +669,7 @@
       "hosts": [
         "askzycdn",
         "jkunbf",
-        "bfikuncdn",
-        "bfaskcdn"
-      ],
-      "regex": [
-        "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "♻️暴风",
-      "hosts": [
-        "bfengbf.com",
-        "bfzy",
-        "c1"
-      ],
-      "regex": [
-        "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
-        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "♻️农民",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
-      ]
-    },
-    {
-      "name": "♻️火山",
-      "hosts": [
-        "huoshan.com"
-      ],
-      "regex": [
-        "item_id="
-      ]
-    },
-    {
-      "name": "♻️抖音",
-      "hosts": [
-        "douyin.com"
-      ],
-      "regex": [
-        "is_play_url="
-      ]
-    },
-    {
-      "name": "♻️磁力",
-      "hosts": [
-        "magnet"
-      ],
-      "regex": [
-        "最 新",
-        "直 播",
-        "更 新"
-      ]
-    },
-    {
-      "name": "♻️饭团点击",
-      "hosts": [
-        "dadagui",
-        "freeok",
-        "dadagui"
-      ],
-      "script": [
-        "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
-      ]
-    },
-    {
-      "name": "♻️毛驴点击",
-      "hosts": [
-        "www.maolvys.com"
-      ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+        "bfikuncdn"
       ]
     }
   ]
