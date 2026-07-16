@@ -756,9 +756,9 @@
   ],
   "lives": [
     {
-  "name": "摸鱼直播",
+  "name": "家用直播",
   "type": 0,
-  "url": "https://raw.giteeusercontent.com/OscarWilde/itv/raw/master/tv.txt?metadata=eyJyIjoibWFzdGVyIiwiZnAiOiJ0di50eHQiLCJwaWQiOjQ2MDIxNzI3LCJzdG8iOiJnaXQtc2hhcmRpbmctc3RvLTEwdC0wMDEiLCJycCI6InJlcG9zL2E4LzU2L2E4NTY1MzYyNjJmYWM5YTNkOWQwYmU1OGQzNjdjNDdjMTNkYmRkOTI0YWRiOTNmZTg5YzhjOWY1NzM4ZDU0ZDEuZ2l0IiwiaXNwIjp0cnVlLCJleHBpcmVfYXQiOjE3ODI0NTkwMDB9&signature=JlBzGKxk7jqejgz0svjvHrRl0uJlfqHqL7RIgxm6l9A",
+  "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@refs/heads/master/iptv.txt",
   "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
   "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
