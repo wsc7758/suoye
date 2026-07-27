@@ -13,6 +13,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
+      "playerType": 1,
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js"
     },
     {
@@ -21,7 +22,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -33,7 +34,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -45,7 +46,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -57,7 +58,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -69,7 +70,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
@@ -84,6 +85,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
+      "playerType": 1,
       "categories": [
         "动作片",
         "喜剧片",
@@ -122,6 +124,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
+      "playerType": 1,
       "categories": [
         "国产动漫",
         "日韩动漫",
@@ -159,7 +162,7 @@
       "name": "共享官源",
       "type": 3,
       "timeout": 4,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 1,
@@ -171,7 +174,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/荐片.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
@@ -186,7 +189,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
@@ -204,7 +207,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "playerType": 2,
+      "playerType": 1,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
     },
@@ -217,7 +220,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "playerType": 2,
+      "playerType": 1,
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
@@ -230,7 +233,8 @@
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 0,
-      "playurl": "json:https://www.iqiyizyjx.com/?url="
+      "playerType": 1,
+      "playurl": "json:shturl.cc/eYQZhcaNVNHFAlw7eibpe"
     },
     {
       "key": "葫芦",
@@ -238,7 +242,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
@@ -256,7 +260,7 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "timeout": 6,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
@@ -282,7 +286,7 @@
       "name": "共享贱片",
       "type": 3,
       "api": "csp_WexJianPianGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -294,7 +298,7 @@
       "name": "共享韩剧",
       "type": 3,
       "api": "csp_WexHanXiaoQuanGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -306,7 +310,7 @@
       "name": "共享独播",
       "type": 3,
       "api": "csp_WexDuBoKuGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -318,6 +322,7 @@
       "name": "共享火云",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/hy.js",
+      "playerType": 1,
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
     },
     {
@@ -325,7 +330,7 @@
       "name": "共享伊影",
       "type": 3,
       "api": "csp_WexYiYsGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -337,7 +342,7 @@
       "name": "共享热播",
       "type": 3,
       "api": "csp_WexReBoGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -349,7 +354,7 @@
       "name": "分享短剧一",
       "type": 3,
       "api": "csp_DuanJuQiMiaoGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -361,7 +366,7 @@
       "name": "共享短剧二",
       "type": 3,
       "api": "csp_DuanJuHaoKanGuard",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
@@ -398,7 +403,7 @@
     {
       "name": "解析5",
       "type": 1,
-      "url": "http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b205a5cb972ae8950cfd78&url="
+      "url": "http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b58ba9f999373450f3651af7&url="
     },
     {
       "name": "解析6",
@@ -595,7 +600,7 @@
     {
       "name": "嗅探1",
       "type": 0,
-      "url": " https://jx.789jiexi.net:4433/?url="
+      "url": "shturl.cc/5GqqrwMZRhBzoCEcT9ZhzmSb"
     },
     {
       "name": "嗅探2",
@@ -728,7 +733,7 @@
       "name": "AdGuard",
       "url": "https://dns.adguard.com/dns-query",
       "ips": [
-        "94.140.14.140",
+        "94.140.140.140",
         "94.140.14.141"
       ]
     },
@@ -742,7 +747,7 @@
     },
     {
       "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-query",
+      "url": "https://dns.quad9.net/dns-quer",
       "ips": [
         "9.9.9.9",
         "149.112.112.112"
