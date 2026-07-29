@@ -541,6 +541,16 @@
     },
     {
       "name": "解析18",
+      "type": 0,
+      "url": "https://jx.789jiexi.com/?url="
+    },
+    {
+      "name": "解析19",
+      "type": 0,
+      "url": "https://jx.789jiexi.net:4433/?url="
+    },
+    {
+      "name": "解析20",
       "type": 1,
       "url": "https://zy.qiaoji8.com/neibu.php?url=",
       "ext": {
@@ -568,7 +578,7 @@
       }
     },
     {
-      "name": "解析19",
+      "name": "解析21",
       "type": 1,
       "url": "https://zy.qiaoji8.com/gouzi.php?url=",
       "ext": {
