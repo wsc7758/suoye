@@ -756,16 +756,16 @@
   ],
   "lives": [
     {
-      "name": "家用直播",
+      "name": "家用直播1",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@refs/heads/master/iptv.txt",
+      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv-auto-selector@refs/heads/main/output/iptv.m3u",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "饭太硬直播",
+      "name": "家用直播2",
       "type": 0,
-      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@refs/heads/master/iptv.txt",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
