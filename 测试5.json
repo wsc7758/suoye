@@ -490,62 +490,25 @@
     {
       "name": "解析14",
       "type": 1,
-      "url": "http://mg.itufm.top/mg.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905",
-          "QD4K",
-          "iyf",
-          "duanju",
-          "gzcj",
-          "GTV",
-          "GZYS",
-          "weggz",
-          "Ace"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
+      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
     },
     {
       "name": "解析15",
       "type": 1,
-      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
-    },
-    {
-      "name": "解析16",
-      "type": 1,
       "url": "http://1.94.221.189:88/algorithm.php?url="
     },
     {
-      "name": "解析17",
+      "name": "解析16",
       "type": 0,
       "url": "https://jx.789jiexi.com/?url="
     },
     {
-      "name": "解析18",
+      "name": "解析17",
       "type": 0,
       "url": "https://jx.789jiexi.net:4433/?url="
     },
     {
-      "name": "解析19",
+      "name": "解析18",
       "type": 1,
       "url": "https://zy.qiaoji8.com/neibu.php?url=",
       "ext": {
@@ -573,7 +536,7 @@
       }
     },
     {
-      "name": "解析20",
+      "name": "解析19",
       "type": 1,
       "url": "https://zy.qiaoji8.com/gouzi.php?url=",
       "ext": {
