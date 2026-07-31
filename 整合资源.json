@@ -694,7 +694,7 @@
     {
       "name": "家用直播1",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv-auto-selector@refs/heads/main/output/iptv.m3u",
+      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/iptv.txt",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
