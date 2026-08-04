@@ -2,25 +2,25 @@
   "spider": "https://img2.gelonghui/library/e2693-9aa941a0-f96a-40c2-ac23-e6af358d19a7.png;md5;e2693c58ebc58abecc7282b721db79ca",
   "wallpaper": "",
   "logo": "http://feimao.pro/fm.gif",
-  "jar": "https://gh-pro.com/https://d.kstore.dev/download/4127/Jar/分享者0.zip",
+  "jar": "https://mirror.ghproxy.com/https://d.kstore.dev/download/4127/Jar/分享者0.zip",
   "sites": [
     {
       "key": "豆瓣",
       "name": "🍎小苹果主线路",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 4,
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
       "playerType": 1,
-      "ext": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js"
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js"
     },
     {
       "key": "腾讯视频",
       "name": "🍎小苹果线路一",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 4,
       "playerType": 1,
       "searchable": 1,
@@ -32,7 +32,7 @@
       "key": "爱奇艺",
       "name": "🍎小苹果线路二",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 4,
       "playerType": 1,
       "searchable": 1,
@@ -44,7 +44,7 @@
       "key": "芒果视频",
       "name": "🍎小苹果线路三",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 4,
       "playerType": 1,
       "searchable": 1,
@@ -56,7 +56,7 @@
       "key": "哔哩视频JS",
       "name": "🍎小苹果线路四",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 4,
       "playerType": 1,
       "searchable": 1,
@@ -68,7 +68,7 @@
       "key": "优酷视频",
       "name": "🍎小苹果线路五",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
       "timeout": 4,
       "playerType": 1,
       "searchable": 1,
@@ -116,7 +116,7 @@
       "key": "荐片采集",
       "name": "共享荐片",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/荐片.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/main/laozhang/荐片.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 0,
@@ -127,7 +127,7 @@
       "key": "js_en_gf",
       "name": "共享官方",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/alantang1977/X/main/py/en_gf.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 0,
@@ -143,7 +143,7 @@
       "quickSearch": 0,
       "changeable": 1,
       "playerType": 1,
-      "jar": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+      "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
     },
     {
@@ -155,7 +155,7 @@
       "quickSearch": 0,
       "changeable": 1,
       "playerType": 1,
-      "jar": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+      "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
@@ -174,25 +174,25 @@
       "key": "葫芦",
       "name": "共享葫芦",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "ext": {"host":"https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/main/JS/maccos_config.txt","key":"8R33VQSxzmCaHpEX","init":"V122","api":"2","ua":"okhttp/3.10.0"}
+      "ext": {"host":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/maccos_config.txt","key":"8R33VQSxzmCaHpEX","init":"V122","api":"2","ua":"okhttp/3.10.0"}
     },
     {
       "key": "雄鹰",
       "name": "共享雄鹰",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "ext": {"host":"https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/main/JS/xly.txt","key":"ca94b06ca359d80e","init":"V120","api":"2","ua":"okhttp/3.10.0"},
+      "ext":{"host":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/xly.txt","key":"ca94b06ca359d80e","init":"V120","api":"2","ua":"okhttp/3.10.0"},
       "categories": ["动漫","电视剧","电影","综艺","短剧","少儿","纪录片"]
     },
     {
@@ -235,7 +235,7 @@
       "key": "火云",
       "name": "共享火云",
       "type": 3,
-      "api": "https://gh-pro.com/https://raw.githubusercontent.com/maoystv/6/main/JS/hy.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/hy.js",
       "playerType": 1,
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
     },
@@ -300,17 +300,17 @@
     {"name":"解析5","type":1,"url":"http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b58ba9f999373450f3651af7&url="},
     {"name":"解析11","type":0,"url":"https://jx.2s0.cn/player/?url="},
     {"name":"解析12","type":0,"url":"https://yparse.ik9.cc/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux;Android13;wv) AppleWebKit/537.36 Chrome/116.0.0.0 MobileSafari/537.36"}}},
-    {"name":"解析13","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}},
+    {"name":"解析13","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
     {"name":"解析14","type":1,"url":"https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="},
     {"name":"解析15","type":1,"url":"http://1.94.221.189:88/algorithm.php?url="},
-    {"name":"解析16","type":0,"url":"shturl.cc/JuQiCbc7lmUW32LReTt"},
-    {"name":"解析17","type":0,"url":"shturl.cc/UShNBMdWyZKEqsbOaclKAl4B"},
+    {"name":"解析16","type":0,"url":"shturl.cc/G9paGPaQODDUO5gYRxt"},
+    {"name":"解析17","type":0,"url":"shturl.cc/jpBVK95syIpXfDHsviFAfT6C"},
     {"name":"解析18","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","mgtv","bilibili"],"header":{"User-Agent":"okhttp/4.9.1"}}},
     {"name":"解析19","type":1,"url":"https://zy.qiaoji8.com/gouzi.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","mgtv","bilibili","NetFilx"],"header":{"User-Agent":"okhttp/4.9.1"}}},
     {"name":"嗅探1","type":0,"url":"shturl.cc/5GqqrwMZRhBzoCEcT9ZhzmSb"},
     {"name":"嗅探2","type":0,"url":"http://154.44.26.196/player/qu.php?v="},
-    {"name":"解析虾米","type":0,"url":"httpsjx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}},
-    {"name":"解析西瓜","type":0,"url":"https://t1.qlplayer.cyou/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","mgtv","bilibili","xigua"],"header":{"User-Agent":"Dart/3.0(dart:io)"}},
+    {"name":"解析虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
+    {"name":"解析西瓜","type":0,"url":"https://t1.qlplayer.cyou/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","mgtv","bilibili","xigua"],"header":{"User-Agent":"Dart/3.0(dart:io)"}}},
     {"name":"解析夜幕","type":0,"url":"https://www.yemu.xyz/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","youku","mgtv","bilibili","xigua"],"header":{"User-Agent":"Dart/3.0(dart:io)"}}
   ],
   "doh": [
@@ -321,8 +321,8 @@
     {"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]}
   ],
   "lives": [
-    {"name":"家用直播1","type":0,"url":"https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/iptv.txt","epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","timeout":3,"cache":true},
-    {"name":"家用直播2","type":0,"url":"https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/tv.txt","epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","timeout":3,"cache":true}
+    {"name":"家用直播1","type":0,"url":"https://mirror.ghproxy.com/https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/iptv.txt","epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","timeout":3,"cache":true},
+    {"name":"家用直播2","type":0,"url":"https://mirror.ghproxy.com/https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/tv.txt","epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","timeout":3,"cache":true}
   ],
   "headers": [
     {"host":"test1.12321app.com","header":{"User-Agent":"Mozilla/5.0 (Android TV) Chrome/120.0 Mobile"}},
@@ -353,7 +353,9 @@
     "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
     "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
   ],
-  "ads": ["static-mozai.4gtv.tv"],
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ],
   "rules": [
     {"name":"♻️量非","hosts":["lz","vip.lz","v.cdnlz","hd.lz","ffzy","vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
     {"name":"♻️索尼","hosts":["suonizy","qrssv.com"],"regex":["15.1666","15.2666"]},
