@@ -295,7 +295,7 @@
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "http://v.rbotv.cn"
-    }, 
+    },
     {
       "key": "csp_SaoHuo",
       "name": "共享火火",
@@ -320,7 +320,8 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "genre": "shortdrama"
+      "genre": "shortdrama",
+      "jar": "https://ym.wya6.cn/tz/wyxs.php;md5;d9a914ae0f3011147acd6dd9fad660b2"
     },
     {
       "key": "围观短剧",
@@ -331,7 +332,8 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "genre": "shortdrama"
+      "genre": "shortdrama",
+      "jar": "https://ym.wya6.cn/tz/wyxs.php;md5;d9a914ae0f3011147acd6dd9fad660b2"
     }
   ],
   "parses": [
