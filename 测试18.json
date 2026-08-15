@@ -2,7 +2,7 @@
   "spider": "",
   "wallpaper": "",
   "logo": "http://feimao.pro/fm.gif",
-  "jar": "https://d.kstore.dev/download/4127/Jar/分享者0.zip",
+  "jar": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/jar/drpy-self.jar",
   "sites": [
     {
       "key": "豆瓣",
@@ -310,7 +310,7 @@
       "name": "共享农民",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/xbpq (3).jar",
+      "jar": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/jar/xbpq (3).jar",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/XBPQ/分享农民.json"
     },
     {
