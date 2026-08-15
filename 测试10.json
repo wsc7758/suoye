@@ -321,7 +321,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "genre": "shortdrama",
-      "ext": "https://ym.wya6.cn/tz/wyxs.php;md5;d9a914ae0f3011147acd6dd9fad660b2"
+      "jar": "https://ym.wya6.cn/tz/wyxs.php;md5;d9a914ae0f3011147acd6dd9fad660b2"
     },
     {
       "key": "围观短剧",
@@ -333,7 +333,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "genre": "shortdrama",
-      "ext": "https://ym.wya6.cn/tz/wyxs.php;md5;d9a914ae0f3011147acd6dd9fad660b2"
+      "jar": "https://ym.wya6.cn/tz/wyxs.php;md5;d9a914ae0f3011147acd6dd9fad660b2"
     }
   ],
   "parses": [
