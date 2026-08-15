@@ -8,73 +8,73 @@
       "key": "豆瓣",
       "name": "🍎小苹果主线路",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
       "playerType": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/JS/分享douban.js"
+      "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/分享douban.js"
     },
     {
       "key": "腾讯视频",
       "name": "🍎小苹果线路一",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://kong88.dpdns.org/lib/腾讯视频.js"
+      "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/腾讯视频.js"
     },
     {
       "key": "爱奇艺",
       "name": "🍎小苹果线路二",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://kong88.dpdns.org/lib/爱奇艺.js"
+      "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/爱奇艺.js"
     },
     {
       "key": "芒果视频",
       "name": "🍎小苹果线路三",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://kong88.dpdns.org/lib/芒果视频.js"
+      "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/芒果视频.js"
     },
     {
       "key": "哔哩视频JS",
       "name": "🍎小苹果线路四",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://kong88.dpdns.org/lib/哔哩视频.js"
+      "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/哔哩视频.js"
     },
     {
       "key": "优酷视频",
       "name": "🍎小苹果线路五",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://kong88.dpdns.org/lib/优酷视频.js"
+      "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/优酷视频.js"
     },
     {
       "key": "量子-资源",
