@@ -282,42 +282,6 @@
       ]
     },
     {
-      "key": "賤賤",
-      "name": "共享贱片",
-      "type": 3,
-      "api": "csp_WexJianPianGuard",
-      "playerType": 1,
-      "timeout": 4,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
-    },
-    {
-      "key": "WexHanXiaoQuan",
-      "name": "共享韩剧",
-      "type": 3,
-      "api": "csp_WexHanXiaoQuanGuard",
-      "playerType": 1,
-      "timeout": 4,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
-    },
-    {
-      "key": "WexDuBoKu",
-      "name": "共享独播",
-      "type": 3,
-      "api": "csp_WexDuBoKuGuard",
-      "playerType": 1,
-      "timeout": 4,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
-    },
-    {
       "key": "火云",
       "name": "共享火云",
       "type": 3,
@@ -326,52 +290,141 @@
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0526/13/3c2fe19f3ae9dcf760356cb9e958ef48.jpg"
     },
     {
-      "key": "WexYiYs",
-      "name": "共享伊影",
+      "key": "潮流",
+      "name": "共享潮流",
       "type": 3,
-      "api": "csp_WexYiYsGuard",
-      "playerType": 1,
-      "timeout": 4,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+      "api": "csp_AppRJ",
+      "ext": "http://v.rbotv.cn"
+    }, 
+    {
+      "key": "csp_SaoHuo",
+      "name": "共享火火",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "playerType": 2,
+      "ext": "https://shdy5.us"
     },
     {
-      "key": "WexReBo",
-      "name": "共享热播",
+      "key": "csp_Gz360",
+      "name": "共享瓜子",
       "type": 3,
-      "api": "csp_WexReBoGuard",
-      "playerType": 1,
-      "timeout": 4,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/657103b89c5c7dda0a68a2517ef92464.jar"
+      "api": "csp_Gz360",
+      "playerType": 2
     },
     {
-      "key": "DuanJuQiMiao",
-      "name": "分享短剧一",
+      "key": "csp_XBPQ_红果短剧",
+      "name": "共享红果短剧",
       "type": 3,
-      "api": "csp_DuanJuQiMiaoGuard",
-      "playerType": 1,
-      "timeout": 4,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.jinyanw.com/type/{cateId}-{catePg}.html",
+        "分类": "有声动漫$youshengdongman#女频恋爱$nvpinlianai#翻转爽剧$fanzhuanshuangju#古装仙侠$guzhuangxianxia#年代穿越$niandaichuanyue#脑洞悬疑$naodongxuanyi#现代都市$xiandaidushi"
+      }
+    },
+     {
+      "key": "爱看4K",
+      "name": "共享4K短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://wo.ikan4k.com/index.php/vod/show/id/31.html",
+        "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+        "数组": "module-item-pic&&module-item\"",
+        "标题": "title=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "副标题": "✨+item-text\">&&<",
+        "线路数组": "dropdown&&</div>",
+        "线路标题": "✨乐哥推荐✨+<span>&&</+【共+<small>&&<+集】",
+        "播放数组": "id=\"sort-item&&</div>",
+        "播放列表": "<a&&a>",
+        "播放链接": "href=\"&&\"",
+        "播放标题": "✨+<span>&&</",
+        "搜索模式": "1",
+        "搜索url": "https://wo.ikan4k.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
+        "简介": "✨指间的黑客为您介绍剧情✨+vod_content\">&&</span>",
+        "分类url": "https://wo.ikan4k.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+        "分类": "女频恋爱$32#反转爽剧$33#脑洞悬疑$34#年代穿越$35#古装仙侠$36#现代都市$37"
+      }
+    },
+    
+    {
+      "key": "儿童",
+      "name": "📚┃儿童┃启蒙",
+      "type": 3,
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
     },
     {
-      "key": "DuanJuHaoKan",
-      "name": "共享短剧二",
+      "key": "csp_少儿",
+      "name": "📚┃少儿┃教育",
       "type": 3,
-      "api": "csp_DuanJuHaoKanGuard",
-      "playerType": 1,
-      "timeout": 4,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/6c46906d73cf795a4027e08817665e71.txt"
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_小学",
+      "name": "📚┃小学┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_初中",
+      "name": "📚┃初中┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_高中",
+      "name": "📚┃高中┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
     }
   ],
   "parses": [
