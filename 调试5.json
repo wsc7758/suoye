@@ -585,7 +585,7 @@
       }
     ],
     
-    "spider": "https://gitee.com/utalee/spider/raw/master/nx3.ja",
+    "spider": "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/jar/custom_spider.jar",
     "wallpaper": "",
     "logo":"",
     "doh": [
