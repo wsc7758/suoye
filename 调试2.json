@@ -585,7 +585,7 @@
       }
     ],
     
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/spider.jar",
+    "spider": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/jar/drpy-self.jar",
     "wallpaper": "",
     "logo":"",
     "doh": [
