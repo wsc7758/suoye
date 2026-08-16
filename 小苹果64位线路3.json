@@ -1,5 +1,5 @@
 {
-  "jar": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/drpy2.min.js",
+  "spider": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py/w.jar",
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
@@ -95,9 +95,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/MrFixtPqbENqvWaqyMCXqNwvpCky20b7S1TIFjSWYl3FzRSF3AC",
+        "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
         "headers": {
-          "Referer": "shturl.cc/BNjc4OEeuabb"
+          "Referer": "https://api.wsyzy.net/"
         }
       },
       "searchable": 1,
@@ -129,7 +129,7 @@
       "ext": {
         "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
         "headers": {
-          "Referer": "https://www.hongniuzy2.com/"
+          "Referer": "https://hongniuzy2.com/"
         }
       },
       "searchable": 1,
@@ -175,9 +175,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/uBKZP0dZQDrZP1ZZzfBVwwKJSsWL3x7mz5iFbJri3k",
+        "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "shturl.cc/AO1DZHqTCcMU7w"
+          "Referer": "https://www.mdzyapi.com/"
         }
       },
       "searchable": 1,
@@ -191,9 +191,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/PF6MfPpi1s9CvShuleeTFPMwqOTvxXjrj6xjt9QaEHcL3qpHqs1SL",
+        "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
         "headers": {
-          "Referer": "shturl.cc/adSzNkvmFfLB4M"
+          "Referer": "https://caiji.dbzy5.com/"
         }
       },
       "searchable": 1,
@@ -223,9 +223,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/wsfwai5lSs24zs16Cc0ci0wK3FH8WXJ03A2kC3U",
+        "api": "https://www.yxxq26.cc/api.php/provide/vod/at/xml/",
         "headers": {
-          "Referer": "shturl.cc/1Sle7Wsb"
+          "Referer": "https://yxxq26.cc/"
         }
       },
       "searchable": 1,
@@ -415,9 +415,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/i9QkY2A6k8lAqapi.php/provide/vod/from/rym3u8/at/xml/",
+        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
         "headers": {
-          "Referer": "shturl.cc/i9QkY2A6k8lAq"
+          "Referer": "https://cj.rycjapi.com/"
         }
       },
       "searchable": 1,
@@ -431,9 +431,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/YE9X5cC6CFJiwapi.php/provide/vod",
+        "api": "https://iqiyizyapi.com/api.php/provide/vod",
         "headers": {
-          "Referer": "shturl.cc/YE9X5cC6CFJiw"
+          "Referer": "https://iqiyizyapi.com/"
         }
       },
       "searchable": 1,
@@ -443,13 +443,13 @@
     },
     {
       "key": "haohua",
-      "name": "豪华资源(快速)",
+      name": "豪华资源(快速)",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/4WblB8pMJ3GxJQktU2NP4WWzJhjLThX53m2Uj7AuooexRgPA",
+        "api": "https://hhzyapi.com/api.php/provide/vod/from/hym3u8/at/xml",
         "headers": {
-          "Referer": "shturl.cc/64dTEmJXj7"
+          "Referer": "https://hhzyapi.com/"
         }
       },
       "searchable": 1,
@@ -463,9 +463,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/FF1sFkZehIhzTqUXVGapi.php/provide/vod/from/dyttm3u8/at/xml/",
+        "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
         "headers": {
-          "Referer": "shturl.cc/FF1sFkZehIhzTqUXVG"
+          "Referer": "https://caiji.dyttzyapi.com/"
         }
       },
       "searchable": 1,
@@ -591,9 +591,9 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "shturl.cc/DSbv9b0spCnFirIQf34NiPYJQNoLm3TAhyrFTXrz",
+        "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "shturl.cc/BNjc4OEeuabb"
+          "Referer": "https://api.wsyzy.net/"
         }
       },
       "searchable": 1,
@@ -671,7 +671,7 @@
     },
     {
       "name": "🚀超级解析3",
-      "url": "shturl.cc/3p9r9CjINLvhxW7",
+      "url": "https://3p9r9CjINLvhxW7",
       "type": 1,
       "priority": 3
     },
