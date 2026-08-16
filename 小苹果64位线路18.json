@@ -11,14 +11,7 @@
       "name": "家用直播",
       "type": 0,
       "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/iptv.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "电视台直播",
-      "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/tv.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
