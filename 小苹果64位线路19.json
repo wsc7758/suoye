@@ -716,25 +716,60 @@
     {
       "name": "解析3",
       "type": 1,
-      "url": "https://api.jxapi.cc/api/?key=6e4acf058180b58cbdb0106aa5cdb1e2&url="
+      "url": "https://json.xophp.com/api/?key=5492ef7d5a1646338426e2f45b8c8e0d&url="
     },
     {
       "name": "解析4",
+      "type": 1,
+      "url": "https://player.gimy.bot/u/parse.php?url="
+    },
+    {
+      "name": "解析5",
+      "type": 1,
+      "url": "http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b58ba9f999373450f3651af7&url="
+    },
+    {
+      "name": "解析6",
+      "type": 1,
+      "url": "https://api.jxapi.cc/api/?key=6e4acf058180b58cbdb0106aa5cdb1e2&url="
+    },
+    {
+      "name": "解析7",
+      "type": 1,
+      "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7&url="
+    },
+    {
+      "name": "解析8",
+      "type": 1,
+      "url": "http://111.170.140.70:1332/?url="
+    },
+    {
+      "name": "解析9",
+      "type": 1,
+      "url": "http://jiexi.69mini.com/api/?key=5cc632accf2f4b27a417b89c8edf69c7&url="
+    },
+    {
+      "name": "解析10",
+      "type": 1,
+      "url": "http://111.170.140.70:1332/?url="
+    },
+    {
+      "name": "解析11",
       "type": 0,
       "url": "https://jx.2s0.cn/player/?url="
     },
     {
-      "name": "解析5",
+      "name": "解析12",
       "type": 0,
-      "url": "https://jx.789jiexi.com/?url="
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
+        }
+      }
     },
     {
-      "name": "解析6",
-      "type": 0,
-      "url": "https://jx.789jiexi.net:4433/?url="
-    },
-    {
-      "name": "解析7",
+      "name": "解析13",
       "type": 0,
       "url": "https://jx.yparse.com/index.php?url=",
       "ext": {
@@ -744,9 +779,107 @@
       }
     },
     {
-      "name": "解析8",
+      "name": "解析14",
+      "type": 1,
+      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
+    },
+    {
+      "name": "解析15",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url="
+    },
+    {
+      "name": "解析16",
       "type": 0,
-      "url": "https://www.yemu.xyz/?url=",
+      "url": "https://jx.789jiexi.com/?url="
+    },
+    {
+      "name": "解析17",
+      "type": 0,
+      "url": "https://jx.789jiexi.net:4433/?url="
+    },
+    {
+      "name": "解析18",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/neibu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "解析19",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "NetFilx"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "嗅探1",
+      "type": 0,
+      "url": "shturl.cc/5GqqrwMZRhBzoCEcT9ZhzmSb"
+    },
+    {
+      "name": "嗅探2",
+      "type": 0,
+      "url": "http://154.44.26.196/player/qu.php?v="
+    },
+    {
+      "name": "解析虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+    {
+      "name": "解析西瓜",
+      "type": 0,
+      "url": "https://t1.qlplayer.cyou/player/?url=",
       "ext": {
         "flag": [
           "qq",
@@ -790,37 +923,48 @@
       }
     },
     {
-      "name": "解析9",
-      "type": 1,
-      "url": "https://player.gimy.bot/u/parse.php?url="
-    },
-    {
-      "name": "解析10",
-      "type": 1,
-      "url": "http://jiexi.69mini.com/api/?key=5cc632accf2f4b27a417b89c8edf69c7&url="
-    },
-    {
-      "name": "解析11",
-      "type": 1,
-      "url": "http://111.170.140.70:1332/?url="
-    },
-    {
-      "name": "解析12",
+      "name": "解析夜幕",
       "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
+      "url": "https://www.yemu.xyz/?url=",
       "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ],
         "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-        }
-      }
-    },
-    {
-      "name": "解析虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+          "User-Agent": "Dart/3.0(dart:io)"
         }
       }
     }
