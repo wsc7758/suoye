@@ -1371,7 +1371,7 @@
       "quickSearch": 0
     }
   ],
-  "spider": "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/jar/custom_spider.jar",
+  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
