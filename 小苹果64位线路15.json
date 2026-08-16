@@ -1,8 +1,27 @@
 {
   "spider": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+  "warning": "本接口仅用于个人测试，如有收费请勿相信！",
+  "warningText": "本接口仅用于个人测试，如有收费请勿相信！",
+  "warningTime": 3,
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
+  "lives": [
+    {
+      "name": "家用直播",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/iptv.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "电视台直播",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/tv.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
   "sites": [
     {
       "key": "豆瓣",
@@ -77,8 +96,86 @@
       "ext": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/优酷视频.js"
     },
     {
-      "key": "maoyan1",
+      "key": "feifan",
       "name": "🍎小苹果线路六",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+        "headers": {
+          "Referer": "https://api.ffzyapi.com/"
+        }
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1,
+      "categories": [
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "短剧",
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "爱情片",
+        "喜剧片",
+        "动漫片",
+        "纪录片",
+        "大陆综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "伦理片"
+      ]
+    },
+    {
+      "key": "liangzi",
+      "name": "🍎小苹果线路七",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "短剧"
+      ]
+    },
+    {
+      "key": "maoyan1",
+      "name": "🍎小苹果线路八",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
@@ -93,45 +190,12 @@
       "playerType": 1
     },
     {
-      "key": "liangzi",
-      "name": "🍎小苹果线路七",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
-      "ext": {
-        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json/",
-        "headers": { "Referer": "https://cj.lziapi.com/" }
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 3,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "记录片", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "短剧"]
-    },
-    {
-      "key": "feifan",
-      "name": "🍎小苹果线路八",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
-      "ext": {
-        "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/json/",
-        "headers": { "Referer": "https://api.ffzyapi.com/" }
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 1,
-      "categories": ["国产剧", "欧美剧", "香港剧", "韩国剧", "短剧", "动作片", "科幻片", "恐怖片", "战争片", "爱情片", "喜剧片", "动漫片", "纪录片", "大陆综艺", "港台综艺", "欧美综艺", "国产动漫", "日韩动漫", "伦理片"]
-    },
-    {
-      "key": "tianya",
-      "name": "🍎小苹果线路九",
+      "key": "renren",
+      "name": "共享人人",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://ty.tyyszy5.com/"
-        }
+        "api": "http://43.139.196.163:31308/gather/json"
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -155,155 +219,14 @@
       "playerType": 1
     },
     {
-      "key": "renren",
-      "name": "共享人人",
+      "key": "suoni",
+      "name": "共享索尼",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "http://43.139.196.163:31308/gather/json"
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "yinghua",
-      "name": "共享樱花",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+        "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
         "headers": {
-          "Referer": "https://m3u8.apiyhzy.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "wushuiyin2",
-      "name": "共享无水印2",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.wsyzy.net/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "zuida",
-      "name": "共享最大",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.zuidapi.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "360ziyuan",
-      "name": "共享360",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/xml",
-        "headers": {
-          "Referer": "https://360zyzz.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "niuniu",
-      "name": "共享牛牛",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
-        "headers": {
-          "Referer": "https://api.niuniuzy.me/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "xinlang",
-      "name": "共享新浪",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/",
-        "headers": {
-          "Referer": "https://api.xinlangapi.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "uku",
-      "name": "共享U酷",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.ukuapi88.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "wushuiyin1",
-      "name": "共享无水印",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
-        "headers": {
-          "Referer": "https://api.wsyzy.net/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "ok",
-      "name": "共享OK",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.okzyw.net/"
+          "Referer": "https://suoniapi.com/"
         }
       },
       "searchable": 1,
@@ -328,14 +251,62 @@
       "playerType": 1
     },
     {
-      "key": "guangsu",
-      "name": "共享光速",
+      "key": "uku",
+      "name": "共享U酷",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+        "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "https://api.guangsuapi.com/"
+          "Referer": "https://api.ukuapi88.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "tianya",
+      "name": "共享天涯",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
+        "headers": {
+          "Referer": "https://ty.tyyszy5.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "360ziyuan",
+      "name": "共享360",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/xml",
+        "headers": {
+          "Referer": "https://360zyzz.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "yinghua",
+      "name": "共享樱花",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+        "headers": {
+          "Referer": "https://m3u8.apiyhzy.com/"
         }
       },
       "searchable": 1,
@@ -345,7 +316,7 @@
     },
     {
       "key": "aiqiyi",
-      "name": "共享爱奇艺",
+      "name": "共享奇艺",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
@@ -376,14 +347,14 @@
       "playerType": 1
     },
     {
-      "key": "subo",
-      "name": "共享速播",
+      "key": "baidu",
+      "name": "共享百度",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml",
+        "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "https://subocj.com/"
+          "Referer": "https://api.apibdzy.com/"
         }
       },
       "searchable": 1,
@@ -392,14 +363,46 @@
       "playerType": 1
     },
     {
-      "key": "jinying",
-      "name": "共享金鹰",
+      "key": "guangsu",
+      "name": "共享光速",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+        "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
         "headers": {
-          "Referer": "https://jyzyapi.com/"
+          "Referer": "https://api.guangsuapi.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "shandian",
+      "name": "共享闪电",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
+        "headers": {
+          "Referer": "https://sdzyapi.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "xinlang",
+      "name": "共享新浪",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/",
+        "headers": {
+          "Referer": "https://api.xinlangapi.com/"
         }
       },
       "searchable": 1,
@@ -424,17 +427,81 @@
       "playerType": 1
     },
     {
-      "key": "douban",
-      "name": "共享豆瓣",
+      "key": "dianyingtiantang",
+      "name": "共享天堂",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
+        "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
         "headers": {
-          "Referer": "https://caiji.dbzy5.com/"
+          "Referer": "https://caiji.dyttzyapi.com/"
         }
       },
       "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "modu",
+      "name": "共享魔都",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+        "headers": {
+          "Referer": "https://www.mdzyapi.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "jinying",
+      "name": "共享金鹰",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+        "headers": {
+          "Referer": "https://jyzyapi.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "baofeng",
+      "name": "共享暴风",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://bfzyapi.com/api.php/provide/vod/",
+        "headers": {
+          "Referer": "https://bfzyapi.com/"
+        }
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "maotai",
+      "name": "共享茅台",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+        "headers": {
+          "Referer": "https://caiji.maotaizy.cc/"
+        }
+      },
+      "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -450,20 +517,20 @@
           "Referer": "https://www.huyaapi.com/"
         }
       },
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
     },
     {
-      "key": "baidu",
-      "name": "共享百度",
+      "key": "wushuiyin2",
+      "name": "共享无水",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+        "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "https://api.apibdzy.com/"
+          "Referer": "https://api.wsyzy.net/"
         }
       },
       "searchable": 0,
@@ -472,14 +539,14 @@
       "playerType": 1
     },
     {
-      "key": "shandian",
-      "name": "共享闪电",
+      "key": "douban",
+      "name": "共享豆瓣",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
+        "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
         "headers": {
-          "Referer": "https://sdzyapi.com/"
+          "Referer": "https://caiji.dbzy5.com/"
         }
       },
       "searchable": 0,
@@ -488,14 +555,14 @@
       "playerType": 1
     },
     {
-      "key": "suoni",
-      "name": "共享索尼",
+      "key": "zuida",
+      "name": "共享最大",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
+        "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "https://suoniapi.com/"
+          "Referer": "https://api.zuidapi.com/"
         }
       },
       "searchable": 0,
@@ -520,14 +587,14 @@
       "playerType": 1
     },
     {
-      "key": "baofeng",
-      "name": "共享暴风",
+      "key": "subo",
+      "name": "共享速播",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://bfzyapi.com/api.php/provide/vod/",
+        "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml",
         "headers": {
-          "Referer": "https://bfzyapi.com/"
+          "Referer": "https://subocj.com/"
         }
       },
       "searchable": 0,
@@ -536,14 +603,14 @@
       "playerType": 1
     },
     {
-      "key": "modu",
-      "name": "共享魔都",
+      "key": "niuniu",
+      "name": "共享牛牛",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+        "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
         "headers": {
-          "Referer": "https://www.mdzyapi.com/"
+          "Referer": "https://api.niuniuzy.me/"
         }
       },
       "searchable": 0,
@@ -552,14 +619,14 @@
       "playerType": 1
     },
     {
-      "key": "dianyingtiantang",
-      "name": "共享天堂",
+      "key": "ok",
+      "name": "共享OK",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+        "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
         "headers": {
-          "Referer": "https://caiji.dyttzyapi.com/"
+          "Referer": "https://api.okzyw.net/"
         }
       },
       "searchable": 0,
@@ -568,20 +635,73 @@
       "playerType": 1
     },
     {
-      "key": "maotai",
-      "name": "共享茅台",
+      "key": "wushuiyin1",
+      "name": "共享水印",
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+        "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
         "headers": {
-          "Referer": "https://caiji.maotaizy.cc/"
+          "Referer": "https://api.wsyzy.net/"
         }
       },
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
+    },
+    {
+      "key": "wujin",
+      "name": "共享无尽",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://api.wujinapi.com/api.php/provide/vod/from/wjm3u8/at/xml/"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1,
+      "categories": [
+        "电影",
+        "连续剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "台湾剧",
+        "美国剧",
+        "伦理片",
+        "纪录片",
+        "韩国剧",
+        "日本剧",
+        "海外剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "悬疑片",
+        "动画片",
+        "犯罪片",
+        "奇幻片",
+        "泰剧",
+        "体育赛事",
+        "影视解说",
+        "短剧",
+        "港台动漫",
+        "海外动漫",
+        "预告片"
+      ]
     }
   ],
   "ijk": [
@@ -765,60 +885,25 @@
     {
       "name": "解析3",
       "type": 1,
-      "url": "https://json.xophp.com/api/?key=5492ef7d5a1646338426e2f45b8c8e0d&url="
-    },
-    {
-      "name": "解析4",
-      "type": 1,
-      "url": "https://player.gimy.bot/u/parse.php?url="
-    },
-    {
-      "name": "解析5",
-      "type": 1,
-      "url": "http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b58ba9f999373450f3651af7&url="
-    },
-    {
-      "name": "解析6",
-      "type": 1,
       "url": "https://api.jxapi.cc/api/?key=6e4acf058180b58cbdb0106aa5cdb1e2&url="
     },
     {
-      "name": "解析7",
-      "type": 1,
-      "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7&url="
-    },
-    {
-      "name": "解析8",
-      "type": 1,
-      "url": "http://111.170.140.70:1332/?url="
-    },
-    {
-      "name": "解析9",
-      "type": 1,
-      "url": "http://jiexi.69mini.com/api/?key=5cc632accf2f4b27a417b89c8edf69c7&url="
-    },
-    {
-      "name": "解析10",
-      "type": 1,
-      "url": "http://111.170.140.70:1332/?url="
-    },
-    {
-      "name": "解析11",
+      "name": "解析4",
       "type": 0,
       "url": "https://jx.2s0.cn/player/?url="
     },
     {
-      "name": "解析12",
+      "name": "解析5",
       "type": 0,
-      "url": "https://yparse.ik9.cc/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
-        }
-      }
+      "url": "https://jx.789jiexi.com/?url="
     },
     {
-      "name": "解析13",
+      "name": "解析6",
+      "type": 0,
+      "url": "https://jx.789jiexi.net:4433/?url="
+    },
+    {
+      "name": "解析7",
       "type": 0,
       "url": "https://jx.yparse.com/index.php?url=",
       "ext": {
@@ -828,151 +913,7 @@
       }
     },
     {
-      "name": "解析14",
-      "type": 1,
-      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
-    },
-    {
-      "name": "解析15",
-      "type": 1,
-      "url": "http://1.94.221.189:88/algorithm.php?url="
-    },
-    {
-      "name": "解析16",
-      "type": 0,
-      "url": "https://jx.789jiexi.com/?url="
-    },
-    {
-      "name": "解析17",
-      "type": 0,
-      "url": "https://jx.789jiexi.net:4433/?url="
-    },
-    {
-      "name": "解析18",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/neibu.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "解析19",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/gouzi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905",
-          "NetFilx"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "嗅探1",
-      "type": 0,
-      "url": "shturl.cc/5GqqrwMZRhBzoCEcT9ZhzmSb"
-    },
-    {
-      "name": "嗅探2",
-      "type": 0,
-      "url": "http://154.44.26.196/player/qu.php?v="
-    },
-    {
-      "name": "解析虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
-    },
-    {
-      "name": "解析西瓜",
-      "type": 0,
-      "url": "https://t1.qlplayer.cyou/player/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "企鹅",
-          "IQiYi",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "YouKu",
-          "优酷",
-          "sohu",
-          "SoHu",
-          "搜狐",
-          "letv",
-          "LeShi",
-          "乐视",
-          "imgo",
-          "mgtv",
-          "MangGuo",
-          "芒果",
-          "SLYS4k",
-          "BYGA",
-          "luanzi",
-          "AliS",
-          "dxzy",
-          "bilibili",
-          "QEYSS",
-          "xigua",
-          "西瓜视频",
-          "腾讯视频",
-          "奇艺视频",
-          "优酷视频",
-          "芒果视频",
-          "乐视视频"
-        ],
-        "header": {
-          "User-Agent": "Dart/3.0(dart:io)"
-        }
-      }
-    },
-    {
-      "name": "解析夜幕",
+      "name": "解析8",
       "type": 0,
       "url": "https://www.yemu.xyz/?url=",
       "ext": {
@@ -1014,6 +955,41 @@
         ],
         "header": {
           "User-Agent": "Dart/3.0(dart:io)"
+        }
+      }
+    },
+    {
+      "name": "解析9",
+      "type": 1,
+      "url": "https://player.gimy.bot/u/parse.php?url="
+    },
+    {
+      "name": "解析10",
+      "type": 1,
+      "url": "http://jiexi.69mini.com/api/?key=5cc632accf2f4b27a417b89c8edf69c7&url="
+    },
+    {
+      "name": "解析11",
+      "type": 1,
+      "url": "http://111.170.140.70:1332/?url="
+    },
+    {
+      "name": "解析12",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
+        }
+      }
+    },
+    {
+      "name": "解析虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
         }
       }
     }
@@ -1124,6 +1100,5 @@
     "tajs.qq.com",
     "qq.com"
   ],
-  "lives": [],
-  "wallpaper": ""
+  "wallpaper": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/wallpaper.jpg"
 }
