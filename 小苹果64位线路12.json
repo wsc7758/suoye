@@ -5,7 +5,7 @@
       "key": "feifan",
       "name": "🍎小苹果主线路",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
         "headers": {
@@ -43,7 +43,7 @@
       "key": "suoni",
       "name": "🍎小苹果线路一",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
         "headers": {
@@ -60,7 +60,7 @@
       "key": "liangzi",
       "name": "🍎小苹果线路二",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
         "headers": {
@@ -77,7 +77,7 @@
       "key": "niuniu",
       "name": "🍎小苹果线路三",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
         "headers": {
@@ -94,7 +94,7 @@
       "key": "wushuiyin1",
       "name": "🍎小苹果线路四",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
         "headers": {
@@ -111,7 +111,7 @@
       "key": "xigua",
       "name": "🍎小苹果线路五",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
         "headers": {
@@ -128,7 +128,7 @@
       "key": "hongniu",
       "name": "🍎小苹果线路六",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
         "headers": {
@@ -145,7 +145,7 @@
       "key": "jinying",
       "name": "🍎小苹果线路七",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
         "headers": {
@@ -162,7 +162,7 @@
       "key": "baidu",
       "name": "🍎小苹果线路八",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -179,7 +179,7 @@
       "key": "modu",
       "name": "🍎小苹果线路九",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -196,7 +196,7 @@
       "key": "douban",
       "name": "🍎小苹果线路十",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
+      "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean1.js",
       "ext": {
         "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
         "headers": {
