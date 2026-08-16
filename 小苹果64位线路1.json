@@ -1,5 +1,5 @@
 {
-  "jar": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py/w.jar",
+  "jar": ""jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/w.jar"",
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
