@@ -10,7 +10,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+        "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/json/",
         "headers": { "Referer": "https://api.ffzyapi.com/" }
       },
       "searchable": 1,
@@ -25,7 +25,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
+        "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/json",
         "headers": { "Referer": "https://suoniapi.com/" }
       },
       "searchable": 1,
@@ -40,7 +40,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
+        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json/",
         "headers": { "Referer": "https://cj.lziapi.com/" }
       },
       "searchable": 1,
@@ -55,7 +55,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
+        "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json/",
         "headers": { "Referer": "https://api.niuniuzy.me/" }
       },
       "searchable": 1,
@@ -70,7 +70,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
+        "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/json",
         "headers": { "Referer": "https://api.wsyzy.net/" }
       },
       "searchable": 1,
@@ -85,7 +85,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
+        "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/json/",
         "headers": { "Referer": "https://caiji.xgzyapi.com/" }
       },
       "searchable": 1,
@@ -160,7 +160,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
+        "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
         "headers": { "Referer": "https://caiji.dbzy5.com/" }
       },
       "searchable": 1,
@@ -175,7 +175,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+        "api": "https://api.guangsuapi.com/api.php/provide/vod/at/json",
         "headers": { "Referer": "https://api.guangsuapi.com/" }
       },
       "searchable": 1,
@@ -190,7 +190,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://www.yxxq26.cc/api.php/provide/vod/at/xml/",
+        "api": "https://www.yxxq26.cc/api.php/provide/vod/at/json/",
         "headers": { "Referer": "https://yxxq26.cc/" }
       },
       "searchable": 1,
@@ -265,7 +265,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/",
+        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/json/",
         "headers": { "Referer": "https://api.xinlangapi.com/" }
       },
       "searchable": 1,
@@ -280,7 +280,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/xml/",
+        "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json/",
         "headers": { "Referer": "https://huyaapi.com/" }
       },
       "searchable": 1,
@@ -295,7 +295,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+        "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json/",
         "headers": { "Referer": "https://caiji.maotaizy.cc/" }
       },
       "searchable": 1,
@@ -310,7 +310,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
+        "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/json",
         "headers": { "Referer": "https://api.maoyanapi.top/" }
       },
       "searchable": 1,
@@ -370,7 +370,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
+        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/json/",
         "headers": { "Referer": "https://cj.rycjapi.com/" }
       },
       "searchable": 1,
@@ -400,7 +400,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+        "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/",
         "headers": { "Referer": "https://caiji.dyttzyapi.com/" }
       },
       "searchable": 1,
@@ -415,7 +415,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml",
+        "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/json",
         "headers": { "Referer": "https://subocj.com/" }
       },
       "searchable": 1,
@@ -445,7 +445,7 @@
       "type": 3,
       "api": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/lib/api_clean.js",
       "ext": {
-        "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/xml",
+        "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/json",
         "headers": { "Referer": "https://360zyzz.com/" }
       },
       "searchable": 1,
