@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-pro.com/https://raw.githubusercontent.com/hjdhnx/dr_py/w.jar",
+  "spider": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/jar/drpy2026.jar",
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
