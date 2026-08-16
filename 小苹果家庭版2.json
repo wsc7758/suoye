@@ -1,6 +1,6 @@
 {
   "spider": "",
-  "jar": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+  "jar": "https://cdn.jsdelivr.net/gh/wsc7758/suoye@refs/heads/main/jar/custom_spider.jar",
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
