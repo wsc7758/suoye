@@ -492,7 +492,7 @@
           "Referer": "https://caiji.maotaizy.cc/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -508,7 +508,7 @@
           "Referer": "https://www.huyaapi.com/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -524,7 +524,7 @@
           "Referer": "https://api.wsyzy.net/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -540,7 +540,7 @@
           "Referer": "https://caiji.dbzy5.com/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -556,7 +556,7 @@
           "Referer": "https://api.zuidapi.com/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -572,7 +572,7 @@
           "Referer": "https://hhzyapi.com/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -588,7 +588,7 @@
           "Referer": "https://subocj.com/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -604,7 +604,7 @@
           "Referer": "https://api.niuniuzy.me/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -620,7 +620,7 @@
           "Referer": "https://api.okzyw.net/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -636,7 +636,7 @@
           "Referer": "https://api.wsyzy.net/"
         }
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1
@@ -649,7 +649,7 @@
       "ext": {
         "api": "https://api.wujinapi.com/api.php/provide/vod/from/wjm3u8/at/xml/"
       },
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "playerType": 1,
