@@ -8,7 +8,7 @@
     {
       "name": "家用直播",
       "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/wsc7758/iptv@master/iptv.txt",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/iptv/refs/heads/master/iptv.txt",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
