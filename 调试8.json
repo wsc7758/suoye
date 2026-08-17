@@ -36,7 +36,32 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js",
+      "parse": [
+        {
+          "name": "789解析1",
+          "url": "https://jx.789jiexi.com/?url="
+        },
+        {
+          "name": "789解析2",
+          "url": "https://jx.789jiexi.net:4433/?url="
+        },
+        {
+          "name": "xmflv1",
+          "url": "https://jx.xmflv.com/?url="
+        },
+        {
+          "name": "xmflv2",
+          "url": "https://jx.xmflv.cc/?url="
+        },
+        {
+          "name": "hls解析",
+          "url": "https://jx.hls.one/?url="
+        }
+      ],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
+      }
     },
     {
       "key": "爱奇艺",
