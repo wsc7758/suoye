@@ -30,10 +30,8 @@
       "key": "zonghe_cj1",
       "name": "综合采集源1",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
-      "ext": {
-        "api": "http://cj.10010888.xyz/api.php/provide/vod/"
-    },
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "ext": {https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/五官源.js},
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
