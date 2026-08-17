@@ -90,7 +90,7 @@
       "key": "zonghe_cj1",
       "name": "综合采集源1",
       "type": 3,
-      "parse": "Json并发",
+      "parse": "解析1",
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
       "api": "http://cj.10010888.xyz/api.php/provide/vod/?ac=list"
@@ -104,7 +104,7 @@
       "key": "zonghe_cj2",
       "name": "综合采集源2",
       "type": 3,
-      "parse": "Json并发",
+      "parse": "解析2",
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
       "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list"
@@ -118,7 +118,7 @@
       "key": "zonghe_cj3",
       "name": "综合采集源3",
       "type": 3,
-      "parse": "Json并发",
+      "parse": "解析1",
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/at/json/"
@@ -132,7 +132,7 @@
       "key": "zonghe_cj4",
       "name": "综合采集源4",
       "type": 3,
-      "parse": "Json并发",
+      "parse": "解析2",
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
       "api": "https://zy.jinchanjiexi.net/api.php/provide/vod/?ac=list"
