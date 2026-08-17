@@ -101,18 +101,16 @@
       "playerType": 1
     },
     {
-      "key": "zonghe_cj2",
-      "name": "综合采集源2",
-      "type": 3,
-      "parse": "解析2",
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-      "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list"
-    },
+      "key": "官采",
+      "name": "共享官源",
+      "type": 1,
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
+      "changeable": 1,
+      "playerType": 1,
+      "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1
     },
     {
       "key": "zonghe_cj3",
