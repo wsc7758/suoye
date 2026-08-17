@@ -1,268 +1,229 @@
 {
-  "spider": "https://gh-proxy.org/https://github.com/wsc7758/suoye/blob/main/jar/custom_spider.jar",
-  "notice": "本接口仅用于个人测试，如有收费请勿相信！",
-  "headers": {
-    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
+    "spider": "https://gh-proxy.org/https://github.com/wsc7758/suoye/blob/main/jar/custom_spider.jar",
+    "notice": "本接口仅用于个人测试，如有收费请勿相信！",
+    "headers": {
+      "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
+    },
+    "lives": [
+      {
+        "name": "家用直播",
+        "type": 0,
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/iptv/refs/heads/master/iptv.txt",
+        "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+        "logo": "https://epg.112114.xyz/logo/{name}.png"
+      }
+    ],
+    "sites": [
+      {
+        "key": "豆瓣",
+        "name": "🍎小苹果主线路",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+        "timeout": 6,
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 0,
+        "playerType": 1,
+        "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
+      },
+      {
+        "key": "腾讯视频",
+        "name": "🍎小苹果线路一",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+        "timeout": 6,
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
+      },
+      {
+        "key": "爱奇艺",
+        "name": "🍎小苹果线路二",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+        "timeout": 6,
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/爱奇艺.js"
+      },
+      {
+        "key": "芒果视频",
+        "name": "🍎小苹果线路三",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+        "timeout": 6,
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/芒果视频.js"
+      },
+      {
+        "key": "哔哩视频JS",
+        "name": "🍎小苹果线路四",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+        "timeout": 6,
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/哔哩视频.js"
+      },
+      {
+        "key": "优酷视频",
+        "name": "🍎小苹果线路五",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+        "timeout": 6,
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 1,
+        "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/优酷视频.js"
+      },
+      {
+        "key": "drpy_cms",
+        "name": "DRPY清洗CMS源",
+        "type": 3,
+        "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/官源1.js",
+        "ext": {
+          "api": "http://cj.10010888.xyz/api.php/provide/vod/?ac=list"
+        },
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 1,
+        "playerType": 1
+      }
+    ]
   },
-  "lives": [
-    {
-      "name": "家用直播",
-      "type": 0,
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/iptv/refs/heads/master/iptv.txt",
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
-  "sites": [
-    {
-      "key": "豆瓣",
-      "name": "🍎小苹果主线路",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "playerType": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
+  {
+    "key": "feifan",
+    "name": "🍎小苹果线路六",
+    "type": 3,
+    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+    "ext": {
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+      "headers": {
+        "Referer": "https://api.ffzyapi.com/"
+      }
     },
-    {
-      "key": "腾讯视频",
-      "name": "🍎小苹果线路一",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "playerType": 1,
+    "categories": [
+      "国产剧",
+      "欧美剧",
+      "香港剧",
+      "韩国剧",
+      "短剧",
+      "动作片",
+      "科幻片",
+      "恐怖片",
+      "战争片",
+      "爱情片",
+      "喜剧片",
+      "动漫片",
+      "纪录片",
+      "大陆综艺",
+      "港台综艺",
+      "欧美综艺",
+      "国产动漫",
+      "日韩动漫",
+      "伦理片"
+    ]
+  },
+  {
+    "key": "liangzi",
+    "name": "🍎小苹果线路七",
+    "type": 3,
+    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+    "ext": {
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
     },
-    {
-      "key": "爱奇艺",
-      "name": "🍎小苹果线路二",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/爱奇艺.js"
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1,
+    "playerType": 1,
+    "categories": [
+      "动作片",
+      "喜剧片",
+      "爱情片",
+      "科幻片",
+      "恐怖片",
+      "剧情片",
+      "战争片",
+      "国产剧",
+      "香港剧",
+      "韩国剧",
+      "欧美剧",
+      "记录片",
+      "台湾剧",
+      "日本剧",
+      "海外剧",
+      "泰国剧",
+      "大陆综艺",
+      "港台综艺",
+      "日韩综艺",
+      "欧美综艺",
+      "国产动漫",
+      "日韩动漫",
+      "欧美动漫",
+      "港台动漫",
+      "海外动漫",
+      "短剧"
+    ]
+  },
+  {
+    "key": "maoyan1",
+    "name": "🍎小苹果线路八",
+    "type": 3,
+    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+    "ext": {
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
+      "headers": {
+        "Referer": "https://api.maoyanapi.top/"
+      }
     },
-    {
-      "key": "芒果视频",
-      "name": "🍎小苹果线路三",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/芒果视频.js"
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1,
+    "playerType": 1
+  },
+  {
+    "key": "renren",
+    "name": "共享人人",
+    "type": 3,
+    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+    "ext": {
+      "api": "http://43.139.196.163:31308/gather/json"
     },
-    {
-      "key": "哔哩视频JS",
-      "name": "🍎小苹果线路四",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/哔哩视频.js"
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1,
+    "playerType": 1
+  },
+  {
+    "key": "ruyi",
+    "name": "共享如意",
+    "type": 3,
+    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+    "ext": {
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
+      "headers": {
+        "Referer": "https://cj.rycjapi.com/"
+      }
     },
-    {
-      "key": "优酷视频",
-      "name": "🍎小苹果线路五",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/优酷视频.js"
-    },
-    {
-      "key": "zonghe_cj1",
-      "name": "综合采集源1",
-      "type": 3,
-      "parse": "解析1",
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-      "api": "http://cj.10010888.xyz/api.php/provide/vod/?ac=list"
-    },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "官采",
-      "name": "共享官源",
-      "type": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "playerType": 1,
-      "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "zonghe_cj3",
-      "name": "综合采集源3",
-      "type": 3,
-      "parse": "解析1",
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/at/json/"
-    },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "zonghe_cj4",
-      "name": "综合采集源4",
-      "type": 3,
-      "parse": "解析2",
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-      "api": "https://zy.jinchanjiexi.net/api.php/provide/vod/?ac=list"
-    },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "feifan",
-      "name": "🍎小苹果线路六",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
-        "headers": {
-          "Referer": "https://api.ffzyapi.com/"
-        }
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "categories": [
-        "国产剧",
-        "欧美剧",
-        "香港剧",
-        "韩国剧",
-        "短剧",
-        "动作片",
-        "科幻片",
-        "恐怖片",
-        "战争片",
-        "爱情片",
-        "喜剧片",
-        "动漫片",
-        "纪录片",
-        "大陆综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "伦理片"
-      ]
-    },
-    {
-      "key": "liangzi",
-      "name": "🍎小苹果线路七",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "短剧"
-      ]
-    },
-    {
-      "key": "maoyan1",
-      "name": "🍎小苹果线路八",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
-        "headers": {
-          "Referer": "https://api.maoyanapi.top/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "renren",
-      "name": "共享人人",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "http://43.139.196.163:31308/gather/json"
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "ruyi",
-      "name": "共享如意",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
-        "headers": {
-          "Referer": "https://cj.rycjapi.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1,
+    "playerType": 1
+  }
     {
       "key": "suoni",
       "name": "共享索尼",
