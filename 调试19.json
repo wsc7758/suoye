@@ -31,10 +31,7 @@
       "name": "综合采集源1",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/官源.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_crawler.js",
-      "extCfg": {
-        "api": "http://cj.10010888.xyz/api.php/provide/vod/?ac=list"
-    },
+      "ext": "{\"api\":\"http://cj.10010888.xyz/api.php/provide/vod/?ac=list\"}",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
