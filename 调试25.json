@@ -215,11 +215,11 @@
     },
     {
       "key": "renren",
-      "name": "共享人人",
+      "name": "共享狼狗",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "http://43.139.196.163:31308/gather/json"
+        "api": "http://tc.yeye.asia/api.php/provide/vod/?ac=list"
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -392,7 +392,7 @@
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+        "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/xml/",
         "headers": {
           "Referer": "https://api.guangsuapi.com/"
         }
