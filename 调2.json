@@ -215,11 +215,11 @@
     },
     {
       "key": "renren",
-      "name": "共享狼狗",
+      "name": "共享卧龙",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "http://tc.yeye.asia/api.php/provide/vod/?ac=list"
+        "api": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list"
       },
       "searchable": 1,
       "quickSearch": 0,
