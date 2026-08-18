@@ -87,41 +87,15 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/优酷视频.js"
     },
     {
-      "key": "feifan",
+      "key": "zonghe_cj3",
       "name": "🍎小苹果线路六",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
-        "headers": {
-          "Referer": "https://api.ffzyapi.com/"
-        }
-      },
-      "searchable": 0,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jusj.js",
+      "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "playerType": 1,
-      "categories": [
-        "国产剧",
-        "欧美剧",
-        "香港剧",
-        "韩国剧",
-        "短剧",
-        "动作片",
-        "科幻片",
-        "恐怖片",
-        "战争片",
-        "爱情片",
-        "喜剧片",
-        "动漫片",
-        "纪录片",
-        "大陆综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "伦理片"
-      ]
+      "playerType": 1
     },
     {
       "key": "liangzi",
@@ -165,8 +139,67 @@
       ]
     },
     {
-      "key": "maoyan1",
+      "key": "feifan",
       "name": "🍎小苹果线路八",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
+        "headers": {
+          "Referer": "https://api.ffzyapi.com/"
+        }
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1,
+      "categories": [
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "短剧",
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "爱情片",
+        "喜剧片",
+        "动漫片",
+        "纪录片",
+        "大陆综艺",
+        "港台综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "伦理片"
+      ]
+    },
+    {
+      "key": "zonghe_cj1",
+      "name": "共享综合",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_10010888.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "zonghe_cj2",
+      "name": "共享官源",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jacloud.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
+    },
+    {
+      "key": "maoyan1",
+      "name": "共享魔都",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
@@ -181,12 +214,12 @@
       "playerType": 1
     },
     {
-      "key": "renren",
-      "name": "共享人人",
+      "key": "taopian1",
+      "name": "共享鸭鸭",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "http://43.139.196.163:31308/gather/json"
+        "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list"
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -359,7 +392,7 @@
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml",
+        "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/xml/",
         "headers": {
           "Referer": "https://api.guangsuapi.com/"
         }
