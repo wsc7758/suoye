@@ -98,19 +98,8 @@
       "playerType": 1
     },
     {
-      "key": "zonghe_cj1",
-      "name": "🍎小苹果线路七",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_10010888.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "liangzi",
-      "name": "🍎小苹果线路八",
+      "name": "🍎小苹果线路七",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
@@ -151,7 +140,7 @@
     },
     {
       "key": "feifan",
-      "name": "共享非凡",
+      "name": "🍎小苹果线路八",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
@@ -185,6 +174,17 @@
         "日韩动漫",
         "伦理片"
       ]
+    },
+    {
+      "key": "zonghe_cj1",
+      "name": "共享综合",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_10010888.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "playerType": 1
     },
     {
       "key": "zonghe_cj2",
