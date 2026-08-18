@@ -215,11 +215,11 @@
     },
     {
       "key": "taopian1",
-      "name": "共享淘片",
+      "name": "共享鸭鸭",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://taopianapi.com/cjapi/mc10/vod/json/m3u8.html"
+        "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list"
       },
       "searchable": 1,
       "quickSearch": 0,
