@@ -109,15 +109,45 @@
       "playerType": 1
     },
     {
-      "key": "zonghe_cj2",
+      "key": "liangzi",
       "name": "🍎小苹果线路八",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jaclou.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "ext": {
+        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
+      },
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "playerType": 1
+      "playerType": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "短剧"
+      ]
     },
     {
       "key": "feifan",
@@ -157,45 +187,15 @@
       ]
     },
     {
-      "key": "liangzi",
-      "name": "共享量子",
+      "key": "zonghe_cj2",
+      "name": "共享官源",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
-      "ext": {
-        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
-      },
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jacloud.js",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
-      "playerType": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "短剧"
-      ]
+      "playerType": 1
     },
     {
       "key": "maoyan1",
