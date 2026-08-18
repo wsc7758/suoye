@@ -215,11 +215,11 @@
     },
     {
       "key": "renren",
-      "name": "共享卧龙",
+      "name": "共享酒吧",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
       "ext": {
-        "api": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list"
+        "api": "https://98zy.vip/api.php/provide/vod/at/json/"
       },
       "searchable": 1,
       "quickSearch": 0,
