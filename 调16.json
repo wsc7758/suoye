@@ -39,8 +39,8 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
     },
     {
-      "key": "zonghe_cj2",
-      "name": "共享官源",
+      "key": "qiwei",
+      "name": "共享七味",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/七味.js",
