@@ -39,6 +39,18 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
     },
     {
+      "key": "欢喜",
+      "name": "欢喜视频",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "timeout": 6,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/欢喜.js"
+    },
+    {
       "key": "爱奇艺",
       "name": "🍎小苹果线路二",
       "type": 3,
