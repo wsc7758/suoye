@@ -27,18 +27,6 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
     },
     {
-      "key": "腾讯视频",
-      "name": "🍎小苹果线路一",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
-    },
-    {
       "key": "qiwei_new_0826",
       "name": "七味NEW(直链)",
       "type": 3,
@@ -49,6 +37,18 @@
       "filterable": 0,
       "playerType": 1,
       "bookmark": 0
+    },
+    {
+      "key": "腾讯视频",
+      "name": "🍎小苹果线路一",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "timeout": 6,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频.js"
     },
     {
       "key": "爱奇艺",
@@ -213,7 +213,7 @@
       "key": "maoyan1",
       "name": "共享魔都",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
         "headers": {
@@ -229,7 +229,7 @@
       "key": "taopian1",
       "name": "共享鸭鸭",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list"
       },
@@ -242,7 +242,7 @@
       "key": "ruyi",
       "name": "共享如意",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
         "headers": {
@@ -258,7 +258,7 @@
       "key": "suoni",
       "name": "共享索尼",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
         "headers": {
@@ -274,7 +274,7 @@
       "key": "yingxiang",
       "name": "共享影像",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://www.yxxq26.cc/api.php/provide/vod/at/xml/",
         "headers": {
@@ -290,7 +290,7 @@
       "key": "uku",
       "name": "共享U酷",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -306,7 +306,7 @@
       "key": "tianya",
       "name": "共享天涯",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -322,7 +322,7 @@
       "key": "360ziyuan",
       "name": "共享360",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://360zyzz.com/api.php/provide/vod/from/360m3u8/at/xml",
         "headers": {
@@ -338,7 +338,7 @@
       "key": "yinghua",
       "name": "共享樱花",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -354,7 +354,7 @@
       "key": "aiqiyi",
       "name": "共享奇艺",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://iqiyizyapi.com/api.php/provide/vod",
         "headers": {
@@ -370,7 +370,7 @@
       "key": "hongniu",
       "name": "共享红牛",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
         "headers": {
@@ -386,7 +386,7 @@
       "key": "baidu",
       "name": "共享百度",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -402,7 +402,7 @@
       "key": "guangsu",
       "name": "共享光速",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/xml/",
         "headers": {
@@ -418,7 +418,7 @@
       "key": "shandian",
       "name": "共享闪电",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -434,7 +434,7 @@
       "key": "xinlang",
       "name": "共享新浪",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/",
         "headers": {
@@ -450,7 +450,7 @@
       "key": "xigua",
       "name": "共享西瓜",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
         "headers": {
@@ -466,7 +466,7 @@
       "key": "dianyingtiantang",
       "name": "共享天堂",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
         "headers": {
@@ -482,7 +482,7 @@
       "key": "modu",
       "name": "共享魔都",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -498,7 +498,7 @@
       "key": "jinying",
       "name": "共享金鹰",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
         "headers": {
@@ -514,7 +514,7 @@
       "key": "baofeng",
       "name": "共享暴风",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://bfzyapi.com/api.php/provide/vod/",
         "headers": {
@@ -530,7 +530,7 @@
       "key": "maotai",
       "name": "共享茅台",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
         "headers": {
@@ -546,7 +546,7 @@
       "key": "huya",
       "name": "共享虎牙",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/xml/",
         "headers": {
@@ -562,7 +562,7 @@
       "key": "wushuiyin2",
       "name": "共享无水",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
         "headers": {
@@ -578,7 +578,7 @@
       "key": "douban",
       "name": "共享豆瓣",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
         "headers": {
@@ -594,7 +594,7 @@
       "key": "zuida",
       "name": "共享最大",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
         "headers": {
@@ -610,7 +610,7 @@
       "key": "haohua",
       "name": "共享豪华",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/xml",
         "headers": {
@@ -626,7 +626,7 @@
       "key": "subo",
       "name": "共享速播",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://subocj.com/api.php/provide/vod/from/subm3u8/at/xml",
         "headers": {
@@ -642,7 +642,7 @@
       "key": "niuniu",
       "name": "共享牛牛",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml/",
         "headers": {
@@ -658,7 +658,7 @@
       "key": "ok",
       "name": "共享OK",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
         "headers": {
@@ -674,7 +674,7 @@
       "key": "wushuiyin1",
       "name": "共享水印",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
         "headers": {
@@ -690,7 +690,7 @@
       "key": "wujin",
       "name": "共享无尽",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://api.wujinapi.com/api.php/provide/vod/from/wjm3u8/at/xml/"
       },
