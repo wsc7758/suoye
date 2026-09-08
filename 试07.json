@@ -27,6 +27,16 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
     },
     {
+      "key": "饭搭子", 
+      "name": "饭搭子|饭搭子影视", 
+      "type": 3, 
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js", 
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/fdzys.js", 
+      "searchable": 1, 
+      "quickSearch": 0, 
+      "changeable": 1
+    },
+    {
       "key": "qiwei_new_0908",
       "name": "七味NEW(直链)",
       "type": 3,
