@@ -74,7 +74,7 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/优酷视频.js"
     },
     {
-      "key": "hongguo",
+      "key": "hongguo_v3",
       "name": "红果短剧|红果|hongguo",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
