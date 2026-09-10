@@ -771,6 +771,36 @@
       "name": "解析1",
       "type": 1,
       "url": "https://test1.12321app.com/daoliansiquanjia.php?url="
+    },
+    {
+      "name": "解析2",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
+        }
+      }
+    },
+    {
+      "name": "解析3",
+      "type": 1,
+      "url": "https://player.gimy.bot/u/parse.php?url="
+    },
+    {
+      "name": "解析4",
+      "type": 1,
+      "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7&url="
+    },
+    {
+      "name": "解析5",
+      "type": 0,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
     }
   ],
   "doh": [
@@ -1012,4 +1042,3 @@
     "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
   ]
 }
-  
