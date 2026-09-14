@@ -101,7 +101,7 @@
       "key": "liangzi",
       "name": "🍎小苹果线路七",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
       },
@@ -142,7 +142,7 @@
       "key": "feifan",
       "name": "🍎小苹果线路八",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v2.js",
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
         "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
         "headers": {
