@@ -4,7 +4,15 @@
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
-  "lives": [],
+  "lives": [
+    {
+      "name": "",
+      "type": 0,
+      "url": "",
+      "epg": "",
+      "logo": ""
+    }
+  ],
   "sites": [
     {
       "key": "豆瓣",
