@@ -4,15 +4,7 @@
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
   },
-  "lives": [
-    {
-      "name": "家用直播",
-      "type": 0,
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/iptv/refs/heads/master/iptv.txt",
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
+  "lives": [],
   "sites": [
     {
       "key": "豆瓣",
