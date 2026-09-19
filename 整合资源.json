@@ -27,20 +27,8 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
     },
     {
-      "key": "腾讯视频",
-      "name": "🍎小苹果线路一",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/腾讯视频1.js"
-    },
-    {
       "key": "爱奇艺",
-      "name": "🍎小苹果线路二",
+      "name": "🍎小苹果线路一",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
@@ -52,7 +40,7 @@
     },
     {
       "key": "芒果视频",
-      "name": "🍎小苹果线路三",
+      "name": "🍎小苹果线路二",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
@@ -64,7 +52,7 @@
     },
     {
       "key": "哔哩视频JS",
-      "name": "🍎小苹果线路四",
+      "name": "🍎小苹果线路三",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
@@ -76,7 +64,7 @@
     },
     {
       "key": "优酷视频",
-      "name": "🍎小苹果线路五",
+      "name": "🍎小苹果线路四",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "timeout": 6,
@@ -88,7 +76,7 @@
     },
     {
       "key": "zonghe_cj3",
-      "name": "🍎小苹果线路六",
+      "name": "🍎小苹果线路五",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jusj.js",
@@ -99,7 +87,7 @@
     },
     {
       "key": "liangzi",
-      "name": "🍎小苹果线路七",
+      "name": "🍎小苹果线路六",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
@@ -140,7 +128,7 @@
     },
     {
       "key": "feifan",
-      "name": "🍎小苹果线路八",
+      "name": "🍎小苹果线路七",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
       "ext": {
@@ -177,7 +165,7 @@
     },
     {
       "key": "zonghe_cj1",
-      "name": "共享综合",
+      "name": "🍎小苹果线路八",
       "type": 3,
       "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_10010888.js",
