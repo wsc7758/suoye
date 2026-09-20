@@ -215,22 +215,6 @@
       "playerType": 1
     },
     {
-      "key": "ruyi",
-      "name": "共享如意",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
-      "ext": {
-        "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/at/xml/",
-        "headers": {
-          "Referer": "https://cj.rycjapi.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
       "key": "suoni",
       "name": "共享索尼",
       "type": 3,
@@ -447,22 +431,6 @@
         "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
         "headers": {
           "Referer": "https://caiji.dyttzyapi.com/"
-        }
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1
-    },
-    {
-      "key": "modu",
-      "name": "共享魔都",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cms_spider_v3.js",
-      "ext": {
-        "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://www.mdzyapi.com/"
         }
       },
       "searchable": 1,
