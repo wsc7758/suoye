@@ -103,6 +103,18 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/懂片帝1.js"
     },
     {
+      "key": "360kan",
+      "name": "🍎360影视",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "timeout": 20,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/360kan.js"
+    },
+    {
       "key": "zonghe_cj2",
       "name": "共享官源",
       "type": 3,
