@@ -92,6 +92,16 @@
       ]
     },
     {
+      "key": "dp17",
+      "name": "共享懂片",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+      "searchable": 2,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/懂片帝17.js"
+    },
+    {
       "key": "zonghe_cj2",
       "name": "共享官源",
       "type": 3,
