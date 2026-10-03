@@ -316,20 +316,6 @@
       }
     },
     {
-      "key": "piaoling",
-      "name": "飘零资源",
-      "type": 0,
-      "api": "https://p2100.net/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 25,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://p2100.net/"
-      }
-    },
-    {
       "key": "aiqiyi",
       "name": "奇艺资源",
       "type": 1,
