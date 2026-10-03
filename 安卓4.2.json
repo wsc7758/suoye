@@ -274,20 +274,6 @@
       }
     },
     {
-      "key": "maoyan1",
-      "name": "猫眼资源",
-      "type": 0,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 21,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://api.maoyanapi.top/"
-      }
-    },
-    {
       "key": "tianya",
       "name": "天涯资源",
       "type": 1,
@@ -397,20 +383,6 @@
       "headers": {
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
         "Referer": "https://subocj.com/"
-      }
-    },
-    {
-      "key": "baofeng",
-      "name": "暴风资源",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "sort": 31,
-      "headers": {
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)",
-        "Referer": "https://bfzyapi.com/"
       }
     },
     {
