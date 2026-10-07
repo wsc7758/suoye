@@ -1,0 +1,254 @@
+{
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/drpy2.min.js",
+    "headers": {
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
+    },
+    "notice": "🚀 摸鱼整合资源·极速优化版\n⚡ CatVod原生爬虫 + 国内镜像加速\n📢 本接口仅用于个人测试，如有收费请勿相信！",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🍎豆瓣推荐",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "爱奇艺",
+            "name": "🥝爱奇艺",
+            "type": 3,
+            "api": "csp_IQIYI",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "芒果TV",
+            "name": "🥭芒果TV",
+            "type": 3,
+            "api": "csp_Mango",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "哔哩",
+            "name": "🅱哔哩哔哩",
+            "type": 3,
+            "api": "csp_Bilibili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "优酷",
+            "name": "👑优酷",
+            "type": 3,
+            "api": "csp_Youku",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "量子",
+            "name": "⚡量子资源",
+            "type": 3,
+            "api": "csp_Lzzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "非凡",
+            "name": "🎯非凡资源",
+            "type": 3,
+            "api": "csp_FFzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "暴风",
+            "name": "🌪️暴风资源",
+            "type": 3,
+            "api": "csp_Bfzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "索尼",
+            "name": "🎵索尼资源",
+            "type": 3,
+            "api": "csp_Sozy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "360",
+            "name": "🔍360资源",
+            "type": 3,
+            "api": "csp_360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "虎牙",
+            "name": "🐯虎牙直播",
+            "type": 3,
+            "api": "csp_Huya",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "原创",
+            "name": "👒原创影视",
+            "type": 3,
+            "api": "csp_YCyzGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃南瓜影视",
+            "type": 3,
+            "api": "csp_NanGua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "🏭厂长资源",
+            "type": 3,
+            "api": "csp_Czzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "低端",
+            "name": "⬇️低端影视",
+            "type": 3,
+            "api": "csp_Ddys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "剧迷",
+            "name": "🎬剧迷影视",
+            "type": 3,
+            "api": "csp_Jumi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "快看",
+            "name": "👀快看影视",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "饭团",
+            "name": "🍙饭团影视",
+            "type": 3,
+            "api": "csp_Fantuan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "魔都",
+            "name": "🏙️魔都影视",
+            "type": 3,
+            "api": "csp_Modi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "无忧",
+            "name": "🌤️无忧影视",
+            "type": 3,
+            "api": "csp_WuYoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        }
+    ],
+    "parses": [
+        {
+            "name": "🚀主推解析",
+            "type": 1,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "♻️备用解析",
+            "type": 1,
+            "url": "https://jx.bozrc.com:4433/player/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        }
+    ],
+    "doh": [
+        {
+            "name": "🌐阿里云DNS",
+            "url": "https://dns.alidns.com/dns-query",
+            "ip": "223.5.5.5"
+        },
+        {
+            "name": "🌐114DNS",
+            "url": "https://doh.114.so/dns-query",
+            "ip": "1.12.12.12"
+        }
+    ],
+    "rules": [
+        {
+            "name": "♻️量子广告",
+            "hosts": ["lz", "vip.lz", "v.cdnlz", "hd.lz"],
+            "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+        },
+        {
+            "name": "♻️非凡广告",
+            "hosts": ["ffzy", "vip.ffzy", "hd.ffzy"],
+            "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.555555,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+        },
+        {
+            "name": "♻️索尼广告",
+            "hosts": ["suonizy", "qrssv.com"],
+            "regex": ["15.1666", "15.2666"]
+        }
+    ],
+    "flags": ["youku", "qq", "QQ", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "PPTV", "mgtv", "mangguo", "imgo", "bilibili", "bili", "Bili"],
+    "ads": [
+        "vip.lz",
+        "hd.lz",
+        "ffzy",
+        "sdzy",
+        "suonizy"
+    ],
+    "wallpaper": "",
+    "logo": "",
+    "proxy": [],
+    "hosts": {}
+}
