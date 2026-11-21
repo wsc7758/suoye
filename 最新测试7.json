@@ -75,16 +75,18 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "zonghe_cj3",
+      "key": "AppRJ",
       "name": "🍎小苹果线路五",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jusj.js",
+      "api": "csp_AppRJ",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
+      "ext": {
+        "url": "http://v.rbotv.cn",
+        "block": "[\r\n  \"线路二(点击切换)\",\r\n  \"CO4K\"\r\n]"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
       "key": "liangzi",
@@ -171,28 +173,25 @@
       "timeout": 10
     },
     {
-      "key": "zonghe_cj1",
-      "name": "🍎小苹果线路八",
+      "key": "Gz360",
+      "name": "共享瓜子",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_10010888.js",
+      "api": "csp_Gz360",
       "searchable": 1,
-      "quickSearch": 0,
       "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "zonghe_cj2",
-      "name": "共享官源",
+      "key": "Jianpian",
+      "name": "共享荐片",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/cj_jacloud.js",
+      "api": "csp_Jianpian",
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
+      "ext": {
+        "site": "https://api.ztcgi.com"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
       "key": "maoyan1",
