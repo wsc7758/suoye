@@ -84,7 +84,9 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": "https://lzzyapi.com/api.php/provide/vod/"
+        "api": "https://lzzyapi.com/api.php/provide/vod/",
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -129,7 +131,9 @@
         "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.ffzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 0,
       "quickSearch": 0,
@@ -182,7 +186,7 @@
       "playerType": 1,
       "timeout": 10
     },
-     {
+    {
       "key": "jianan",
       "name": "共享建安",
       "type": 3,
@@ -191,7 +195,9 @@
         "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/at/json/",
         "headers": {
           "Referer": "http://154.219.117.232:9981"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -208,7 +214,9 @@
         "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://www.moduzy6.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -222,7 +230,9 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list"
+        "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -239,7 +249,9 @@
         "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://suoniapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -256,7 +268,9 @@
         "api": "https://www.yxxq26.cc/api.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://www.yxxq26.cc/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -273,7 +287,9 @@
         "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.ukuapi88.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -290,7 +306,9 @@
         "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://ty.tyyszy5.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -307,7 +325,9 @@
         "api": "https://360zyzz.com/api.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://360zyzz.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -324,7 +344,9 @@
         "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://m3u8.apiyhzy.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -341,7 +363,9 @@
         "api": "https://www.iqiyizyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://iqiyizyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -355,10 +379,12 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": " https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
+        "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://www.hongniuzy2.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -375,7 +401,9 @@
         "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.apibdzy.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -392,7 +420,9 @@
         "api": "http://43.139.196.163:31308/gather/json",
         "headers": {
           "Referer": "https://www.rrys.cc/movielist"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -409,7 +439,9 @@
         "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://sdzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -423,10 +455,12 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": "https://api.xinlangapi.me/xinlangapi.php/provide/vod/josn",
+        "api": "https://api.xinlangapi.me/xinlangapi.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://api.xinlangapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -443,7 +477,9 @@
         "api": "https://caiji.xgzyapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://caiji.xgzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -460,7 +496,9 @@
         "api": "https://api.dyttcj.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://caiji.dyttzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -477,7 +515,9 @@
         "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
         "headers": {
           "Referer": "https://jyzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -494,7 +534,9 @@
         "api": "https://apibfzy.com/api.php/provide/vod/",
         "headers": {
           "Referer": "https://bfzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -508,10 +550,12 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": "https://caiji.maotai999.vip/api.php/provide/vod/at/josn/",
+        "api": "https://caiji.maotai999.vip/api.php/provide/vod/at/json/",
         "headers": {
           "Referer": "https://caiji.maotaizy.cc/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -528,7 +572,9 @@
         "api": "https://www.huyaapi.com/api.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://www.huyaapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -545,7 +591,9 @@
         "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.wsyzy.net/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -562,7 +610,9 @@
         "api": "https://ikunzyapi.com/api.php/provide/vod",
         "headers": {
           "Referer": "https://ikunzy.cc/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -579,7 +629,9 @@
         "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.zuidapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -593,10 +645,12 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": " https://hhzyapi.com/api.php/provide/vod/at/json",
+        "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://hhzyapi.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -613,7 +667,9 @@
         "api": "https://subocj.com/api.php/provide/vod/at/json",
         "headers": {
           "Referer": "https://subocj.com/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -630,7 +686,9 @@
         "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
         "headers": {
           "Referer": "https://api.niuniuzy.me/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -647,7 +705,9 @@
         "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.okzyw.net/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -664,7 +724,9 @@
         "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.wsyzy.net/"
-        }
+        },
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -678,7 +740,9 @@
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
-        "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list"
+        "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
+        "autoSwitchLine": true,
+        "probeTimeout": 2000
       },
       "searchable": 1,
       "quickSearch": 0,
@@ -734,9 +798,9 @@
       "url": "Parallel"
     },
     {
-      "name": "解析1",
+      "name": "解析4",
       "type": 1,
-      "url": "https://test1.12321app.com/daoliansiquanjia.php?url="
+      "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7&url="
     },
     {
       "name": "解析2",
@@ -747,16 +811,6 @@
           "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
         }
       }
-    },
-    {
-      "name": "解析3",
-      "type": 1,
-      "url": "https://player.gimy.bot/u/parse.php?url="
-    },
-    {
-      "name": "解析4",
-      "type": 1,
-      "url": "https://api.huaqi.pro/api/?key=5bd0db7c858ba9f999373450f3651af7&url="
     },
     {
       "name": "解析5",
