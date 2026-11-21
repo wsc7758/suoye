@@ -1,5 +1,5 @@
 {
-  "spider": "",
+  "spider": "http://118.89.172.248:8025/jar/tan.php",
   "notice": "本接口仅用于个人测试，如有收费请勿相信！",
   "headers": {
     "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; TVBox_takagen99_20260227-1116-armeabi-generic-java)"
@@ -19,52 +19,60 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
     },
     {
-      "key": "爱奇艺",
+      "key": "YunDuo",
       "name": "🍎小苹果线路一",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
+      "api": "csp_YunDuo",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/爱奇艺.js"
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "block": "[\r\n  \"PO蓝光\",\r\n  \"CO4K\",\r\n  \"ZJ4k\",\r\n  \"NB蓝光\"\r\n]"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "芒果视频",
+      "key": "Dubk",
       "name": "🍎小苹果线路二",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
+      "api": "csp_Dubk",
       "searchable": 1,
-      "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/芒果视频.js"
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "哔哩视频JS",
+      "key": "AppDramaPingguo",
       "name": "🍎小苹果线路三",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
+      "api": "csp_AppDrama",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/哔哩视频.js"
+      "ext": {
+        "appName": "小苹果",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "1.0.0.3",
+        "decrypt": "1",
+        "danmu": "True",
+        "danmu_api": "https://dm.211.li/nonay"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "优酷视频",
+      "key": "JinPai",
       "name": "🍎小苹果线路四",
       "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "timeout": 6,
-      "playerType": 1,
+      "api": "csp_JinPai",
       "searchable": 1,
-      "quickSearch": 0,
       "filterable": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/优酷视频.js"
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
       "key": "zonghe_cj3",
@@ -1035,7 +1043,7 @@
   "wallpaper": "",
   "logo": "",
   "proxy": [
-    "raw.githubusercontent.com",
+    "raw.githubusercontent.com\r\n    ",
     "googlevideo.com",
     "cdn.v82u1l.com",
     "cdn.iz8qkg.com",
