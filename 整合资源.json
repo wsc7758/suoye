@@ -182,17 +182,101 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "Jianpian",
-      "name": "共享荐片",
+      "key": "DongPian",
+      "name": "共享懂片",
       "type": 3,
-      "api": "csp_Jianpian",
+      "api": "csp_DongPian",
       "searchable": 1,
-      "quickSearch": 0,
-      "ext": {
-        "site": "https://api.ztcgi.com"
-      },
+      "filterable": 0,
       "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
+    }，
+    {
+      "key": "DyXia",
+      "name": "🍂┃影侠┃影视",
+      "type": 3,
+      "api": "csp_DyXia",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+      "blockedFroms": "[\r\n  \"4K\"\r\n]"
+     },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    }，
+    {
+      "key": "橘子",
+      "name": "🍂┃橘子┃影视",
+      "type": 3,
+      "api": "csp_AppDramaV5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.asjdhjhd.mgd.p3",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+        "version": "3.0.7.0",
+        "decrypt": "1"
+      },
+       "jar": "http://118.89.172.248:8025/jar/tan.php"
+    }，
+    {
+       "key": "AppV7_Dsx",
+       "name": "🍂┃师兄┃影视",
+       "type": 3,
+       "api": "csp_DaShiXiong",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "ext": "",
+       "jar": "http://118.89.172.248:8025/jar/tan.php"
+    }，
+    {
+       "key": "Gulu",
+       "name": "🍂┃咕噜┃影视",
+       "type": 3,
+       "api": "csp_Gulu",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "jar": "http://118.89.172.248:8025/jar/tan.php"
+    }，
+    {
+       "key": "MTV",
+       "name": "🎧┃明星┃MV",
+       "type": 3,
+       "api": "csp_Bili",
+       "searchable": 0,
+       "quickSearch": 0,
+       "filterable": 0,
+       "ext": "https://z.qiqiv.cn/666/json/MTV.json",
+       "jar": "http://118.89.172.248:8025/jar/tan.php"
+    }，
+    {
+       "key": "相声小品",
+       "name": "🏮┃相声┃小品",
+       "type": 3,
+       "api": "csp_Bili",
+       "searchable": 0,
+       "quickSearch": 0,
+       "filterable": 0,
+       "ext": "https://z.qiqiv.cn/666/json/Blixs.json",
+       "jar": "http://118.89.172.248:8025/jar/tan.php"
+    }，
+    {
+       "key": "演唱会",
+       "name": "🎸┃演唱会┃MV",
+       "type": 3,
+       "api": "csp_Bili",
+       "searchable": 0,
+       "quickSearch": 0,
+       "filterable": 0,
+       "ext": "https://z.qiqiv.cn/666/json/演唱会.json",
+       "jar": "http://118.89.172.248:8025/jar/tan.php"
+     }，
     {
       "key": "maoyan1",
       "name": "共享魔都",
@@ -219,63 +303,6 @@
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
         "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "suoni",
-      "name": "共享索尼",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://suoniapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "yingxiang",
-      "name": "共享影像",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://www.yxxq26.cc/api.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://www.yxxq26.cc/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "uku",
-      "name": "共享U酷",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.ukuapi88.com/"
-        },
         "autoSwitchLine": true,
         "probeTimeout": 2000
       },
@@ -324,44 +351,6 @@
       "timeout": 10
     },
     {
-      "key": "yinghua",
-      "name": "共享樱花",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://m3u8.apiyhzy.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "aiqiyi",
-      "name": "共享奇艺",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://www.iqiyizyapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://iqiyizyapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
       "key": "hongniu",
       "name": "共享红牛",
       "type": 3,
@@ -389,44 +378,6 @@
         "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.apibdzy.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "guangsu",
-      "name": "共享人人",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "http://43.139.196.163:31308/gather/json",
-        "headers": {
-          "Referer": "https://www.rrys.cc/movielist"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "shandian",
-      "name": "共享闪电",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://sdzyapi.com/"
         },
         "autoSwitchLine": true,
         "probeTimeout": 2000
@@ -533,25 +484,6 @@
       "timeout": 10
     },
     {
-      "key": "maotai",
-      "name": "共享茅台",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://caiji.maotai999.vip/api.php/provide/vod/at/json/",
-        "headers": {
-          "Referer": "https://caiji.maotaizy.cc/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
       "key": "huya",
       "name": "共享虎牙",
       "type": 3,
@@ -579,25 +511,6 @@
         "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
         "headers": {
           "Referer": "https://api.wsyzy.net/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "douban",
-      "name": "共享爱坤",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://ikunzyapi.com/api.php/provide/vod",
-        "headers": {
-          "Referer": "https://ikunzy.cc/"
         },
         "autoSwitchLine": true,
         "probeTimeout": 2000
