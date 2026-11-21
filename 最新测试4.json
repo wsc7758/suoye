@@ -187,25 +187,6 @@
       "timeout": 10
     },
     {
-      "key": "jianan",
-      "name": "共享建安",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/at/json/",
-        "headers": {
-          "Referer": "http://154.219.117.232:9981"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
       "key": "maoyan1",
       "name": "共享魔都",
       "type": 3,
