@@ -11,12 +11,13 @@
       "name": "🍎小苹果主线路",
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "timeout": 6,
+      "timeout": 10,
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
       "playerType": 1,
-      "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
+      "ext": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/分享douban.js",
+      "changeable": 0
     },
     {
       "key": "AppDramaPingguo",
@@ -40,7 +41,10 @@
         "danmu": "True",
         "danmu_api": "https://dm.211.li/nonay"
       },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "Dubk",
@@ -49,7 +53,10 @@
       "api": "csp_Dubk",
       "searchable": 1,
       "filterable": 1,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "AppRJ",
@@ -63,7 +70,10 @@
         "url": "http://v.rbotv.cn",
         "block": "[\r\n  \"线路二(点击切换)\",\r\n  \"CO4K\"\r\n]"
       },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "YunDuo",
@@ -77,7 +87,10 @@
         "host": "https://323433ssdfd.top",
         "block": "[\r\n  \"PO蓝光\",\r\n  \"CO4K\",\r\n  \"ZJ4k\",\r\n  \"NB蓝光\"\r\n]"
       },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "Gz360",
@@ -86,7 +99,10 @@
       "api": "csp_Gz360",
       "searchable": 1,
       "filterable": 1,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "DongPian",
@@ -94,8 +110,11 @@
       "type": 3,
       "api": "csp_DongPian",
       "searchable": 1,
-      "filterable": 0,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "filterable": 1,
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "DyXia",
@@ -103,11 +122,14 @@
       "type": 3,
       "api": "csp_DyXia",
       "searchable": 1,
-      "filterable": 0,
+      "filterable": 1,
       "ext": {
         "blockedFroms": "[\r\n  \"4K\"\r\n]"
       },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "橘子",
@@ -128,7 +150,10 @@
         "version": "3.0.7.0",
         "decrypt": "1"
       },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "AppV7_Dsx",
@@ -139,7 +164,10 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "",
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "Gulu",
@@ -149,7 +177,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "Jianpian",
@@ -157,18 +188,21 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "ext": {
         "site": "https://api.ztcgi.com"
       },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 8,
+      "changeable": 1,
+      "playerType": 1
     },
     {
       "key": "厂长",
       "name": "共享厂长",
       "type": 3,
       "api": "csp_NewCzGuard",
-      "timeout": 10,
+      "timeout": 8,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
@@ -180,7 +214,7 @@
       "name": "共享立播",
       "type": 3,
       "api": "csp_LibvioGuard",
-      "timeout": 10,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -188,18 +222,20 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "siteUrl": "https://www.libvio.pw/"
       },
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "playerType": 1
     },
     {
       "key": "比特",
       "name": "共享比特",
       "type": 3,
       "api": "csp_BttwooGuard",
-      "timeout": 10,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "playerType": 1
     },
     {
       "key": "花生",
@@ -213,25 +249,28 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "timeout": 8,
+      "playerType": 1
     },
     {
       "key": "糯米",
       "name": "共享糯米",
       "type": 3,
       "api": "csp_NmyswvGuard",
-      "timeout": 15,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "playerType": 1
     },
     {
       "key": "文采",
       "name": "共享文采",
       "type": 3,
       "api": "csp_JpysGuard",
-      "timeout": 10,
+      "timeout": 8,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
@@ -243,22 +282,24 @@
       "name": "共享橘猫",
       "type": 3,
       "api": "csp_JumiTvGuard",
-      "timeout": 10,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "playerType": 1
     },
     {
       "key": "奥特",
       "name": "共享奥特",
       "type": 3,
       "api": "csp_AueteGuard",
-      "timeout": 10,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "playerType": 1
     },
     {
       "key": "liangzi",
@@ -268,10 +309,11 @@
       "ext": {
         "api": "https://lzzyapi.com/api.php/provide/vod/",
         "autoSwitchLine": true,
-        "probeTimeout": 2000
+        "probeTimeout": 3000,
+        "searchStrict": true
       },
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1,
       "categories": [
@@ -302,7 +344,8 @@
         "海外动漫",
         "短剧"
       ],
-      "timeout": 10
+      "timeout": 10,
+      "changeable": 1
     },
     {
       "key": "feifan",
@@ -315,10 +358,11 @@
           "Referer": "https://api.ffzyapi.com/"
         },
         "autoSwitchLine": true,
-        "probeTimeout": 2000
+        "probeTimeout": 3000,
+        "searchStrict": true
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1,
       "categories": [
@@ -342,7 +386,8 @@
         "日韩动漫",
         "伦理片"
       ],
-      "timeout": 10
+      "timeout": 10,
+      "changeable": 1
     },
     {
       "key": "MTV",
@@ -353,7 +398,9 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://z.qiqiv.cn/666/json/MTV.json",
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 10,
+      "changeable": 0
     },
     {
       "key": "相声小品",
@@ -364,7 +411,9 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://z.qiqiv.cn/666/json/Blixs.json",
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 10,
+      "changeable": 0
     },
     {
       "key": "演唱会",
@@ -375,14 +424,16 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://z.qiqiv.cn/666/json/演唱会.json",
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
+      "jar": "http://118.89.172.248:8025/jar/tan.php",
+      "timeout": 10,
+      "changeable": 0
     },
     {
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
       "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "api": "https://fastly.jsdelivr.net/gh/fantaiying7/EXT@main/drpy2.min.js",
+      "ext": "https://fastly.jsdelivr.net/gh/fantaiying7/EXT@main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -390,7 +441,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "timeout": 10
     },
     {
       "key": "少儿教育",
@@ -407,7 +459,8 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "timeout": 10
     },
     {
       "key": "小学课堂",
@@ -424,7 +477,8 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "timeout": 10
     },
     {
       "key": "初中课堂",
@@ -441,7 +495,8 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "timeout": 10
     },
     {
       "key": "高中教育",
@@ -458,7 +513,8 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
+      "timeout": 10
     }
   ],
   "parses": [
@@ -469,36 +525,6 @@
     },
     {
       "name": "解析",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "咸鱼",
-      "type": 0,
-      "url": "https://jx.xymp4.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
-        }
-      }
-    },
-    {
-      "name": "虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
-    },
-    {
-      "name": "淘片",
       "type": 0,
       "url": "https://jx.yparse.com/index.php?url=",
       "ext": {
@@ -739,7 +765,7 @@
   "wallpaper": "",
   "logo": "",
   "proxy": [
-    "raw.githubusercontent.com\r\n    ",
+    "raw.githubusercontent.com",
     "googlevideo.com",
     "cdn.v82u1l.com",
     "cdn.iz8qkg.com",
