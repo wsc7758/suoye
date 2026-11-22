@@ -19,31 +19,8 @@
       "ext": "https://gh-proxy.org/https://raw.githubusercontent.com/wsc7758/suoye/refs/heads/main/lib/分享douban.js"
     },
     {
-      "key": "YunDuo",
-      "name": "🍎小苹果线路一",
-      "type": 3,
-      "api": "csp_YunDuo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://323433ssdfd.top",
-        "block": "[\r\n  \"PO蓝光\",\r\n  \"CO4K\",\r\n  \"ZJ4k\",\r\n  \"NB蓝光\"\r\n]"
-      },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "Dubk",
-      "name": "🍎小苹果线路二",
-      "type": 3,
-      "api": "csp_Dubk",
-      "searchable": 1,
-      "filterable": 1,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
       "key": "AppDramaPingguo",
-      "name": "🍎小苹果线路三",
+      "name": "🍎小苹果线路一",
       "type": 3,
       "api": "csp_AppDrama",
       "searchable": 1,
@@ -66,17 +43,17 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "JinPai",
-      "name": "🍎小苹果线路四",
+      "key": "Dubk",
+      "name": "🍎小苹果线路二",
       "type": 3,
-      "api": "csp_JinPai",
+      "api": "csp_Dubk",
       "searchable": 1,
       "filterable": 1,
       "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
       "key": "AppRJ",
-      "name": "🍎小苹果线路五",
+      "name": "🍎小苹果线路三",
       "type": 3,
       "api": "csp_AppRJ",
       "searchable": 1,
@@ -89,8 +66,203 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php"
     },
     {
-      "key": "liangzi",
+      "key": "YunDuo",
+      "name": "🍎小苹果线路四",
+      "type": 3,
+      "api": "csp_YunDuo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://323433ssdfd.top",
+        "block": "[\r\n  \"PO蓝光\",\r\n  \"CO4K\",\r\n  \"ZJ4k\",\r\n  \"NB蓝光\"\r\n]"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "Gz360",
+      "name": "🍎小苹果线路五",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "filterable": 1,
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "DongPian",
       "name": "🍎小苹果线路六",
+      "type": 3,
+      "api": "csp_DongPian",
+      "searchable": 1,
+      "filterable": 0,
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "DyXia",
+      "name": "🍎小苹果线路七",
+      "type": 3,
+      "api": "csp_DyXia",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "blockedFroms": "[\r\n  \"4K\"\r\n]"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "橘子",
+      "name": "🍎小苹果线路八",
+      "type": 3,
+      "api": "csp_AppDramaV5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "commonKey": "ed5fdsgucxumegqa",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.asjdhjhd.mgd.p3",
+        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+        "version": "3.0.7.0",
+        "decrypt": "1"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "AppV7_Dsx",
+      "name": "共享师兄",
+      "type": 3,
+      "api": "csp_DaShiXiong",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "",
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "Gulu",
+      "name": "共享咕噜",
+      "type": 3,
+      "api": "csp_Gulu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "Jianpian",
+      "name": "共享荐片",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 0,
+      "ext": {
+        "site": "https://api.ztcgi.com"
+      },
+      "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "厂长",
+      "name": "共享厂长",
+      "type": 3,
+      "api": "csp_NewCzGuard",
+      "timeout": 10,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "立播",
+      "name": "共享立播",
+      "type": 3,
+      "api": "csp_LibvioGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "siteUrl": "https://www.libvio.pw/"
+      },
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "比特",
+      "name": "共享比特",
+      "type": 3,
+      "api": "csp_BttwooGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "花生",
+      "name": "共享花生",
+      "type": 3,
+      "api": "csp_HuashuGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "糯米",
+      "name": "共享糯米",
+      "type": 3,
+      "api": "csp_NmyswvGuard",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "文采",
+      "name": "共享文采",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "timeout": 10,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "剧迷",
+      "name": "共享橘猫",
+      "type": 3,
+      "api": "csp_JumiTvGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "奥特",
+      "name": "共享奥特",
+      "type": 3,
+      "api": "csp_AueteGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "liangzi",
+      "name": "共享量子",
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
@@ -134,7 +306,7 @@
     },
     {
       "key": "feifan",
-      "name": "🍎小苹果线路七",
+      "name": "共享非凡",
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
       "ext": {
@@ -173,492 +345,6 @@
       "timeout": 10
     },
     {
-      "key": "Gz360",
-      "name": "共享瓜子",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "filterable": 1,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "DongPian",
-      "name": "共享懂片",
-      "type": 3,
-      "api": "csp_DongPian",
-      "searchable": 1,
-      "filterable": 0,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "DyXia",
-      "name": "共享影侠",
-      "type": 3,
-      "api": "csp_DyXia",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "blockedFroms": "[\r\n  \"4K\"\r\n]"
-      },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "橘子",
-      "name": "共享橘子",
-      "type": 3,
-      "api": "csp_AppDramaV5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "commonKey": "ed5fdsgucxumegqa",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "ZU1DSFFWNENKMDYXVUQRN0ZJDUC4PQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.asjdhjhd.mgd.p3",
-        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
-        "version": "3.0.7.0",
-        "decrypt": "1"
-      },
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "AppV7_Dsx",
-      "name": "共享师兄",
-      "type": 3,
-      "api": "csp_DaShiXiong",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "",
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "Gulu",
-      "name": "共享咕噜",
-      "type": 3,
-      "api": "csp_Gulu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://118.89.172.248:8025/jar/tan.php"
-    },
-    {
-      "key": "maoyan1",
-      "name": "共享魔都",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://www.moduzy6.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "taopian1",
-      "name": "共享鸭鸭",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "tianya",
-      "name": "共享天涯",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://ty.tyyszy5.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://ty.tyyszy5.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "360ziyuan",
-      "name": "共享360",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://360zyzz.com/api.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://360zyzz.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "hongniu",
-      "name": "共享红牛",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://www.hongniuzy2.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "baidu",
-      "name": "共享百度",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.apibdzy.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "xinlang",
-      "name": "共享新浪",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.xinlangapi.me/xinlangapi.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://api.xinlangapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "xigua",
-      "name": "共享西瓜",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://caiji.xgzyapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://caiji.xgzyapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "dianyingtiantang",
-      "name": "共享天堂",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.dyttcj.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://caiji.dyttzyapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "jinying",
-      "name": "共享金鹰",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
-        "headers": {
-          "Referer": "https://jyzyapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "baofeng",
-      "name": "共享暴风",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://apibfzy.com/api.php/provide/vod/",
-        "headers": {
-          "Referer": "https://bfzyapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "huya",
-      "name": "共享虎牙",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://www.huyaapi.com/api.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://www.huyaapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "wushuiyin2",
-      "name": "共享无水",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.wsyzy.net/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "zuida",
-      "name": "共享最大",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.zuidapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "haohua",
-      "name": "共享豪华",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://hhzyapi.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "subo",
-      "name": "共享速播",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://subocj.com/api.php/provide/vod/at/json",
-        "headers": {
-          "Referer": "https://subocj.com/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "niuniu",
-      "name": "共享牛牛",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
-        "headers": {
-          "Referer": "https://api.niuniuzy.me/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "ok",
-      "name": "共享OK",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.okzyw.net/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "wushuiyin1",
-      "name": "共享水印",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
-        "headers": {
-          "Referer": "https://api.wsyzy.net/"
-        },
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "timeout": 10
-    },
-    {
-      "key": "wujin",
-      "name": "共享无尽",
-      "type": 3,
-      "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/cms_spider_v4.js",
-      "ext": {
-        "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
-        "autoSwitchLine": true,
-        "probeTimeout": 2000
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "playerType": 1,
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "香港剧",
-        "台湾剧",
-        "美国剧",
-        "伦理片",
-        "纪录片",
-        "韩国剧",
-        "日本剧",
-        "海外剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "悬疑片",
-        "动画片",
-        "犯罪片",
-        "奇幻片",
-        "泰剧",
-        "体育赛事",
-        "影视解说",
-        "短剧",
-        "港台动漫",
-        "海外动漫",
-        "预告片"
-      ],
-      "timeout": 10
-    },
-    {
       "key": "MTV",
       "name": "共享明星MV",
       "type": 3,
@@ -690,6 +376,89 @@
       "filterable": 0,
       "ext": "https://z.qiqiv.cn/666/json/演唱会.json",
       "jar": "http://118.89.172.248:8025/jar/tan.php"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "📚儿童┃启蒙",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+      },
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+      },
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "初中课堂",
+      "name": "📚初中┃课堂",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
+      },
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
+    },
+    {
+      "key": "高中教育",
+      "name": "📚高中┃课堂",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
+      },
+      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
     }
   ],
   "parses": [
