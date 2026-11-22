@@ -25,7 +25,7 @@
       "type": 3,
       "api": "csp_AppDrama",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "appName": "小苹果",
@@ -56,8 +56,7 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
       "changeable": 1,
-      "playerType": 1,
-      "quickSearch": 0
+      "playerType": 1
     },
     {
       "key": "AppRJ",
@@ -65,7 +64,7 @@
       "type": 3,
       "api": "csp_AppRJ",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "url": "http://v.rbotv.cn",
@@ -82,7 +81,7 @@
       "type": 3,
       "api": "csp_YunDuo",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "host": "https://323433ssdfd.top",
@@ -103,8 +102,7 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
       "changeable": 1,
-      "playerType": 1,
-      "quickSearch": 0
+      "playerType": 1
     },
     {
       "key": "DongPian",
@@ -116,8 +114,7 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
       "changeable": 1,
-      "playerType": 1,
-      "quickSearch": 0
+      "playerType": 1
     },
     {
       "key": "DyXia",
@@ -132,8 +129,7 @@
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
       "changeable": 1,
-      "playerType": 1,
-      "quickSearch": 0
+      "playerType": 1
     },
     {
       "key": "橘子",
@@ -141,7 +137,7 @@
       "type": 3,
       "api": "csp_AppDramaV5",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": {
         "appName": "橘汁",
@@ -165,7 +161,7 @@
       "type": 3,
       "api": "csp_DaShiXiong",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "ext": "",
       "jar": "http://118.89.172.248:8025/jar/tan.php",
@@ -179,7 +175,7 @@
       "type": 3,
       "api": "csp_Gulu",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
@@ -192,7 +188,7 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "ext": {
         "site": "https://api.ztcgi.com"
       },
@@ -208,8 +204,8 @@
       "api": "csp_NewCzGuard",
       "timeout": 8,
       "playerType": 1,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
     },
@@ -219,8 +215,8 @@
       "type": 3,
       "api": "csp_LibvioGuard",
       "timeout": 8,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
@@ -235,8 +231,8 @@
       "type": 3,
       "api": "csp_BttwooGuard",
       "timeout": 8,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
       "playerType": 1
@@ -250,8 +246,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
       "timeout": 8,
@@ -263,8 +259,8 @@
       "type": 3,
       "api": "csp_NmyswvGuard",
       "timeout": 8,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
       "playerType": 1
@@ -277,7 +273,7 @@
       "timeout": 8,
       "playerType": 1,
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
     },
@@ -287,8 +283,8 @@
       "type": 3,
       "api": "csp_JumiTvGuard",
       "timeout": 8,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
       "playerType": 1
@@ -299,8 +295,8 @@
       "type": 3,
       "api": "csp_AueteGuard",
       "timeout": 8,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
       "playerType": 1
@@ -316,8 +312,8 @@
         "probeTimeout": 3000,
         "searchStrict": true
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1,
       "categories": [
@@ -365,8 +361,8 @@
         "probeTimeout": 3000,
         "searchStrict": true
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1,
       "categories": [
