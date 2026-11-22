@@ -117,15 +117,14 @@
       "playerType": 1
     },
     {
-      "key": "DyXia",
+      "key": "AppV7_Dsx",
       "name": "🍎小苹果线路七",
       "type": 3,
-      "api": "csp_DyXia",
+      "api": "csp_DaShiXiong",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "blockedFroms": "[\r\n  \"4K\"\r\n]"
-      },
+      "ext": "",
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
       "changeable": 1,
@@ -156,14 +155,15 @@
       "playerType": 1
     },
     {
-      "key": "AppV7_Dsx",
-      "name": "共享师兄",
+      "key": "DyXia",
+      "name": "共享影侠",
       "type": 3,
-      "api": "csp_DaShiXiong",
+      "api": "csp_DyXia",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
-      "ext": "",
+      "ext": {
+        "blockedFroms": "[\r\n  \"4K\"\r\n]"
+      },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
       "timeout": 8,
       "changeable": 1,
