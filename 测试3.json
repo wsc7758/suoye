@@ -11,13 +11,13 @@
       "name": "🍎小苹果主线路",
       "type": 3,
       "api": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/drpy2.min.js",
-      "timeout": 3,
+      "timeout": 10,
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
       "playerType": 1,
-      "ext": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/%E5%88%86%E4%BA%ABdouban.js",
-      "changeable": 1
+      "ext": "https://fastly.jsdelivr.net/gh/wsc7758/suoye@main/lib/分享douban.js",
+      "changeable": 0
     },
     {
       "key": "AppDramaPingguo",
@@ -42,7 +42,7 @@
         "danmu_api": "https://dm.211.li/nonay"
       },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -54,7 +54,7 @@
       "searchable": 1,
       "filterable": 1,
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -71,7 +71,7 @@
         "block": "[\r\n  \"线路二(点击切换)\",\r\n  \"CO4K\"\r\n]"
       },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -88,7 +88,7 @@
         "block": "[\r\n  \"PO蓝光\",\r\n  \"CO4K\",\r\n  \"ZJ4k\",\r\n  \"NB蓝光\"\r\n]"
       },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -100,7 +100,7 @@
       "searchable": 1,
       "filterable": 1,
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -110,9 +110,9 @@
       "type": 3,
       "api": "csp_DongPian",
       "searchable": 1,
-      "filterable": 0,
+      "filterable": 1,
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -122,12 +122,12 @@
       "type": 3,
       "api": "csp_DyXia",
       "searchable": 1,
-      "filterable": 0,
+      "filterable": 1,
       "ext": {
         "blockedFroms": "[\r\n  \"4K\"\r\n]"
       },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -151,7 +151,7 @@
         "decrypt": "1"
       },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -165,7 +165,7 @@
       "filterable": 1,
       "ext": "",
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -178,7 +178,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -188,12 +188,12 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "ext": {
         "site": "https://api.ztcgi.com"
       },
       "jar": "http://118.89.172.248:8025/jar/tan.php",
-      "timeout": 3,
+      "timeout": 8,
       "changeable": 1,
       "playerType": 1
     },
@@ -202,7 +202,7 @@
       "name": "共享厂长",
       "type": 3,
       "api": "csp_NewCzGuard",
-      "timeout": 3,
+      "timeout": 8,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
@@ -214,7 +214,7 @@
       "name": "共享立播",
       "type": 3,
       "api": "csp_LibvioGuard",
-      "timeout": 3,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -230,7 +230,7 @@
       "name": "共享比特",
       "type": 3,
       "api": "csp_BttwooGuard",
-      "timeout": 3,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -250,7 +250,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
-      "timeout": 3,
+      "timeout": 8,
       "playerType": 1
     },
     {
@@ -258,7 +258,7 @@
       "name": "共享糯米",
       "type": 3,
       "api": "csp_NmyswvGuard",
-      "timeout": 3,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -270,7 +270,7 @@
       "name": "共享文采",
       "type": 3,
       "api": "csp_JpysGuard",
-      "timeout": 3,
+      "timeout": 8,
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
@@ -282,7 +282,7 @@
       "name": "共享橘猫",
       "type": 3,
       "api": "csp_JumiTvGuard",
-      "timeout": 3,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -294,7 +294,7 @@
       "name": "共享奥特",
       "type": 3,
       "api": "csp_AueteGuard",
-      "timeout": 3,
+      "timeout": 8,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -313,7 +313,7 @@
         "searchStrict": true
       },
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1,
       "categories": [
@@ -361,8 +361,8 @@
         "probeTimeout": 3000,
         "searchStrict": true
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
       "playerType": 1,
       "categories": [
@@ -524,7 +524,7 @@
       "url": "Parallel"
     },
     {
-      "name": "云解析(yparse)",
+      "name": "解析",
       "type": 0,
       "url": "https://jx.yparse.com/index.php?url=",
       "ext": {
