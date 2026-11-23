@@ -198,34 +198,6 @@
       "playerType": 1
     },
     {
-      "key": "厂长",
-      "name": "共享厂长",
-      "type": 3,
-      "api": "csp_NewCzGuard",
-      "timeout": 8,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
-    },
-    {
-      "key": "立播",
-      "name": "共享立播",
-      "type": 3,
-      "api": "csp_LibvioGuard",
-      "timeout": 8,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "siteUrl": "https://www.libvio.pw/"
-      },
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
-      "playerType": 1
-    },
-    {
       "key": "比特",
       "name": "共享比特",
       "type": 3,
@@ -276,18 +248,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg"
-    },
-    {
-      "key": "剧迷",
-      "name": "共享橘猫",
-      "type": 3,
-      "api": "csp_JumiTvGuard",
-      "timeout": 8,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg",
-      "playerType": 1
     },
     {
       "key": "奥特",
